@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "Web tracking analyser",
+  "author": "Lewis Luckhurst",
+  "version": "1.0.1",
+  "description": "Used to analyser various tracked information online",
+  "browser_action": {
+    "default_popup": "index.html",
+    "default_title": "Open the popup"
+  },
+  "permissions": [
+  ]
+}

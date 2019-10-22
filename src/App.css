@@ -1,0 +1,53 @@
+.App {
+    text-align: center;
+}
+
+body {
+    background-color: #282c34;
+    min-height: 600px;
+    min-width: 800px;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.App h1 {
+    color: white;
+}
+
+.block {
+    border-radius: 25px;
+    grid-column: 2;
+    margin-top: 20px;
+    width: 100%;
+    background: #ffffff;
+    padding-bottom: 35px;
+    font-family: "SF Pro Display",
+    "SF Pro Icons",
+    "Helvetica Neue",
+    "Helvetica",
+    "Arial",
+    sans-serif;
+    margin-bottom: 70px;
+    box-shadow: 5px 5px darkgray;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 15% 70% 15%;
+}
+
+.table {
+    display: grid;
+    grid-template-columns: 10% 40% 40% 10%;
+}
+
+.secondColumn {
+    font-family: "Helvetica Neue", "Helvetica";
+    font-weight: bold;
+    grid-column: 2;
+    text-align: left;
+}
+
+.thirdColumn {
+    grid-column: 3;
+}
