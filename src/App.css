@@ -31,23 +31,16 @@ body {
     box-shadow: 5px 5px darkgray;
 }
 
+.mapContainer {
+    grid-column: 2;
+    width: 100%;
+    overflow-y: scroll;
+    background: white;
+    height: 500px;
+    overflow: hidden;
+}
+
 .wrapper {
     display: grid;
     grid-template-columns: 15% 70% 15%;
-}
-
-.table {
-    display: grid;
-    grid-template-columns: 10% 40% 40% 10%;
-}
-
-.secondColumn {
-    font-family: "Helvetica Neue", "Helvetica";
-    font-weight: bold;
-    grid-column: 2;
-    text-align: left;
-}
-
-.thirdColumn {
-    grid-column: 3;
 }
