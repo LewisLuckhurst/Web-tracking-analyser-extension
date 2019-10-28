@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
 import './App.css';
-import properties from './properties/Production.properties'
 import IpTracking from "./ip/IpTracking";
 import IpTrackingMap from "./ip/IpTrackingMap";
+import UserAgent from "./useragent/UserAgent";
 
 class App extends Component {
 
@@ -45,13 +45,17 @@ class App extends Component {
                 <h1>Information that could be tracked:</h1>
                 <div className="wrapper">
                     <div className="block">
-                        <IpTracking
-                            result={this.state.result}/>
+                        <IpTracking result={this.state.result}/>
                     </div>
 
+                    <div className="block">
+                        <UserAgent result={this.state.result}/>
+                    </div>
+                </div>
+                <h1>Location based on IP address:</h1>
+                <div className="wrapper">
                     <div className="mapContainer">
-                        <IpTrackingMap
-                            result={this.state.result}/>
+                        <IpTrackingMap result={this.state.result}/>
                     </div>
                 </div>
                 <br/>

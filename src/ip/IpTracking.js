@@ -6,6 +6,7 @@ class IpTracking extends Component {
     render() {
         return (
             <>
+                <h3> Info gathered from IP address: </h3>
                 <div className="table">
                     <div className="secondColumn">
                         <p>Ip Address:</p>

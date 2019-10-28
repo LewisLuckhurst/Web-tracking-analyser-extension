@@ -1,0 +1,15 @@
+.table {
+    display: grid;
+    grid-template-columns: 10% 40% 40% 10%;
+}
+
+.secondColumn {
+    font-family: "Helvetica Neue", "Helvetica";
+    font-weight: bold;
+    grid-column: 2;
+    text-align: left;
+}
+
+.thirdColumn {
+    grid-column: 3;
+}
