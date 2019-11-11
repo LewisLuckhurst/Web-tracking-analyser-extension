@@ -1,5 +1,5 @@
 import Map from "./Map";
-import React, { Component }  from 'react';
+import React, {Component} from 'react';
 
 
 class IpTrackingMap extends Component {
