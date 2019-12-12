@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import "./TableView.css"
 import MaterialTable from "material-table";
 import Button from "@material-ui/core/Button";
-import Loading from "../../loading/LoadingBar";
+import Loading from "../../../loading/LoadingBar";
 import SpeificTracker from "./SpeificTracker";
 import SpeificTrackedSite from "./SpeificTrackedSite";
 

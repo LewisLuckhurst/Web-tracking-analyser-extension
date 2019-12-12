@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import TableView from "./TableView";
+import TableView from "./table/TableView";
 
 class ViewTwo extends Component {
 
