@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import ForceGraph2D from 'react-force-graph-2d';
+import TableView from "./TableView";
 
 class ViewTwo extends Component {
 
@@ -8,57 +8,55 @@ class ViewTwo extends Component {
         result: null
     };
 
-    render() {
-        let test = {
-            "nodes": [
-                {
-                    "id": "facebook.com",
-                    "color": "#B3092A"
-                },
-                {
-                    "id": "doubleclick.com"
-                },
-                {
-                    "id": "google.com"
-                },
-                {
-                    "id": "youtube.com"
-                }
-            ],
-            "links": [
-                {
-                    "source": "facebook.com",
-                    "target": "youtube.com"
-                },
-                {
-                    "source": "doubleclick.com",
-                    "target": "facebook.com"
-                },
-                {
-                    "source": "doubleclick.com",
-                    "target": "google.com"
-                }
-            ]
-        };
+    // componentDidMount() {
+    //     this.getTrackedWebsite();
+    //     setInterval(this.getTrackedWebsite, 30000);
+    // }
+    //
+    // async getTrackedWebsite() {
+    //     let jsonBody = JSON.stringify({
+    //         showOnlyParentCompanies: false
+    //     });
+    //
+    //     fetch("http://localhost:8080/getDomains", {
+    //         method: 'POST',
+    //         dataType: 'json',
+    //         headers: {
+    //             'Accept': 'application/json',
+    //             'Content-Type': 'application/json',
+    //         },
+    //         body: jsonBody
+    //     }).then(response => response.json())
+    //         .then(data => this.setState({result: data})
+    //         );
+    // };
 
-        return (
-            <>
-                <h1> Website trackers visualisation: </h1>
-                <ForceGraph2D
-                    graphData={test}
-                    linkColor={() => '#b3b3b3'}
-                    linkWidth={1}
-                    nodeCanvasObject={(node, ctx, globalScale) => {
-                        const label = node.id;
-                        const fontSize = 20 / globalScale;
-                        ctx.font = `${fontSize}px Sans-Serif`;
-                        ctx.textAlign = 'center';
-                        ctx.fillStyle = node.color;
-                        ctx.fillText(label, node.x, node.y);
-                    }}
-                />
-            </>
-        );
+    render() {
+        // if (this.state.result === null) {
+        //     return null;
+        // } else {
+            return (
+                <>
+                    <TableView/>
+                    {/*<h1> Website trackers visualisation: </h1>*/}
+                    {/*<div className="graph">*/}
+                    {/*    <ForceGraph2D*/}
+                    {/*        graphData={this.state.result}*/}
+                    {/*        linkColor={() => '#b3b3b3'}*/}
+                    {/*        linkWidth={1}*/}
+                    {/*        nodeCanvasObject={(node, ctx, globalScale) => {*/}
+                    {/*            const label = node.id;*/}
+                    {/*            const fontSize = 20 / globalScale;*/}
+                    {/*            ctx.font = `${fontSize}px Sans-Serif`;*/}
+                    {/*            ctx.textAlign = 'center';*/}
+                    {/*            ctx.fillStyle = node.color;*/}
+                    {/*            ctx.fillText(label, node.x, node.y);*/}
+                    {/*        }}*/}
+                    {/*    />*/}
+                    {/*</div>*/}
+                </>
+            );
+        // }
     }
 }
 

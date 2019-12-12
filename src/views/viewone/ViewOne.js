@@ -3,6 +3,7 @@ import './ViewOne.css';
 import IpTrackingMap from "./ip/IpTrackingMap";
 import IpTracking from "./ip/IpTracking";
 import UserAgent from "./useragent/UserAgent";
+import Loading from "../../loading/LoadingBar";
 
 class ViewOne extends Component {
 
@@ -39,7 +40,7 @@ class ViewOne extends Component {
     render() {
         this.getInformationFromIp();
         if (this.state.result === null) {
-            return null;
+            return Loading();
         }
         return (
             <>

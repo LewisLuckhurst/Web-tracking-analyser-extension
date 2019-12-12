@@ -1,0 +1,31 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: 15% 70% 15%;
+    padding-bottom: 50px;
+}
+
+.trackingTable {
+    padding-top: 60px;
+    grid-column: 2;
+    width: 100%;
+    text-align: left;
+    color: white;
+}
+
+.trackerCount {
+    color: black;
+    text-align: center;
+    border-radius: 25px;
+    grid-column: 2;
+    margin-top: 20px;
+    width: 20%;
+    background: #ffffff;
+    font-family: "SF Pro Display",
+    "SF Pro Icons",
+    "Helvetica Neue",
+    "Helvetica",
+    "Arial",
+    sans-serif;
+    margin-bottom: 40px;
+    box-shadow: 5px 5px darkgray;
+}
