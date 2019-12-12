@@ -3,8 +3,8 @@ import "./TableView.css"
 import MaterialTable from "material-table";
 import Button from "@material-ui/core/Button";
 import Loading from "../../../loading/LoadingBar";
-import SpeificTracker from "./SpeificTracker";
-import SpeificTrackedSite from "./SpeificTrackedSite";
+import SpecificTracker from "./SpeificTracker";
+import SpecificTrackedSite from "./SpeificTrackedSite";
 
 class TableView extends Component {
 
@@ -110,19 +110,19 @@ class TableView extends Component {
 
         if (this.state.tableToDisplay === 1) {
             return (
-                <SpeificTrackedSite trackedSite={this.state.siteToSearchFor}
-                                    getTrackerSite={this.getTrackerSite}
-                                    getTrackedSite={this.getTrackedSite}
-                                    reset={this.reset}/>
+                <SpecificTrackedSite trackedSite={this.state.siteToSearchFor}
+                                     getTrackerSite={this.getTrackerSite}
+                                     getTrackedSite={this.getTrackedSite}
+                                     reset={this.reset}/>
             );
         }
 
         if (this.state.tableToDisplay === 2) {
             return (
-                <SpeificTracker tracker={this.state.siteToSearchFor}
-                                getTrackerSite={this.getTrackerSite}
-                                getTrackedSite={this.getTrackedSite}
-                                reset={this.reset}/>
+                <SpecificTracker tracker={this.state.siteToSearchFor}
+                                 getTrackerSite={this.getTrackerSite}
+                                 getTrackedSite={this.getTrackedSite}
+                                 reset={this.reset}/>
             );
         }
     }
