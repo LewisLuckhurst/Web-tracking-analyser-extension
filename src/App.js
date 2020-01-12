@@ -18,9 +18,9 @@ class App extends Component {
             return (
                 <div className="App">
                     <NavigationBarTest changeView={this.changeView}/>
-                    <ViewOne/>
-                </div>
-            );
+                     <ViewOne/>
+                 </div>
+             );
         }
 
         return (

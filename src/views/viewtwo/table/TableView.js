@@ -60,16 +60,9 @@ class TableView extends Component {
             let rows = [];
             for (let i = 0; i < this.state.tableData["tableRows"].length; i++) {
                 rows.push({
-                    trackedSite: <Button size="small" onClick={() => {
-                        this.getTrackedSite(this.state.tableData["tableRows"][i]["trackedSite"])
-                    }} color="secondary">
-                        {this.state.tableData["tableRows"][i]["trackedSite"]}
-                    </Button>,
-                    tracker: <Button size="small" onClick={() => {
-                        this.getTrackerSite(this.state.tableData["tableRows"][i]["tracker"])
-                    }} color="secondary">
-                        {this.state.tableData["tableRows"][i]["tracker"]}
-                    </Button>,
+                    trackedSite:
+                        this.state.tableData["tableRows"][i]["trackedSite"],
+                    tracker: this.state.tableData["tableRows"][i]["tracker"],
                     firstAccess: this.state.tableData["tableRows"][i]["firstAccess"],
                     lastAccess: this.state.tableData["tableRows"][i]["lastAccess"],
                     numberOfOccurrences: this.state.tableData["tableRows"][i]["numberOfOccurrences"],
@@ -89,8 +82,16 @@ class TableView extends Component {
                             <MaterialTable
                                 title="Showing all sites"
                                 columns={[
-                                    {title: 'Tracked Site', field: 'trackedSite'},
-                                    {title: 'Tracker', field: 'tracker'},
+                                    {title: 'Tracked Site', field: 'trackedSite', render: rowData => <Button size="small" onClick={() => {
+                                            this.getTrackedSite(rowData.trackedSite)
+                                        }} color="secondary">
+                                            {rowData.trackedSite}
+                                        </Button>},
+                                    {title: 'Tracker', field: 'tracker', render: rowData => <Button size="small" onClick={() => {
+                                            this.getTrackerSite(rowData.tracker)
+                                        }} color="secondary">
+                                            {rowData.tracker}
+                                        </Button>},
                                     {title: 'First Access', field: 'firstAccess'},
                                     {title: 'Last Access', field: 'lastAccess'},
                                     {title: 'Number', field: 'numberOfOccurrences'},

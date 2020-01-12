@@ -1,0 +1,12 @@
+.graph{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: white;
+}
+
+.switch{
+    text-align: center;
+    display: inline-block;
+    color: white;
+}

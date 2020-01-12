@@ -1,27 +1,25 @@
 import React, {Component} from 'react';
-import TableView from "./table/TableView";
-import SelectorBar from "./SelectorBar";
-import "./ViewTwo.css"
-import D3ForceGraph from "./D3/D3ForceGraph";
-import WordCloud from "./WordCloud/WordCloud";
+import Loading from "../../../loading/LoadingBar";
+import ReactWordcloud from 'react-wordcloud';
+import "./WordCloud.css";
 import FormGroup from "@material-ui/core/FormGroup";
 import FormControlLabel from "@material-ui/core/FormControlLabel";
 import Switch from "@material-ui/core/Switch";
 
-class ViewTwo extends Component {
+class WordCloud extends Component {
 
     state = {
-        viewToDisplay: 0,
+        data: null,
+        result: null,
         showOnlyParentCompanies: false,
-        result: null
     };
 
-    changeView = (viewNumber) => {
-        this.setState({viewToDisplay: viewNumber})
-    };
+    componentDidMount() {
+        this.getTrackedWebsite();
+    }
 
     handleChange = (event) => {
-        this.setState({showOnlyParentCompanies: event.target.checked});
+        this.setState({showOnlyParentCompanies: event.target.checked}, this.getTrackedWebsite);
     };
 
     switchButton = () => {
@@ -49,7 +47,7 @@ class ViewTwo extends Component {
             showOnlyParentCompanies: this.state.showOnlyParentCompanies
         });
 
-        fetch("http://localhost:8080/getDomains", {
+        fetch("http://localhost:8080/getWordCloud", {
             method: 'POST',
             dataType: 'json',
             headers: {
@@ -62,45 +60,27 @@ class ViewTwo extends Component {
             );
     };
 
-
     render() {
-        if (this.state.viewToDisplay === 0) {
+
+        if (this.state.result === null) {
+            return Loading();
+        } else {
             return (
                 <>
-                    <div className="grid">
-                        <div className="selectorBar">
-                            <SelectorBar changeView={this.changeView}/>
-                        </div>
+                    <br/>
+                    {this.switchButton()}
+                    <div className="graph">
+                        <ReactWordcloud
+                            options={{
+                                rotations: 0
+                            }}
+                            words={this.state.result["wordCloudWords"]}
+                        />
                     </div>
-                    <D3ForceGraph handleChange={this.handleChange}/>
                 </>
             );
         }
-
-        if (this.state.viewToDisplay === 1) {
-            return (
-                <>
-                    <div className="grid">
-                        <div className="selectorBar">
-                            <SelectorBar changeView={this.changeView}/>
-                        </div>
-                    </div>
-                    <TableView/>
-                </>
-            );
-        }
-
-        return (
-            <>
-                <div className="grid">
-                    <div className="selectorBar">
-                        <SelectorBar changeView={this.changeView}/>
-                    </div>
-                </div>
-                <WordCloud/>
-            </>
-        );
     }
 }
 
-export default ViewTwo;
+export default WordCloud;
