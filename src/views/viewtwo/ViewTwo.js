@@ -4,9 +4,6 @@ import SelectorBar from "./SelectorBar";
 import "./ViewTwo.css"
 import D3ForceGraph from "./D3/D3ForceGraph";
 import WordCloud from "./WordCloud/WordCloud";
-import FormGroup from "@material-ui/core/FormGroup";
-import FormControlLabel from "@material-ui/core/FormControlLabel";
-import Switch from "@material-ui/core/Switch";
 
 class ViewTwo extends Component {
 
@@ -22,26 +19,6 @@ class ViewTwo extends Component {
 
     handleChange = (event) => {
         this.setState({showOnlyParentCompanies: event.target.checked});
-    };
-
-    switchButton = () => {
-        return (
-            <div className="switch">
-                <FormGroup row>
-                    <FormControlLabel
-                        control={
-                            <Switch
-                                checked={this.state.showOnlyParentCompanies}
-                                onChange={this.handleChange}
-                                value="checkedB"
-                                color="secondary"
-                            />
-                        }
-                        label="Only show parent companies"
-                    />
-                </FormGroup>
-            </div>
-        )
     };
 
     getTrackedWebsite = () => {
