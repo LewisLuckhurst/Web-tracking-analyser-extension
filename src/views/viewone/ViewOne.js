@@ -8,37 +8,39 @@ import Loading from "../../loading/LoadingBar";
 class ViewOne extends Component {
 
     state = {
-        result: null
+        result: null,
+        ip: null
     };
 
-    async getInformationFromIp() {
-        let ip = await this.getIp();
-        let jsonBody = JSON.stringify({
-            ip: ip
-        });
+    componentDidMount() {
+        this.getInformationFromIp();
+    }
 
-        fetch("http://localhost:8080/tracking", {
-            method: 'POST',
-            dataType: 'json',
-            headers: {
-                'Accept': 'application/json',
-                'Content-Type': 'application/json',
-            },
-            body: jsonBody
-        }).then(response => response.json())
-            .then(data => this.setState({result: data}));
+    getInformationFromIp = () => {
+        fetch("https://api.ipgeolocation.io/getip")
+            .then(response => response.json())
+            .then(data => {
+                    let
+                        jsonBody = JSON.stringify({
+                            ip: data["ip"]
+                        });
 
-    };
-
-    async getIp() {
-        let result = await fetch("https://api.ipgeolocation.io/getip")
-            .then(response => response.json());
-
-        return result["ip"];
+                    fetch("http://localhost:8080/tracking", {
+                        method: 'POST',
+                        dataType: 'json',
+                        headers: {
+                            'Accept': 'application/json',
+                            'Content-Type': 'application/json',
+                        },
+                        body: jsonBody
+                    }).then(response => response.json())
+                        .then(data => this.setState({result: data})
+                        );
+                }
+            );
     };
 
     render() {
-        this.getInformationFromIp();
         if (this.state.result === null) {
             return Loading();
         }
