@@ -34,8 +34,7 @@ class ViewOne extends Component {
                         },
                         body: jsonBody
                     }).then(response => response.json())
-                        .then(data => this.setState({result: data})
-                        );
+                        .then(data => this.setState({result: data}));
                 }
             );
     };

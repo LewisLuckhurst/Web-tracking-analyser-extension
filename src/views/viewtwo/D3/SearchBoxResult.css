@@ -1,0 +1,16 @@
+.box{
+    width: 92%;
+    margin-left: 10px;
+    margin-top: 20px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 80% 20%;
+    height: 50px;
+    text-align: left;
+    border-radius: 10px;
+}
+
+.text{
+    padding-left: 10px;
+    font-weight: bold;
+}

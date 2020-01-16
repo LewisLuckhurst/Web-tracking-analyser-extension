@@ -1,7 +1,6 @@
-.graph{
+.graphContainer{
     height: 100%;
     width: 100%;
-    position: absolute;
     background-color: white;
 }
 
@@ -9,4 +8,20 @@
     text-align: center;
     display: inline-block;
     color: white;
+}
+
+.searchBar{
+    background-color: #282c34;
+    padding-left: 10px;
+}
+
+.forceGraphGrid{
+    overflow-x: hidden;
+    overflow-y: scroll;
+    position: absolute;
+    display: grid;
+    height: 100%;
+    width: 100%;
+    grid-template-rows: auto;
+    grid-template-columns: 80% 20%;
 }
