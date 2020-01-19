@@ -76,7 +76,13 @@ class Graph extends Component {
 
                     nodeCanvasObject={(node, ctx, globalScale) => {
                         const label = node.id;
-                        const fontSize = 25 / globalScale;
+                        let fontSize;
+                        if(this.props.displayNodeSizeByNumberOfOccurrences === true){
+                            fontSize = node.size / globalScale;
+                        } else {
+                            fontSize = 25 / globalScale;
+                        }
+                        console.log(this.props.result.links);
                         ctx.font = `${fontSize}px Sans-Serif`;
                         ctx.textAlign = 'center';
                         ctx.fillStyle = 'black';

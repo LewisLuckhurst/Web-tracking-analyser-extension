@@ -19,6 +19,7 @@ class D3ForceGraph extends Component {
         searchedNodes: [],
         showOnlyParentCompanies: false,
         searchBarText: "",
+        displayNodeSizeByNumberOfOccurrences: false,
     };
 
     componentDidMount() {
@@ -31,6 +32,10 @@ class D3ForceGraph extends Component {
 
     handleChange = (event) => {
         this.setState({showOnlyParentCompanies: event.target.checked}, this.getTrackedWebsite);
+    };
+
+    handleChange2 = (event) => {
+        this.setState({displayNodeSizeByNumberOfOccurrences: event.target.checked}, this.getTrackedWebsite);
     };
 
     updateSearchBarText = (text) => {
@@ -51,6 +56,26 @@ class D3ForceGraph extends Component {
                             />
                         }
                         label="Only show parent companies"
+                    />
+                </FormGroup>
+            </div>
+        )
+    };
+
+    changeNodeSize = () => {
+        return (
+            <div className="switch">
+                <FormGroup row>
+                    <FormControlLabel
+                        control={
+                            <Switch
+                                checked={this.state.displayNodeSizeByNumberOfOccurrences}
+                                onChange={this.handleChange2}
+                                value="checkedB"
+                                color="secondary"
+                            />
+                        }
+                        label="Show node size based on number of occurrences"
                     />
                 </FormGroup>
             </div>
@@ -125,9 +150,12 @@ class D3ForceGraph extends Component {
                     <br/>
                     {this.switchButton()}
                     <br/>
+                    {this.changeNodeSize()}
+                    <br/>
                     <div className="forceGraphGrid">
                         <Graph result={this.state.result}
                                searchedNodes={this.state.searchedNodes}
+                               displayNodeSizeByNumberOfOccurrences={this.state.displayNodeSizeByNumberOfOccurrences}
                         />
                         <div>
                             <SearchBar
