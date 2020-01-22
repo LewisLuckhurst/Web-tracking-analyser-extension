@@ -85,7 +85,10 @@ class SpeificTracker extends Component {
                                 {title: 'HTTPS', field: 'secure'},
                             ]}
                             data={rows}
+                            onChangeRowsPerPage={this.props.changeNumberOfRowsToDisplay}
                             options={{
+                                pageSize: this.props.numberOfRowsToDisplay,
+                                pageSizeOptions: [5, 10, 20, 50, 100],
                                 search: true
                             }}
                         />

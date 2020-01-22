@@ -11,10 +11,15 @@ class TableView extends Component {
         tableToDisplay: 0,
         siteToSearchFor: null,
         viewToDisplay: 0,
+        numberOfRowsToDisplay: 20
     };
 
     changeTable = (viewNumber) => {
         this.setState({tableToDisplay: viewNumber})
+    };
+
+    changeNumberOfRowsToDisplay = (pageSize) => {
+        this.setState({numberOfRowsToDisplay: pageSize})
     };
 
     changeView = (viewNumber) => {
@@ -41,6 +46,8 @@ class TableView extends Component {
                 <>
                     <AllSites getTrackerSite={this.getTrackerSite}
                               getTrackedSite={this.getTrackedSite}
+                              changeNumberOfRowsToDisplay={this.changeNumberOfRowsToDisplay}
+                              numberOfRowsToDisplay={this.state.numberOfRowsToDisplay}
                               reset={this.reset}/>
                 </>
             );
@@ -51,6 +58,8 @@ class TableView extends Component {
                 <SpecificTrackedSite trackedSite={this.state.siteToSearchFor}
                                      getTrackerSite={this.getTrackerSite}
                                      getTrackedSite={this.getTrackedSite}
+                                     changeNumberOfRowsToDisplay={this.changeNumberOfRowsToDisplay}
+                                     numberOfRowsToDisplay={this.state.numberOfRowsToDisplay}
                                      reset={this.reset}/>
             );
         }
@@ -60,6 +69,8 @@ class TableView extends Component {
                 <SpecificTracker tracker={this.state.siteToSearchFor}
                                  getTrackerSite={this.getTrackerSite}
                                  getTrackedSite={this.getTrackedSite}
+                                 changeNumberOfRowsToDisplay={this.changeNumberOfRowsToDisplay}
+                                 numberOfRowsToDisplay={this.state.numberOfRowsToDisplay}
                                  reset={this.reset}/>
             );
         }
