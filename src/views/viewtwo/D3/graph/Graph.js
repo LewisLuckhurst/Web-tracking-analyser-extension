@@ -93,8 +93,12 @@ class Graph extends Component {
                         ctx.textAlign = 'center';
                         ctx.textBaseline = 'middle';
                         ctx.fillStyle = 'black';
-                        if (this.state.highLightedNodes.indexOf(node) !== -1) {
-                            ctx.fillStyle = 'red';
+                        if(this.state.highLightedNodes.length > 0) {
+                            if (this.state.highLightedNodes.indexOf(node) !== -1) {
+                                ctx.fillStyle = 'red';
+                            } else {
+                                ctx.fillStyle = 'rgba(120, 114, 114, 0.3)';
+                            }
                         }
 
                         if (this.props.searchedNodes.indexOf(node) !== -1) {
