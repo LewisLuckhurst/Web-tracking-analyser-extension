@@ -82,9 +82,16 @@ class Graph extends Component {
                         } else {
                             fontSize = 25 / globalScale;
                         }
-                        console.log(this.props.result.links);
+
                         ctx.font = `${fontSize}px Sans-Serif`;
+                        const textWidth = ctx.measureText(label).width;
+                        const bckgDimensions = [textWidth, 25].map(n => n + fontSize * 2); // some padding
+                        ctx.fillStyle = 'transparent';
+                        ctx.fillRect(node.x - bckgDimensions[0] / 2, node.y - bckgDimensions[1] / 2, ...bckgDimensions);
+
+
                         ctx.textAlign = 'center';
+                        ctx.textBaseline = 'middle';
                         ctx.fillStyle = 'black';
                         if (this.state.highLightedNodes.indexOf(node) !== -1) {
                             ctx.fillStyle = 'red';
@@ -96,9 +103,9 @@ class Graph extends Component {
                         ctx.fillText(label, node.x, node.y);
                     }}
 
-                    nodeCanvasObjectMode={node =>
-                        this.state.highLightedNodes.indexOf(node) !== -1 ? "replace" : "replace"
-                    }
+                    // nodeCanvasObjectMode={node =>
+                    //     this.state.highLightedNodes.indexOf(node) !== -1 ? "replace" : "replace"
+                    //}
                 />
             </div>
         );
