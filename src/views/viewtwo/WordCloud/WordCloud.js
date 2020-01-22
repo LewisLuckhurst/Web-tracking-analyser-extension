@@ -72,7 +72,9 @@ class WordCloud extends Component {
                     <div className="graph">
                         <ReactWordcloud
                             options={{
-                                rotations: 0
+                                rotations: 0,
+                                scale: 10,
+                                fontSizes: [25, 120]
                             }}
                             words={this.state.result["wordCloudWords"]}
                         />
