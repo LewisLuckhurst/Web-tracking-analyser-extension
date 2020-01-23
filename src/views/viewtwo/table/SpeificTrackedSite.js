@@ -44,7 +44,7 @@ class SpeificTrackedSite extends Component {
             );
         }
 
-        const trackerSite = "Showing all results where the tracked site is " + this.props.trackedSite;
+        const trackedSite = <p> Showing all results where the tracked site is <b> {this.props.trackedSite} </b> </p>;
 
         let rows = [];
         for (let i = 0; i < this.state.tableData["tableRows"].length; i++) {
@@ -76,7 +76,7 @@ class SpeificTrackedSite extends Component {
                         </div>
                         <br/>
                         <MaterialTable
-                            title={trackerSite}
+                            title={trackedSite}
                             columns={[
                                 {title: 'Tracked Site', field: 'trackedSite'},
                                 {title: 'Tracker', field: 'tracker'},

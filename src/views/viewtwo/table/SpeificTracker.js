@@ -44,7 +44,7 @@ class SpeificTracker extends Component {
             );
         }
 
-        const trackerSite = "Showing all results where the tracker is " + this.props.tracker;
+        const trackerSite = <p> Showing all results where the tracker is <b> {this.props.tracker} </b> </p>;
         let rows = [];
         for (let i = 0; i < this.state.tableData["tableRows"].length; i++) {
             rows.push({
