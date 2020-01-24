@@ -8,6 +8,7 @@ import Switch from "@material-ui/core/Switch";
 import SearchBar from "./Search";
 import SearchBoxResult from "./SearchBoxResult";
 import Graph from "./graph/Graph";
+import NoSearchResult from "./NoSearchResult";
 
 class D3ForceGraph extends Component {
 
@@ -17,8 +18,11 @@ class D3ForceGraph extends Component {
         height: 0,
         width: 0,
         searchedNodes: [],
+        failedSearches: [],
         showOnlyParentCompanies: false,
         searchBarText: "",
+        searchBoxes: [],
+        failedSearchResults: [],
         displayNodeSizeByNumberOfOccurrences: false,
     };
 
@@ -26,6 +30,7 @@ class D3ForceGraph extends Component {
         this.getTrackedWebsite();
         document.addEventListener("keydown", this._handleKeyDown);
     }
+
     componentWillUnmount() {
         document.removeEventListener("keydown", this._handleKeyDown);
     }
@@ -83,13 +88,21 @@ class D3ForceGraph extends Component {
     };
 
     highLightNode = () => {
+        let resultFound = false;
         this.state.result.nodes.forEach(node => {
             if (node.id === this.state.searchBarText) {
                 if (!this.state.searchedNodes.includes(node)) {
-                    this.state.searchedNodes.push(node)
+                    this.state.searchedNodes.push(node);
+                    resultFound = true;
                 }
             }
         });
+
+        if(!resultFound && !this.state.failedSearches.includes(this.state.searchBarText)){
+            this.state.failedSearches.push(this.state.searchBarText);
+            this.createFailedSearchResults();
+        }
+
         this.createSearchResults();
     };
 
@@ -101,6 +114,16 @@ class D3ForceGraph extends Component {
             }
         });
         this.createSearchResults();
+    };
+
+    removeFailedSearch = (id) => {
+        this.state.failedSearches.forEach(failedSearchId => {
+            if (failedSearchId === id) {
+                let index = this.state.failedSearches.indexOf(failedSearchId);
+                delete this.state.failedSearches [index];
+            }
+        });
+        this.createFailedSearchResults();
     };
 
     getTrackedWebsite = () => {
@@ -130,11 +153,17 @@ class D3ForceGraph extends Component {
 
     createSearchResults = () => {
         this.setState({searchBoxes: []});
-        let test = [];
+        let results = [];
         this.state.searchedNodes.forEach(node => {
-            test.push(<SearchBoxResult companyName={node.id} removeSearch={this.removeNodeHighlight}/>)
+            results.push(<SearchBoxResult companyName={node.id} removeSearch={this.removeNodeHighlight}/>)
         });
-        this.setState({searchBoxes: test});
+        this.setState({searchBoxes: results});
+    };
+
+    createFailedSearchResults = () => {
+        this.setState({failedSearchResults: this.state.failedSearches.map((id) =>
+            <NoSearchResult key={id} failedSearchResult={id} removeFailedResult={this.removeFailedSearch}/>
+        )})
     };
 
     render() {
@@ -157,12 +186,15 @@ class D3ForceGraph extends Component {
                                searchedNodes={this.state.searchedNodes}
                                displayNodeSizeByNumberOfOccurrences={this.state.displayNodeSizeByNumberOfOccurrences}
                         />
-                        <div>
+                        <div className="search">
                             <SearchBar
                                 updateText={this.updateSearchBarText}
                                 highLightNode={this.highLightNode}
                             />
-                            {this.state.searchBoxes}
+                            <div className="resultContainer">
+                                {this.state.failedSearchResults}
+                                {this.state.searchBoxes}
+                            </div>
                         </div>
                     </div>
                 </>

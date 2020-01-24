@@ -10,12 +10,23 @@
 }
 
 .forceGraphGrid{
-    overflow-x: hidden;
-    overflow-y: scroll;
+    overflow: hidden;
     position: absolute;
     display: grid;
     height: 100%;
     width: 100%;
     grid-template-rows: auto;
     grid-template-columns: 80% 20%;
+}
+
+.search{
+    height: 30%;
+}
+
+.resultContainer{
+    overflow-y: auto;
+    background-color: #282c34;
+    margin-top: 20px;
+    height: 100%;
+    width: 100%;
 }

@@ -1,0 +1,53 @@
+.noSearchResultBox{
+    width: 92%;
+    margin-left: 10px;
+    margin-top: 20px;
+    background-color: rgba(214, 29, 69, 0.96);
+    height: 60px;
+    border-radius: 10px;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.resultText{
+    display: flex;
+    justify-content: center; /* align horizontal */
+    align-items: center;
+    font-weight: bold;
+    color: white;
+}
+
+.loadingbar{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-radius: 5px;
+    width: 100%;
+    height: 5px;
+    background-color: black;
+}
+
+.secondLoadingBar{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 5px;
+    background-color: white;
+    animation: load;
+    animation-duration: 5s;
+    overflow: hidden;
+}
+
+@keyframes load {
+    from {
+        border-radius: 5px;
+        left: -100%;
+    }
+
+    to {
+        border-radius: 5px;
+        left: 0;
+    }
+}
