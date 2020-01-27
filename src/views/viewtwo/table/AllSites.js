@@ -126,11 +126,14 @@ class AllSites extends Component {
 
     onlyTrackedSiteView = () => {
         let rows = [];
-        for (let i = 0; i < this.state.onlyTrackedSites.length; i++) {
+
+        for (let i = 0; i < this.state.onlyTrackedSites["sites"].length; i++) {
             rows.push({
-                trackedSite: this.state.onlyTrackedSites[i],
+                trackedSite: this.state.onlyTrackedSites["sites"][i]["domain"],
+                numberOfTrackers: this.state.onlyTrackedSites["sites"][i]["numberOfOccurrences"],
             });
         }
+
         return (
             <>
                 <div className="wrapper">
@@ -144,6 +147,7 @@ class AllSites extends Component {
                                     }} color="secondary">
                                         {rowData.trackedSite}
                                     </Button>},
+                                {title: 'Number of Trackers tracking this site', field: 'numberOfTrackers'},
                             ]}
                             data={rows}
                             onChangeRowsPerPage={this.props.changeNumberOfRowsToDisplay}
@@ -162,9 +166,10 @@ class AllSites extends Component {
 
     onlyTrackersView = () => {
         let rows = [];
-        for (let i = 0; i < this.state.onlyTrackerSites.length; i++) {
+        for (let i = 0; i < this.state.onlyTrackerSites["sites"].length; i++) {
             rows.push({
-                tracker: this.state.onlyTrackerSites[i],
+                tracker: this.state.onlyTrackerSites["sites"][i]["domain"],
+                numberOfTrackedSites: this.state.onlyTrackerSites["sites"][i]["numberOfOccurrences"],
             });
         }
         return (
@@ -180,13 +185,14 @@ class AllSites extends Component {
                                     }} color="secondary">
                                         {rowData.tracker}
                                     </Button>},
+                                {title: 'Number of Sites this tracker is tracking', field: 'numberOfTrackedSites'}
                             ]}
                             data={rows}
                             onChangeRowsPerPage={this.props.changeNumberOfRowsToDisplay}
                             options={{
                                 pageSize: this.props.numberOfRowsToDisplay,
                                 pageSizeOptions: [5, 10, 20, 50, 100],
-                                search: true
+                                search: true,
                             }}
                         />
                         <br/>
