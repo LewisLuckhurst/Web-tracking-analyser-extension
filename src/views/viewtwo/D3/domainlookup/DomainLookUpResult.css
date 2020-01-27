@@ -1,0 +1,30 @@
+.resultBox{
+    width: 92%;
+    margin-left: 10px;
+    background-color: white;
+    height: 50%;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 0;
+    color: black;
+    text-align: left;
+    overflow-y: auto;
+}
+
+.resultBox h3{
+    text-align: center;
+    color: black;
+}
+
+.redText{
+    color: red;
+    display: inline;
+}
+
+.mainBodyText{
+    padding-left: 10px;
+}
+
+h4 {
+    display: inline;
+}

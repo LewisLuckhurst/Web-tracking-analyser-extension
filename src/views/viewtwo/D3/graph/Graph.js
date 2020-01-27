@@ -73,6 +73,7 @@ class Graph extends Component {
                     linkDirectionalArrowLength={3}
 
                     onNodeHover={this.nodeHover}
+                    onNodeClick={this.props.lookUpDomain}
 
                     nodeCanvasObject={(node, ctx, globalScale) => {
                         const label = node.id;
@@ -106,10 +107,6 @@ class Graph extends Component {
                         }
                         ctx.fillText(label, node.x, node.y);
                     }}
-
-                    // nodeCanvasObjectMode={node =>
-                    //     this.state.highLightedNodes.indexOf(node) !== -1 ? "replace" : "replace"
-                    //}
                 />
             </div>
         );

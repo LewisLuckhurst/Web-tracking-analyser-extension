@@ -1,0 +1,19 @@
+.errorBox{
+    width: 92%;
+    margin-left: 10px;
+    background-color: rgba(214, 29, 69, 0.96);
+    height: 50%;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 0;
+    color: white;
+    text-align: center;
+    overflow-y: auto;
+    display: table;
+}
+
+.errorBox h1{
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 35%;
+}

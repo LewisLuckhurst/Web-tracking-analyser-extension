@@ -9,6 +9,8 @@ import SearchBar from "./Search";
 import SearchBoxResult from "./SearchBoxResult";
 import Graph from "./graph/Graph";
 import NoSearchResult from "./NoSearchResult";
+import DomainLookUpError from "./domainlookup/DomainLookUpError";
+import DomainLookUpResult from "./domainlookup/DomainLookUpResult";
 
 class D3ForceGraph extends Component {
 
@@ -24,6 +26,7 @@ class D3ForceGraph extends Component {
         searchBoxes: [],
         failedSearchResults: [],
         displayNodeSizeByNumberOfOccurrences: false,
+        lookUpDomainResult: null,
     };
 
     componentDidMount() {
@@ -98,7 +101,7 @@ class D3ForceGraph extends Component {
             }
         });
 
-        if(!resultFound && !this.state.failedSearches.includes(this.state.searchBarText)){
+        if (!resultFound && !this.state.failedSearches.includes(this.state.searchBarText)) {
             this.state.failedSearches.push(this.state.searchBarText);
             this.createFailedSearchResults();
         }
@@ -144,9 +147,27 @@ class D3ForceGraph extends Component {
             );
     };
 
+    lookUpDomain = (node) => {
+        let jsonBody = JSON.stringify({
+            domainName: node.id
+        });
+
+        fetch("http://localhost:8080/getDomainInformation", {
+            method: 'POST',
+            dataType: 'json',
+            headers: {
+                'Accept': 'application/json',
+                'Content-Type': 'application/json',
+            },
+            body: jsonBody
+        }).then(response => response.json())
+            .then(data => this.setState({lookUpDomainResult: data})
+            );
+    };
+
     _handleKeyDown = (event) => {
-        const ESCAPE_KEY = 13;
-        if (event.keyCode === ESCAPE_KEY) {
+        const ENTER_KEY = 13;
+        if (event.keyCode === ENTER_KEY) {
             this.highLightNode();
         }
     };
@@ -161,9 +182,28 @@ class D3ForceGraph extends Component {
     };
 
     createFailedSearchResults = () => {
-        this.setState({failedSearchResults: this.state.failedSearches.map((id) =>
-            <NoSearchResult key={id} failedSearchResult={id} removeFailedResult={this.removeFailedSearch}/>
-        )})
+        this.setState({
+            failedSearchResults: this.state.failedSearches.map((id) =>
+                <NoSearchResult key={id} failedSearchResult={id} removeFailedResult={this.removeFailedSearch}/>
+            )
+        })
+    };
+
+    displayDomainSearchResult = () => {
+        if (this.state.lookUpDomainResult !== null) {
+            let result = this.state.lookUpDomainResult;
+            if (result["domainPresent"] === true) {
+                return <DomainLookUpResult domain={result["domain"]} parentCompany={result["parentCompany"]}
+                                           domainInfo={result["information"]}/>
+            } else {
+                return <DomainLookUpError domain={result["domain"]}/>
+            }
+        }
+    };
+
+
+    updateNumberOfTrackers = (number) => {
+        this.setState({numberOfTrackersToLookFor: number.target.value});
     };
 
     render() {
@@ -182,9 +222,12 @@ class D3ForceGraph extends Component {
                     {this.changeNodeSize()}
                     <br/>
                     <div className="forceGraphGrid">
+                        <div/>
                         <Graph result={this.state.result}
                                searchedNodes={this.state.searchedNodes}
                                displayNodeSizeByNumberOfOccurrences={this.state.displayNodeSizeByNumberOfOccurrences}
+                               lookUpDomain={this.lookUpDomain}
+                               trackerNumberToLookFor={this.state.numberOfTrackersToLookFor}
                         />
                         <div className="search">
                             <SearchBar
@@ -195,6 +238,7 @@ class D3ForceGraph extends Component {
                                 {this.state.failedSearchResults}
                                 {this.state.searchBoxes}
                             </div>
+                            {this.displayDomainSearchResult()}
                         </div>
                     </div>
                 </>
