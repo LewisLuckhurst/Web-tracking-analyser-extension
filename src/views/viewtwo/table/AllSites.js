@@ -1,3 +1,4 @@
+/*global browser*/
 import React, {Component} from 'react';
 import "./TableView.css"
 import MaterialTable from "material-table";
@@ -19,65 +20,74 @@ class AllSites extends Component {
     };
 
     componentDidMount() {
-        this.getTrackedWebsiteTable();
-        this.getOnlyTrackedSites();
-        this.getOnlyTrackerSites();
-        setInterval(this.getTrackedWebsiteTable, 5000);
-        setInterval(this.getOnlyTrackedSites, 5000);
-        setInterval(this.getOnlyTrackerSites, 5000);
+        this.getValues();
+        setInterval(this.getValues, 5000);
     }
+
+    handleResponse = (message) => {
+        this.getTrackedWebsiteTable(message);
+        this.getOnlyTrackerSites(message);
+        this.getOnlyTrackedSites(message);
+    };
+
+    handleError = (error) => {
+        console.log(`Error: ${error}`);
+    };
+
+    getValues = (e) => {
+        const sending = browser.runtime.sendMessage({});
+        sending.then(this.handleResponse, this.handleError);
+    };
 
     changeView = (viewNumber) => {
         this.setState({tableView: viewNumber})
     };
 
-    getTrackedWebsiteTable = () => {
-        fetch("http://localhost:8080/getTablesRows", {
-            method: 'POST',
-            dataType: 'json',
-            headers: {
-                'Accept': 'application/json',
-                'Content-Type': 'application/json',
-            },
-        }).then(response => response.json())
-            .then(data => this.setState({tableData: data}));
+    getTrackedWebsiteTable = (message) => {
+        this.setState({tableData: message["tableTrackers"]});
     };
 
-    getOnlyTrackerSites = () => {
-        fetch("http://localhost:8080/onlyTrackers", {
-            method: 'POST',
-            dataType: 'json',
-            headers: {
-                'Accept': 'application/json',
-                'Content-Type': 'application/json',
-            },
-        }).then(response => response.json())
-            .then(data => this.setState({onlyTrackerSites: data}));
+    getOnlyTrackerSites = (message) => {
+        let trackerSiteMap = new Map();
+        for (let i = 0; i < message["tableTrackers"].length; i++) {
+            let row = message["tableTrackers"][i];
+
+            if (trackerSiteMap.has(row["tracker"])) {
+                let numberOfOccurrences = trackerSiteMap.get(row["tracker"]) + 1;
+                trackerSiteMap.set(row["tracker"], numberOfOccurrences);
+            } else {
+                trackerSiteMap.set(row["tracker"], 1);
+            }
+        }
+        this.setState({onlyTrackerSites: trackerSiteMap});
     };
 
-    getOnlyTrackedSites = () => {
-        fetch("http://localhost:8080/onlyTrackedSites", {
-            method: 'POST',
-            dataType: 'json',
-            headers: {
-                'Accept': 'application/json',
-                'Content-Type': 'application/json',
-            },
-        }).then(response => response.json())
-            .then(data => this.setState({onlyTrackedSites: data}));
+    getOnlyTrackedSites = (message) => {
+        let trackedSiteMap = new Map();
+        for (let i = 0; i < message["tableTrackers"].length; i++) {
+            let row = message["tableTrackers"][i];
+
+            if (trackedSiteMap.has(row["trackedSite"])) {
+                let numberOfOccurrences = trackedSiteMap.get(row["trackedSite"]) + 1;
+                trackedSiteMap.set(row["trackedSite"], numberOfOccurrences);
+            } else {
+                trackedSiteMap.set(row["trackedSite"], 1);
+            }
+        }
+
+        this.setState({onlyTrackedSites: trackedSiteMap});
     };
 
     AllDataView = () => {
         let rows = [];
-        for (let i = 0; i < this.state.tableData["tableRows"].length; i++) {
+        for (let i = 0; i < this.state.tableData.length; i++) {
             rows.push({
-                trackedSite:
-                    this.state.tableData["tableRows"][i]["trackedSite"],
-                tracker: this.state.tableData["tableRows"][i]["tracker"],
-                firstAccess: this.state.tableData["tableRows"][i]["firstAccess"],
-                lastAccess: this.state.tableData["tableRows"][i]["lastAccess"],
-                numberOfOccurrences: this.state.tableData["tableRows"][i]["numberOfOccurrences"],
-                secure: this.state.tableData["tableRows"][i]["secureConnection"]
+                trackedSite: this.state.tableData[i]["trackedSite"],
+                tracker: this.state.tableData[i]["tracker"],
+                firstAccess: this.state.tableData[i]["firstAccess"],
+                lastAccess: this.state.tableData[i]["lastAccess"],
+                numberOfOccurrences: this.state.tableData[i]["numberOfOccurrences"],
+                secure: this.state.tableData[i]["secureConnection"]
             });
         }
 
@@ -126,11 +136,10 @@ class AllSites extends Component {
 
     onlyTrackedSiteView = () => {
         let rows = [];
-
-        for (let i = 0; i < this.state.onlyTrackedSites["sites"].length; i++) {
+        for (let [key, value] of this.state.onlyTrackedSites) {
             rows.push({
-                trackedSite: this.state.onlyTrackedSites["sites"][i]["domain"],
-                numberOfTrackers: this.state.onlyTrackedSites["sites"][i]["numberOfOccurrences"],
+                trackedSite: key,
+                numberOfTrackers: value,
             });
         }
 
@@ -166,12 +175,13 @@ class AllSites extends Component {
 
     onlyTrackersView = () => {
         let rows = [];
-        for (let i = 0; i < this.state.onlyTrackerSites["sites"].length; i++) {
+        for (let [key, value] of this.state.onlyTrackerSites) {
             rows.push({
-                tracker: this.state.onlyTrackerSites["sites"][i]["domain"],
-                numberOfTrackedSites: this.state.onlyTrackerSites["sites"][i]["numberOfOccurrences"],
+                tracker: key,
+                numberOfTrackedSites: value,
             });
         }
+
         return (
             <>
                 <div className="wrapper">
@@ -203,7 +213,7 @@ class AllSites extends Component {
     };
 
     render() {
-        if (this.state.tableData === null || this.state.onlyTrackedSites === null || this.state.onlyTrackerSites === null) {
+        if (this.state.tableData == null) {
             return (
                 Loading()
             );

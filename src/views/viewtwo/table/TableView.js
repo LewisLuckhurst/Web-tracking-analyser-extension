@@ -22,10 +22,6 @@ class TableView extends Component {
         this.setState({numberOfRowsToDisplay: pageSize})
     };
 
-    changeView = (viewNumber) => {
-        this.setState({viewToDisplay: viewNumber})
-    };
-
     reset = () => {
         this.changeTable(0);
     };
@@ -44,7 +40,8 @@ class TableView extends Component {
         if (this.state.tableToDisplay === 0) {
             return (
                 <>
-                    <AllSites getTrackerSite={this.getTrackerSite}
+                    <AllSites id={this.props.id}
+                              getTrackerSite={this.getTrackerSite}
                               getTrackedSite={this.getTrackedSite}
                               changeNumberOfRowsToDisplay={this.changeNumberOfRowsToDisplay}
                               numberOfRowsToDisplay={this.state.numberOfRowsToDisplay}
@@ -55,7 +52,8 @@ class TableView extends Component {
 
         if (this.state.tableToDisplay === 1) {
             return (
-                <SpecificTrackedSite trackedSite={this.state.siteToSearchFor}
+                <SpecificTrackedSite id={this.props.id}
+                                     trackedSite={this.state.siteToSearchFor}
                                      getTrackerSite={this.getTrackerSite}
                                      getTrackedSite={this.getTrackedSite}
                                      changeNumberOfRowsToDisplay={this.changeNumberOfRowsToDisplay}
@@ -66,7 +64,8 @@ class TableView extends Component {
 
         if (this.state.tableToDisplay === 2) {
             return (
-                <SpecificTracker tracker={this.state.siteToSearchFor}
+                <SpecificTracker id={this.props.id}
+                                 tracker={this.state.siteToSearchFor}
                                  getTrackerSite={this.getTrackerSite}
                                  getTrackedSite={this.getTrackedSite}
                                  changeNumberOfRowsToDisplay={this.changeNumberOfRowsToDisplay}

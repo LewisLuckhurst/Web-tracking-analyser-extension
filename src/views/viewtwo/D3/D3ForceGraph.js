@@ -1,3 +1,4 @@
+/*global browser*/
 import React, {Component} from 'react';
 import "./D3ForceGraphCss.css"
 import Loading from "../../../loading/LoadingBar";
@@ -27,10 +28,11 @@ class D3ForceGraph extends Component {
         failedSearchResults: [],
         displayNodeSizeByNumberOfOccurrences: false,
         lookUpDomainResult: null,
+        message: null
     };
 
     componentDidMount() {
-        this.getTrackedWebsite();
+        this.getValues();
         document.addEventListener("keydown", this._handleKeyDown);
     }
 
@@ -129,22 +131,83 @@ class D3ForceGraph extends Component {
         this.createFailedSearchResults();
     };
 
-    getTrackedWebsite = () => {
-        let jsonBody = JSON.stringify({
-            showOnlyParentCompanies: this.state.showOnlyParentCompanies
-        });
+    handleResponse = (message) => {
+        this.setState({message: message});
+        this.getTrackedWebsite();
+    };
 
-        fetch("http://localhost:8080/getDomains", {
-            method: 'POST',
-            dataType: 'json',
-            headers: {
-                'Accept': 'application/json',
-                'Content-Type': 'application/json',
-            },
-            body: jsonBody
-        }).then(response => response.json())
-            .then(data => this.setState({result: data})
-            );
+    handleError = (error) => {
+        console.log(`Error: ${error}`);
+    };
+
+    getValues = (e) => {
+        const sending = browser.runtime.sendMessage({});
+        sending.then(this.handleResponse, this.handleError);
+    };
+
+    getTrackedWebsite = () => {
+        let message = this.state.message;
+        let myJson = {nodes: [], links: []};
+
+        if (message != null) {
+            if (this.state.showOnlyParentCompanies) {
+                for (let domain of message["allDomainsForParentCompanyView"]) {
+                    if (domain != null) {
+                        if (message["onlyParentCompanyTrackers"].has(domain)) {
+                            myJson["nodes"].push({
+                                "id": domain,
+                                "size": 25
+                            })
+                        } else {
+                            myJson["nodes"].push({
+                                "id": domain,
+                                "size": 25
+                            })
+                        }
+                    }
+                }
+
+                for (let [key, value] of message["onlyParentCompanyTrackers"]) {
+                    for (let v of value) {
+                        if (v != null) {
+                            myJson["links"].push({
+                                "source": v,
+                                "target": key
+                            })
+                        }
+                    }
+                }
+            } else {
+                for (let domain of message["allDomains"]) {
+                    if (domain != null) {
+                        if (message["allTrackers"].has(domain)) {
+                            // let trackedSitesSize = message["allTrackers"].get(message);
+                            myJson["nodes"].push({
+                                "id": domain,
+                                "size": 25
+                            })
+                        } else {
+                            myJson["nodes"].push({
+                                "id": domain,
+                                "size": 25
+                            })
+                        }
+                    }
+                }
+
+                for (let [key, value] of message["allTrackers"]) {
+                    for (let v of value) {
+                        if (v != null) {
+                            myJson["links"].push({
+                                "source": v,
+                                "target": key
+                            })
+                        }
+                    }
+                }
+            }
+        }
+        this.setState({result: myJson});
     };
 
     lookUpDomain = (node) => {
@@ -201,11 +264,6 @@ class D3ForceGraph extends Component {
         }
     };
 
-
-    updateNumberOfTrackers = (number) => {
-        this.setState({numberOfTrackersToLookFor: number.target.value});
-    };
-
     render() {
         if (this.state.result === null) {
             return Loading();
@@ -213,7 +271,7 @@ class D3ForceGraph extends Component {
             return (
                 <>
                     <h1> Website trackers visualisation: </h1>
-                    <Button size="small" color="secondary" onClick={this.getTrackedWebsite}>
+                    <Button size="small" color="secondary" onClick={this.getValues}>
                         Refresh graph
                     </Button>
                     <br/>

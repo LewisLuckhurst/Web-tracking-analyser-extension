@@ -1,3 +1,4 @@
+/*global browser*/
 import React, {Component} from 'react';
 import "./TableView.css"
 import MaterialTable from "material-table";
@@ -15,25 +16,21 @@ class SpeificTracker extends Component {
     };
 
     componentDidMount() {
-        this.getSitesRequestedTrackerIsTracking();
-        setInterval(this.getSitesRequestedTrackerIsTracking, 5000);
+        this.getValues();
+        setInterval(this.getValues, 5000);
     }
 
-    getSitesRequestedTrackerIsTracking = () => {
-        let jsonBody = JSON.stringify({
-            tracker: this.props.tracker
-        });
+    handleResponse = (message) => {
+        this.setState({tableData: message["tableTrackers"]});
+    };
 
-        fetch("http://localhost:8080/getTablesRowsForTracker", {
-            method: 'POST',
-            dataType: 'json',
-            headers: {
-                'Accept': 'application/json',
-                'Content-Type': 'application/json',
-            },
-            body: jsonBody
-        }).then(response => response.json())
-            .then(data => this.setState({tableData: data}));
+    handleError = (error) => {
+        console.log(`Error: ${error}`);
+    };
+
+    getValues = (e) => {
+        const sending = browser.runtime.sendMessage({});
+        sending.then(this.handleResponse, this.handleError);
     };
 
     render() {
@@ -45,24 +42,20 @@ class SpeificTracker extends Component {
         }
 
         const trackerSite = <p> Showing all results where the tracker is <b> {this.props.tracker} </b> </p>;
+
         let rows = [];
-        for (let i = 0; i < this.state.tableData["tableRows"].length; i++) {
-            rows.push({
-                trackedSite: <Button size="small" onClick={() => {
-                    this.props.getTrackedSite(this.state.tableData["tableRows"][i]["trackedSite"])
-                }} color="secondary">
-                    {this.state.tableData["tableRows"][i]["trackedSite"]}
-                </Button>,
-                tracker: <Button size="small" onClick={() => {
-                    this.props.getTrackerSite(this.state.tableData["tableRows"][i]["tracker"])
-                }} color="secondary">
-                    {this.state.tableData["tableRows"][i]["tracker"]}
-                </Button>,
-                firstAccess: this.state.tableData["tableRows"][i]["firstAccess"],
-                lastAccess: this.state.tableData["tableRows"][i]["lastAccess"],
-                numberOfOccurrences: this.state.tableData["tableRows"][i]["numberOfOccurrences"],
-                secure: this.state.tableData["tableRows"][i]["secureConnection"]
-            });
+        let data = this.state.tableData;
+        for (let i = 0; i < data.length; i++) {
+            if(data[i]["tracker"] === this.props.tracker) {
+                rows.push({
+                    trackedSite: this.state.tableData[i]["trackedSite"],
+                    tracker: this.state.tableData[i]["tracker"],
+                    firstAccess: this.state.tableData[i]["firstAccess"],
+                    lastAccess: this.state.tableData[i]["lastAccess"],
+                    numberOfOccurrences: this.state.tableData[i]["numberOfOccurrences"],
+                    secure: this.state.tableData[i]["secureConnection"]
+                });
+            }
         }
 
         return (
@@ -77,8 +70,16 @@ class SpeificTracker extends Component {
                         <MaterialTable
                             title={trackerSite}
                             columns={[
-                                {title: 'Tracked Site', field: 'trackedSite'},
-                                {title: 'Tracker', field: 'tracker'},
+                                {title: 'Tracked Site', field: 'trackedSite', render: rowData => <Button size="small" onClick={() => {
+                                        this.props.getTrackedSite(rowData.trackedSite)
+                                    }} color="secondary">
+                                        {rowData.trackedSite}
+                                    </Button>},
+                                {title: 'Tracker', field: 'tracker', render: rowData => <Button size="small" onClick={() => {
+                                        this.props.getTrackerSite(rowData.tracker)
+                                    }} color="secondary">
+                                        {rowData.tracker}
+                                    </Button>},
                                 {title: 'First Access', field: 'firstAccess'},
                                 {title: 'Last Access', field: 'lastAccess'},
                                 {title: 'Number', field: 'numberOfOccurrences'},

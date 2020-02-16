@@ -1,12 +1,31 @@
+/*global browser*/
 import React, {Component} from 'react';
 import './App.css';
 import ViewTwo from "./views/viewtwo/ViewTwo";
 import NavigationBarTest from "./navigation/NavigationBar";
 import ViewOne from "./views/viewone/ViewOne";
 
+
 class App extends Component {
     state = {
-        viewToDisplay: 0
+        viewToDisplay: 0,
+    };
+
+    componentDidMount() {
+        this.getValues();
+    }
+
+    handleResponse = (message) => {
+        this.setState({message: message});
+    };
+
+    handleError = (error) => {
+        console.log(`Error: ${error}`);
+    };
+
+    getValues = (e) => {
+        const sending = browser.runtime.sendMessage({});
+        sending.then(this.handleResponse, this.handleError);
     };
 
     changeView = (viewNumber) => {
@@ -18,15 +37,15 @@ class App extends Component {
             return (
                 <div className="App">
                     <NavigationBarTest changeView={this.changeView}/>
-                     <ViewOne/>
-                 </div>
-             );
+                    <ViewOne id={this.state.id}/>
+                </div>
+            );
         }
 
         return (
             <div className="App">
                 <NavigationBarTest changeView={this.changeView}/>
-                <ViewTwo/>
+                <ViewTwo message={this.state.message}/>
             </div>
         );
     }

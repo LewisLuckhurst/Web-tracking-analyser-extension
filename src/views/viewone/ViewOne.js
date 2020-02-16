@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import './ViewOne.css';
-import IpTrackingMap from "./ip/IpTrackingMap";
 import IpTracking from "./ip/IpTracking";
 import UserAgent from "./useragent/UserAgent";
 import Loading from "../../loading/LoadingBar";
@@ -55,12 +54,12 @@ class ViewOne extends Component {
                         <UserAgent result={this.state.result}/>
                     </div>
                 </div>
-                <h1>Location based on IP address:</h1>
-                <div className="wrapper">
-                    <div className="mapContainer">
-                        <IpTrackingMap result={this.state.result}/>
-                    </div>
-                </div>
+                <h1>Location based on IP address: </h1>
+                {/*<div className="wrapper">*/}
+                {/*    <div className="mapContainer">*/}
+                {/*        <IpTrackingMap result={this.state.result}/>*/}
+                {/*    </div>*/}
+                {/*</div>*/}
                 <br/>
             </>
         );

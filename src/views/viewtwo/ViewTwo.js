@@ -10,7 +10,6 @@ class ViewTwo extends Component {
     state = {
         viewToDisplay: 0,
         showOnlyParentCompanies: false,
-        result: null
     };
 
     changeView = (viewNumber) => {
@@ -21,25 +20,6 @@ class ViewTwo extends Component {
         this.setState({showOnlyParentCompanies: event.target.checked});
     };
 
-    getTrackedWebsite = () => {
-        let jsonBody = JSON.stringify({
-            showOnlyParentCompanies: this.state.showOnlyParentCompanies
-        });
-
-        fetch("http://localhost:8080/getDomains", {
-            method: 'POST',
-            dataType: 'json',
-            headers: {
-                'Accept': 'application/json',
-                'Content-Type': 'application/json',
-            },
-            body: jsonBody
-        }).then(response => response.json())
-            .then(data => this.setState({result: data})
-            );
-    };
-
-
     render() {
         if (this.state.viewToDisplay === 0) {
             return (
@@ -49,7 +29,7 @@ class ViewTwo extends Component {
                             <SelectorBar changeView={this.changeView}/>
                         </div>
                     </div>
-                    <D3ForceGraph handleChange={this.handleChange}/>
+                    <D3ForceGraph message={this.props.message} handleChange={this.handleChange}/>
                 </>
             );
         }
@@ -62,7 +42,7 @@ class ViewTwo extends Component {
                             <SelectorBar changeView={this.changeView}/>
                         </div>
                     </div>
-                    <TableView/>
+                    <TableView message={this.props.message}/>
                 </>
             );
         }
@@ -74,7 +54,7 @@ class ViewTwo extends Component {
                         <SelectorBar changeView={this.changeView}/>
                     </div>
                 </div>
-                <WordCloud/>
+                <WordCloud message={this.props.message}/>
             </>
         );
     }

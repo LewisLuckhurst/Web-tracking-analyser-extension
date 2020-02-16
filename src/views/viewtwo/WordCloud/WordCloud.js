@@ -1,3 +1,4 @@
+/*global browser*/
 import React, {Component} from 'react';
 import Loading from "../../../loading/LoadingBar";
 import ReactWordcloud from 'react-wordcloud';
@@ -12,10 +13,11 @@ class WordCloud extends Component {
         data: null,
         result: null,
         showOnlyParentCompanies: false,
+        message: null
     };
 
     componentDidMount() {
-        this.getTrackedWebsite();
+        this.getValues();
     }
 
     handleChange = (event) => {
@@ -42,26 +44,41 @@ class WordCloud extends Component {
         )
     };
 
-    getTrackedWebsite = () => {
-        let jsonBody = JSON.stringify({
-            showOnlyParentCompanies: this.state.showOnlyParentCompanies
-        });
+    handleResponse = (message) => {
+        this.setState({message: message});
+        this.getTrackedWebsite();
+    };
 
-        fetch("http://localhost:8080/getWordCloud", {
-            method: 'POST',
-            dataType: 'json',
-            headers: {
-                'Accept': 'application/json',
-                'Content-Type': 'application/json',
-            },
-            body: jsonBody
-        }).then(response => response.json())
-            .then(data => this.setState({result: data})
-            );
+    handleError = (error) => {
+        console.log(`Error: ${error}`);
+    };
+
+    getValues = (e) => {
+        const sending = browser.runtime.sendMessage({});
+        sending.then(this.handleResponse, this.handleError);
+    };
+
+    getTrackedWebsite = () => {
+        let data = [];
+        if(!this.state.showOnlyParentCompanies){
+            for (let [key, value] of this.state.message["allTrackers"]) {
+                data.push({
+                    text: String(key),
+                    value: value.size,
+                });
+            }
+        } else {
+            for (let [key, value] of this.state.message["onlyParentCompanyTrackers"]) {
+                data.push({
+                    text: String(key),
+                    value: value.size,
+                });
+            }
+        }
+        this.setState({result: data});
     };
 
     render() {
-
         if (this.state.result === null) {
             return Loading();
         } else {
@@ -76,7 +93,7 @@ class WordCloud extends Component {
                                 scale: 10,
                                 fontSizes: [25, 120]
                             }}
-                            words={this.state.result["wordCloudWords"]}
+                            words={this.state.result}
                         />
                     </div>
                 </>
