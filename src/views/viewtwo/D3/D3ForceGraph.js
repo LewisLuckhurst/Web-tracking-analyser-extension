@@ -148,6 +148,7 @@ class D3ForceGraph extends Component {
     getTrackedWebsite = () => {
         let message = this.state.message;
         let myJson = {nodes: [], links: []};
+        let test = new Set();
 
         if (message != null) {
             if (this.state.showOnlyParentCompanies) {
@@ -156,7 +157,7 @@ class D3ForceGraph extends Component {
                         if (message["onlyParentCompanyTrackers"].has(domain)) {
                             myJson["nodes"].push({
                                 "id": domain,
-                                "size": 25
+                                "size": (25 + message["onlyParentCompanyTrackers"].get(domain).size)
                             })
                         } else {
                             myJson["nodes"].push({
@@ -184,7 +185,7 @@ class D3ForceGraph extends Component {
                             // let trackedSitesSize = message["allTrackers"].get(message);
                             myJson["nodes"].push({
                                 "id": domain,
-                                "size": 25
+                                "size": (25 + message["allTrackers"].get(domain).size)
                             })
                         } else {
                             myJson["nodes"].push({
@@ -215,7 +216,7 @@ class D3ForceGraph extends Component {
             domainName: node.id
         });
 
-        fetch("http://localhost:8080/getDomainInformation", {
+        fetch("https://server.webtrackinganalyser.com/getDomainInformation", {
             method: 'POST',
             dataType: 'json',
             headers: {
@@ -285,7 +286,6 @@ class D3ForceGraph extends Component {
                                searchedNodes={this.state.searchedNodes}
                                displayNodeSizeByNumberOfOccurrences={this.state.displayNodeSizeByNumberOfOccurrences}
                                lookUpDomain={this.lookUpDomain}
-                               trackerNumberToLookFor={this.state.numberOfTrackersToLookFor}
                         />
                         <div className="search">
                             <SearchBar

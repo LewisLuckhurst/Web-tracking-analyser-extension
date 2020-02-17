@@ -3,6 +3,7 @@ import './ViewOne.css';
 import IpTracking from "./ip/IpTracking";
 import UserAgent from "./useragent/UserAgent";
 import Loading from "../../loading/LoadingBar";
+import IpTrackingMap from "./ip/IpTrackingMap";
 
 class ViewOne extends Component {
 
@@ -24,7 +25,7 @@ class ViewOne extends Component {
                             ip: data["ip"]
                         });
 
-                    fetch("http://localhost:8080/tracking", {
+                    fetch("https://server.webtrackinganalyser.com/tracking", {
                         method: 'POST',
                         dataType: 'json',
                         headers: {
@@ -55,11 +56,11 @@ class ViewOne extends Component {
                     </div>
                 </div>
                 <h1>Location based on IP address: </h1>
-                {/*<div className="wrapper">*/}
-                {/*    <div className="mapContainer">*/}
-                {/*        <IpTrackingMap result={this.state.result}/>*/}
-                {/*    </div>*/}
-                {/*</div>*/}
+                <div className="wrapper">
+                    <div className="mapContainer">
+                        <IpTrackingMap result={this.state.result}/>
+                    </div>
+                </div>
                 <br/>
             </>
         );

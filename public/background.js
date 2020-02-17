@@ -5353,6 +5353,7 @@ let parentCompanyJson = {
             "crashlytics",
             "destinationurl",
             "doubleclick",
+            "googlesyndication",
             "ggpht",
             "gmail",
             "gmodules",

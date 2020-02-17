@@ -4,7 +4,8 @@
   "author": "Lewis Luckhurst",
   "version": "1.0",
   "description": "Used to analyser various tracked information online",
-  "content_security_policy": "script-src 'self' https://localhost:8080/map; object-src 'self'",
+
+  "content_security_policy": "default-src 'self'; script-src 'self' https://fonts.gstatic.com/* https://maps.gstatic.com/* https://server.webtrackinganalyser.com https://maps.googleapis.com 'unsafe-eval'; connect-src *; style-src * 'unsafe-inline' 'self' blob:; img-src * data:; font-src * data:;",
   "browser_action": {
     "default_title": "Open the popup"
   },
