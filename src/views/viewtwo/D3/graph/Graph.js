@@ -49,6 +49,8 @@ class Graph extends Component {
 
 
     render() {
+        console.log("Searched nodes");
+        console.log(this.props.searchedNodes);
         return (
             <div ref={this.refCallback} className="graphContainer">
                 <ForceGraph2D
@@ -102,7 +104,7 @@ class Graph extends Component {
                             }
                         }
 
-                        if (this.props.searchedNodes.indexOf(node) !== -1) {
+                        if (this.props.searchedNodes.indexOf(node.id) !== -1) {
                             ctx.fillStyle = 'blue';
                         }
                         ctx.fillText(label, node.x, node.y);

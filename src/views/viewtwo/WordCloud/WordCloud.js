@@ -13,11 +13,15 @@ class WordCloud extends Component {
         data: null,
         result: null,
         showOnlyParentCompanies: false,
-        message: null
+        message: null,
+        callBacks: null
     };
 
     componentDidMount() {
         this.getValues();
+        this.setState({callBacks:
+                {getWordTooltip: word => `"${word.text}" is tracking ${word.value} number of sites.`}
+        })
     }
 
     handleChange = (event) => {
@@ -94,6 +98,7 @@ class WordCloud extends Component {
                                 fontSizes: [25, 120]
                             }}
                             words={this.state.result}
+                            callbacks={this.state.callBacks}
                         />
                     </div>
                 </>

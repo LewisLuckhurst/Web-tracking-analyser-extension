@@ -11,7 +11,7 @@ class TableView extends Component {
         tableToDisplay: 0,
         siteToSearchFor: null,
         viewToDisplay: 0,
-        numberOfRowsToDisplay: 20
+        numberOfRowsToDisplay: 10
     };
 
     changeTable = (viewNumber) => {

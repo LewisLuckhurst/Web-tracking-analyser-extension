@@ -1560,6 +1560,7 @@ let parentCompanyJson = {
             "abebooks",
             "acx",
             "alexa",
+            "amazon-adsystem",
             "amazon",
             "amazon",
             "amazon",
@@ -5138,205 +5139,13 @@ let parentCompanyJson = {
             "goldspotmedia"
         ]
     },
-    "google": {
+    "Google": {
         "properties": [
             "abc",
             "admeld",
             "blogger",
             "crashlytics",
             "google-melange",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
             "google",
             "ingress",
             "nest",
@@ -5358,203 +5167,6 @@ let parentCompanyJson = {
             "gmail",
             "gmodules",
             "google-analytics",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
-            "google",
             "google",
             "googleadservices",
             "googleapis",
@@ -10954,7 +10566,7 @@ let parentCompanyJson = {
             "fabric",
             "tweetdeck",
             "twitter",
-            "twitter"
+            "t"
         ],
         "resources": [
             "ads-twitter",
@@ -10962,7 +10574,6 @@ let parentCompanyJson = {
             "tweetdeck",
             "twimg",
             "twitter",
-            "twitter"
         ]
     },
     "Twitter Counter": {
@@ -12225,8 +11836,12 @@ function logTracker(requestDetails) {
         let trackedSite = new URL(requestDetails.originUrl).hostname;
         let wasSecure = new URL(requestDetails.url).protocol === "https:";
 
+        if (!wasSecure) {
+            console.log(requestDetails.url);
+        }
+
         let split = tracker.split(".");
-        if(split.length === 2 || split.length === 1){
+        if (split.length === 2 || split.length === 1) {
             tracker = split[0];
         } else if (endings.includes(split[split.length - 2])) {
             tracker = split[split.length - 3];
@@ -12245,7 +11860,7 @@ function logTracker(requestDetails) {
         }
 
         let splitTwo = trackedSite.split(".");
-        if(splitTwo.length === 2 || splitTwo.length === 1){
+        if (splitTwo.length === 2 || splitTwo.length === 1) {
             trackedSite = splitTwo[0];
         } else if (endings.includes(splitTwo[splitTwo.length - 2])) {
             trackedSite = splitTwo[splitTwo.length - 3];
@@ -12253,48 +11868,60 @@ function logTracker(requestDetails) {
             trackedSite = splitTwo[(splitTwo.length - 2)];
         }
 
-        let found = false;
-        for (let key in tableTrackers) {
-            let row = tableTrackers[key];
-
-            if (row["trackedSite"] === trackedSite && row["tracker"] === tracker) {
-                found = true;
-                row["lastAccess"] = Date.now().toString();
-                let i = row["numberOfOccurrences"];
-                row["numberOfOccurrences"] = i + 1;
-            }
-        }
-
-        if (!found) {
-            tableTrackers.push({
-                    trackedSite: trackedSite,
-                    tracker: tracker,
-                    firstAccess: Date.now().toString(),
-                    lastAccess: Date.now().toString(),
-                    numberOfOccurrences: 1,
-                    secure: wasSecure
-                }
-            );
-        }
-
-        if (tracker !== trackedSite) {
-            allDomains.add(tracker);
+        if ((trackedSite.split("-").length - 1) < 4) {
             allDomains.add(trackedSite);
-            allDomainsForParentCompanyView.add(parentTracker);
             allDomainsForParentCompanyView.add(trackedSite);
+            if (trackedSite !== tracker) {
+                let found = false;
+                for (let key in tableTrackers) {
+                    let row = tableTrackers[key];
+                    if (row["trackedSite"] === trackedSite && row["tracker"] === tracker) {
+                        found = true;
+                        row["lastAccess"] = new Date().toLocaleString();
+                        let i = row["numberOfOccurrences"];
+                        row["numberOfOccurrences"] = i + 1;
+                        let security = row["secureConnection"] === "True";
+                        if(security && !wasSecure){
+                            row["secureConnection"] = "False";
+                        }
+                    }
+                }
 
-            if (allTrackers.has(tracker)) {
-                allTrackers.get(tracker).add(trackedSite);
-            } else {
-                allTrackers.set(tracker, new Set());
-                allTrackers.get(tracker).add(trackedSite);
-            }
+                if (!found) {
+                    let secure;
+                    if (wasSecure) {
+                        secure = "True"
+                    } else {
+                        secure = "False"
+                    }
+                    tableTrackers.push({
+                            trackedSite: trackedSite,
+                            tracker: tracker,
+                            firstAccess: new Date().toLocaleString(),
+                            lastAccess: new Date().toLocaleString(),
+                            numberOfOccurrences: 1,
+                            secureConnection: secure
+                        }
+                    );
+                }
 
-            if (onlyParentCompanyTrackers.has(parentTracker)) {
-                onlyParentCompanyTrackers.get(parentTracker).add(trackedSite);
-            } else {
-                onlyParentCompanyTrackers.set(parentTracker, new Set());
-                onlyParentCompanyTrackers.get(parentTracker).add(trackedSite);
+
+                allDomains.add(tracker);
+                allDomainsForParentCompanyView.add(parentTracker);
+
+                if (allTrackers.has(tracker)) {
+                    allTrackers.get(tracker).add(trackedSite);
+                } else {
+                    allTrackers.set(tracker, new Set());
+                    allTrackers.get(tracker).add(trackedSite);
+                }
+
+                if (onlyParentCompanyTrackers.has(parentTracker)) {
+                    onlyParentCompanyTrackers.get(parentTracker).add(trackedSite);
+                } else {
+                    onlyParentCompanyTrackers.set(parentTracker, new Set());
+                    onlyParentCompanyTrackers.get(parentTracker).add(trackedSite);
+                }
             }
         }
     }

@@ -33,8 +33,8 @@ export default function NavigationBarTest(props) {
                 onChange={handleChange}
                 variant="fullWidth"
             >
-                <Tab label="View One" />
-                <Tab label="View Two" />
+                <Tab label="Information that could be tracked" />
+                <Tab label="Analysing website trackers" />
             </Tabs>
         </Paper>
     );

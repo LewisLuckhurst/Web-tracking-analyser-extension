@@ -95,25 +95,26 @@ class D3ForceGraph extends Component {
     highLightNode = () => {
         let resultFound = false;
         this.state.result.nodes.forEach(node => {
-            if (node.id === this.state.searchBarText) {
-                if (!this.state.searchedNodes.includes(node)) {
-                    this.state.searchedNodes.push(node);
-                    resultFound = true;
+            if (node.id.toLowerCase() === this.state.searchBarText.toLowerCase()) {
+                if (!this.state.searchedNodes.includes(node.id)) {
+                    this.state.searchedNodes.push(node.id);
                 }
+                resultFound = true;
             }
         });
 
         if (!resultFound && !this.state.failedSearches.includes(this.state.searchBarText)) {
             this.state.failedSearches.push(this.state.searchBarText);
             this.createFailedSearchResults();
+        } else {
+            this.createSearchResults();
         }
 
-        this.createSearchResults();
     };
 
     removeNodeHighlight = (id) => {
         this.state.searchedNodes.forEach(node => {
-            if (node.id === id) {
+            if (node === id) {
                 let index = this.state.searchedNodes.indexOf(node);
                 delete this.state.searchedNodes [index];
             }
@@ -148,7 +149,6 @@ class D3ForceGraph extends Component {
     getTrackedWebsite = () => {
         let message = this.state.message;
         let myJson = {nodes: [], links: []};
-        let test = new Set();
 
         if (message != null) {
             if (this.state.showOnlyParentCompanies) {
@@ -182,7 +182,6 @@ class D3ForceGraph extends Component {
                 for (let domain of message["allDomains"]) {
                     if (domain != null) {
                         if (message["allTrackers"].has(domain)) {
-                            // let trackedSitesSize = message["allTrackers"].get(message);
                             myJson["nodes"].push({
                                 "id": domain,
                                 "size": (25 + message["allTrackers"].get(domain).size)
@@ -225,8 +224,7 @@ class D3ForceGraph extends Component {
             },
             body: jsonBody
         }).then(response => response.json())
-            .then(data => this.setState({lookUpDomainResult: data})
-            );
+            .then(data => this.setState({lookUpDomainResult: data}));
     };
 
     _handleKeyDown = (event) => {
@@ -240,7 +238,7 @@ class D3ForceGraph extends Component {
         this.setState({searchBoxes: []});
         let results = [];
         this.state.searchedNodes.forEach(node => {
-            results.push(<SearchBoxResult companyName={node.id} removeSearch={this.removeNodeHighlight}/>)
+            results.push(<SearchBoxResult companyName={node} removeSearch={this.removeNodeHighlight}/>)
         });
         this.setState({searchBoxes: results});
     };
