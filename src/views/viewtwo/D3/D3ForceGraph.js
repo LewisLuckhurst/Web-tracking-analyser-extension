@@ -157,12 +157,12 @@ class D3ForceGraph extends Component {
                         if (message["onlyParentCompanyTrackers"].has(domain)) {
                             myJson["nodes"].push({
                                 "id": domain,
-                                "size": (25 + message["onlyParentCompanyTrackers"].get(domain).size)
+                                "size": message["onlyParentCompanyTrackers"].get(domain).size
                             })
                         } else {
                             myJson["nodes"].push({
                                 "id": domain,
-                                "size": 25
+                                "size": 0
                             })
                         }
                     }
@@ -184,12 +184,12 @@ class D3ForceGraph extends Component {
                         if (message["allTrackers"].has(domain)) {
                             myJson["nodes"].push({
                                 "id": domain,
-                                "size": (25 + message["allTrackers"].get(domain).size)
+                                "size": message["allTrackers"].get(domain).size
                             })
                         } else {
                             myJson["nodes"].push({
                                 "id": domain,
-                                "size": 25
+                                "size": 0
                             })
                         }
                     }
@@ -207,6 +207,7 @@ class D3ForceGraph extends Component {
                 }
             }
         }
+        console.log(myJson);
         this.setState({result: myJson});
     };
 

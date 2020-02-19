@@ -11880,8 +11880,8 @@ function logTracker(requestDetails) {
                         row["lastAccess"] = new Date().toLocaleString();
                         let i = row["numberOfOccurrences"];
                         row["numberOfOccurrences"] = i + 1;
-                        let security = row["secureConnection"] === "True";
-                        if(security && !wasSecure){
+
+                        if(!wasSecure){
                             row["secureConnection"] = "False";
                         }
                     }

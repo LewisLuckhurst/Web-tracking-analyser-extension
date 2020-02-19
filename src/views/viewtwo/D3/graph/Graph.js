@@ -49,8 +49,6 @@ class Graph extends Component {
 
 
     render() {
-        console.log("Searched nodes");
-        console.log(this.props.searchedNodes);
         return (
             <div ref={this.refCallback} className="graphContainer">
                 <ForceGraph2D
@@ -81,7 +79,7 @@ class Graph extends Component {
                         const label = node.id;
                         let fontSize;
                         if(this.props.displayNodeSizeByNumberOfOccurrences === true){
-                            fontSize = node.size / globalScale;
+                            fontSize = (25 + (node.size * 2)) / globalScale;
                         } else {
                             fontSize = 25 / globalScale;
                         }
