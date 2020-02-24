@@ -5,6 +5,7 @@ import MaterialTable from "material-table";
 import Button from "@material-ui/core/Button";
 import Loading from "../../../loading/LoadingBar";
 import TableViewSelector from "./TableViewSelector";
+import {Tooltip} from "@material-ui/core";
 
 class AllSites extends Component {
 
@@ -78,9 +79,21 @@ class AllSites extends Component {
         this.setState({onlyTrackedSites: trackedSiteMap});
     };
 
+    Title = (text, tooltip) => {
+        return <Tooltip title={tooltip} placement="top">
+            <Button variant="outlined"
+                    size="small"
+                    color="primary">
+                {text}
+            </Button>
+        </Tooltip>
+    };
+
     AllDataView = () => {
         let rows = [];
+        let uniqueTrackers = new Set();
         for (let i = 0; i < this.state.tableData.length; i++) {
+            uniqueTrackers.add(this.state.tableData[i]["tracker"]);
             rows.push({
                 trackedSite: this.state.tableData[i]["trackedSite"],
                 tracker: this.state.tableData[i]["tracker"],
@@ -97,27 +110,39 @@ class AllSites extends Component {
                     <div className="trackingTable">
                         <h2>Tracker Count:</h2>
                         <div className="trackerCount">
-                            <h2>{this.state.tableData["totalTrackedSites"]}</h2>
+                            <h2>{uniqueTrackers.size}</h2>
                         </div>
                         <br/>
                         <TableViewSelector changeView={this.changeView} view={this.state.tableView}/>
                         <MaterialTable
                             title="Showing all sites"
                             columns={[
-                                {title: 'Tracked Site', field: 'trackedSite', render: rowData => <Button size="small" onClick={() => {
-                                        this.props.getTrackedSite(rowData.trackedSite)
-                                    }} color="secondary">
-                                        {rowData.trackedSite}
-                                    </Button>},
-                                {title: 'Tracker', field: 'tracker', render: rowData => <Button size="small" onClick={() => {
+                                {
+                                    title: this.Title("Tracked site", "The site being tracked"), field: 'trackedSite', render: rowData =>
+                                        <Button size="small" onClick={() => {
+                                            this.props.getTrackedSite(rowData.trackedSite)
+                                        }} color="secondary">
+                                            {rowData.trackedSite}</Button>
+                                },
+                                {
+                                    title: this.Title("Tracker", "The tracker's domain"), field: "tracker", render: rowData => <Button size="small" onClick={() => {
                                         this.props.getTrackerSite(rowData.tracker)
                                     }} color="secondary">
                                         {rowData.tracker}
-                                    </Button>},
-                                {title: 'First Access', field: 'firstAccess'},
-                                {title: 'Last Access', field: 'lastAccess'},
-                                {title: 'Number', field: 'numberOfOccurrences'},
-                                {title: 'HTTPS', field: 'secure'},
+                                    </Button>
+                                },
+                                {
+                                    title: this.Title("First access", "The time this request was first made"), field: 'firstAccess'
+                                },
+                                {
+                                    title: this.Title("Last access", "The most recent time this request was made"), field: 'lastAccess'
+                                },
+                                {
+                                    title: this.Title("Connections", "The total number of times a connection has been made between the two sites"), field: 'numberOfOccurrences'
+                                },
+                                {
+                                    title: this.Title("Secure", "Secure – Is this third-party connection secured (e.g., using HTTPS)?"), field: 'secure'
+                                },
                             ]}
                             data={rows}
                             onChangeRowsPerPage={this.props.changeNumberOfRowsToDisplay}
@@ -151,12 +176,16 @@ class AllSites extends Component {
                         <MaterialTable
                             title="Showing Only Tracked Sites"
                             columns={[
-                                {title: 'Tracked Site', field: 'trackedSite', render: rowData => <Button size="small" onClick={() => {
+                                {
+                                    title: this.Title("Tracked site", "The site being tracked"),
+                                    field: 'trackedSite',
+                                    render: rowData => <Button size="small" onClick={() => {
                                         this.props.getTrackedSite(rowData.trackedSite)
                                     }} color="secondary">
                                         {rowData.trackedSite}
-                                    </Button>},
-                                {title: 'Number of Trackers tracking this site', field: 'numberOfTrackers'},
+                                    </Button>
+                                },
+                                {title: this.Title("Tracker count", "The total number of trackers tracking this site"), field: 'numberOfTrackers'},
                             ]}
                             data={rows}
                             onChangeRowsPerPage={this.props.changeNumberOfRowsToDisplay}
@@ -190,12 +219,16 @@ class AllSites extends Component {
                         <MaterialTable
                             title="Showing Only Trackers"
                             columns={[
-                                {title: 'Tracker', field: 'tracker', render: rowData => <Button size="small" onClick={() => {
+                                {
+                                    title: this.Title("Tracker", "The tracker's domain"),
+                                    field: 'tracker',
+                                    render: rowData => <Button size="small" onClick={() => {
                                         this.props.getTrackerSite(rowData.tracker)
                                     }} color="secondary">
                                         {rowData.tracker}
-                                    </Button>},
-                                {title: 'Number of Sites this tracker is tracking', field: 'numberOfTrackedSites'}
+                                    </Button>
+                                },
+                                {title: 'Tracked count', field: 'The total number of sites this tracker is tracking'}
                             ]}
                             data={rows}
                             onChangeRowsPerPage={this.props.changeNumberOfRowsToDisplay}
@@ -219,11 +252,11 @@ class AllSites extends Component {
             );
         }
 
-        if(this.state.tableView === 0){
+        if (this.state.tableView === 0) {
             return this.AllDataView();
         }
 
-        if(this.state.tableView === 1){
+        if (this.state.tableView === 1) {
             return this.onlyTrackedSiteView();
         }
 

@@ -5,7 +5,7 @@ import MaterialTable from "material-table";
 import Button from "@material-ui/core/Button";
 import Loading from "../../../loading/LoadingBar";
 
-class SpeificTracker extends Component {
+class SpecificTracker extends Component {
 
     constructor(props, context) {
         super(props, context);
@@ -64,26 +64,38 @@ class SpeificTracker extends Component {
                     <div className="trackingTable">
                         <h2>Tracker Count:</h2>
                         <div className="trackerCount">
-                            <h2>{this.state.tableData["totalTrackedSites"]}</h2>
+                            <h2>{rows.length}</h2>
                         </div>
                         <br/>
                         <MaterialTable
                             title={trackerSite}
                             columns={[
-                                {title: 'Tracked Site', field: 'trackedSite', render: rowData => <Button size="small" onClick={() => {
-                                        this.props.getTrackedSite(rowData.trackedSite)
-                                    }} color="secondary">
-                                        {rowData.trackedSite}
-                                    </Button>},
-                                {title: 'Tracker', field: 'tracker', render: rowData => <Button size="small" onClick={() => {
+                                {
+                                    title: this.Title("Tracked site", "The site being tracked"), field: 'trackedSite', render: rowData =>
+                                        <Button size="small" onClick={() => {
+                                            this.props.getTrackedSite(rowData.trackedSite)
+                                        }} color="secondary">
+                                            {rowData.trackedSite}</Button>
+                                },
+                                {
+                                    title: this.Title("Tracker", "The tracker's domain"), field: "tracker", render: rowData => <Button size="small" onClick={() => {
                                         this.props.getTrackerSite(rowData.tracker)
                                     }} color="secondary">
                                         {rowData.tracker}
-                                    </Button>},
-                                {title: 'First Access', field: 'firstAccess'},
-                                {title: 'Last Access', field: 'lastAccess'},
-                                {title: 'Number', field: 'numberOfOccurrences'},
-                                {title: 'HTTPS', field: 'secure'},
+                                    </Button>
+                                },
+                                {
+                                    title: this.Title("First access", "The time this request was first made"), field: 'firstAccess'
+                                },
+                                {
+                                    title: this.Title("Last access", "The most recent time this request was made"), field: 'lastAccess'
+                                },
+                                {
+                                    title: this.Title("Connections", "The total number of times a connection has been made between the two sites"), field: 'numberOfOccurrences'
+                                },
+                                {
+                                    title: this.Title("Secure", "Secure – Is this third-party connection secured (e.g., using HTTPS)?"), field: 'secure'
+                                },
                             ]}
                             data={rows}
                             onChangeRowsPerPage={this.props.changeNumberOfRowsToDisplay}
@@ -104,4 +116,4 @@ class SpeificTracker extends Component {
     }
 }
 
-export default SpeificTracker;
+export default SpecificTracker;

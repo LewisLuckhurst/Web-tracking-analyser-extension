@@ -1,4 +1,12 @@
 let parentCompanyJson = {
+    "bbc": {
+        "properties": [
+            "bbci"
+        ],
+        "resources": [
+            "bbci"
+        ]
+    },
     "2leep": {
         "properties": [
             "2leep"
@@ -5141,6 +5149,7 @@ let parentCompanyJson = {
     },
     "Google": {
         "properties": [
+            "googletagmanager",
             "abc",
             "admeld",
             "blogger",
@@ -5153,6 +5162,8 @@ let parentCompanyJson = {
             "youtube"
         ],
         "resources": [
+            "googletagmanager",
+            "google",
             "2mdn",
             "admeld",
             "admob",
@@ -11882,7 +11893,7 @@ function logTracker(requestDetails) {
                         row["numberOfOccurrences"] = i + 1;
 
                         if(!wasSecure){
-                            row["secureConnection"] = "False";
+                            row["secureConnection"] = "No";
                         }
                     }
                 }
@@ -11890,9 +11901,9 @@ function logTracker(requestDetails) {
                 if (!found) {
                     let secure;
                     if (wasSecure) {
-                        secure = "True"
+                        secure = "Yes"
                     } else {
-                        secure = "False"
+                        secure = "No"
                     }
                     tableTrackers.push({
                             trackedSite: trackedSite,

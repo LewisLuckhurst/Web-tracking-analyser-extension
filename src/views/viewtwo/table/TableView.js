@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import "./TableView.css"
-import SpecificTracker from "./SpeificTracker";
+import SpecificTracker from "./SpecificTracker";
 import SpecificTrackedSite from "./SpeificTrackedSite";
 import AllSites from "./AllSites";
 
