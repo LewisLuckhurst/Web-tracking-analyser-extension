@@ -49,9 +49,6 @@ class ViewOne extends Component {
                 <div className="wrapper">
                     <div className="block">
                         <IpTracking result={this.state.result}/>
-                    </div>
-
-                    <div className="block">
                         <UserAgent result={this.state.result}/>
                     </div>
                 </div>

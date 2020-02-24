@@ -15,6 +15,7 @@
     width: 100%;
     grid-template-rows: auto;
     grid-template-columns: 2% 78% 20%;
+    margin-bottom: 25px;
 }
 
 .search {

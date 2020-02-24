@@ -5159,7 +5159,8 @@ let parentCompanyJson = {
             "ingress",
             "nest",
             "panoramio",
-            "youtube"
+            "youtube",
+            "ytimg"
         ],
         "resources": [
             "googletagmanager",
@@ -5191,7 +5192,8 @@ let parentCompanyJson = {
             "postrank",
             "recaptcha",
             "smtad",
-            "youtube"
+            "youtube",
+            "ytimg"
         ]
     },
     "gosquared": {
