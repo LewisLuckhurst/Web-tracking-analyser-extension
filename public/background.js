@@ -15,7 +15,7 @@ let parentCompanyJson = {
             "2leep"
         ]
     },
-    "33Across": {
+    "33across": {
         "properties": [
             "33across",
             "tynt"
@@ -25,7 +25,7 @@ let parentCompanyJson = {
             "tynt"
         ]
     },
-    "365Media": {
+    "365media": {
         "properties": [
             "aggregateintelligence"
         ],
@@ -34,7 +34,7 @@ let parentCompanyJson = {
             "aggregateintelligence"
         ]
     },
-    "4INFO": {
+    "4info": {
         "properties": [
             "4info",
             "adhaven"
@@ -52,7 +52,7 @@ let parentCompanyJson = {
             "4mads"
         ]
     },
-    "63 Squares": {
+    "63 squares": {
         "properties": [
             "63labs"
         ],
@@ -62,7 +62,7 @@ let parentCompanyJson = {
             "i-stats"
         ]
     },
-    "Abax Interactive": {
+    "abax interactive": {
         "properties": [
             "abaxinteractive"
         ],
@@ -70,7 +70,7 @@ let parentCompanyJson = {
             "abaxinteractive"
         ]
     },
-    "Accelia": {
+    "accelia": {
         "properties": [
             "accelia",
             "durasite"
@@ -80,7 +80,7 @@ let parentCompanyJson = {
             "durasite"
         ]
     },
-    "Accordant Media": {
+    "accordant media": {
         "properties": [
             "accordantmedia"
         ],
@@ -88,7 +88,7 @@ let parentCompanyJson = {
             "accordantmedia"
         ]
     },
-    "Acquisio": {
+    "acquisio": {
         "properties": [
             "acquisio",
             "clickequations"
@@ -98,7 +98,7 @@ let parentCompanyJson = {
             "clickequations"
         ]
     },
-    "Actisens": {
+    "actisens": {
         "properties": [
             "actisens",
             "gestionpub"
@@ -108,7 +108,7 @@ let parentCompanyJson = {
             "gestionpub"
         ]
     },
-    "ActiveConversion": {
+    "activeconversion": {
         "properties": [
             "activeconversion",
             "activemeter"
@@ -118,7 +118,7 @@ let parentCompanyJson = {
             "activemeter"
         ]
     },
-    "ActivEngage": {
+    "activengage": {
         "properties": [
             "activengage"
         ],
@@ -126,7 +126,7 @@ let parentCompanyJson = {
             "activengage"
         ]
     },
-    "Act-On": {
+    "act-on": {
         "properties": [
             "act-on",
             "actonsoftware"
@@ -136,7 +136,7 @@ let parentCompanyJson = {
             "actonsoftware"
         ]
     },
-    "Acuity": {
+    "acuity": {
         "properties": [
             "acuity",
             "acuityads",
@@ -148,7 +148,7 @@ let parentCompanyJson = {
             "acuityplatform"
         ]
     },
-    "Acxiom": {
+    "acxiom": {
         "properties": [
             "acxiom",
             "mm7"
@@ -160,7 +160,7 @@ let parentCompanyJson = {
             "pippio"
         ]
     },
-    "AD2ONE": {
+    "ad2one": {
         "properties": [
             "ad2onegroup"
         ],
@@ -168,7 +168,7 @@ let parentCompanyJson = {
             "ad2onegroup"
         ]
     },
-    "Ad4Game": {
+    "ad4game": {
         "properties": [
             "ad4game"
         ],
@@ -184,7 +184,7 @@ let parentCompanyJson = {
             "ad6media"
         ]
     },
-    "Adabra": {
+    "adabra": {
         "properties": [
             "adabra"
         ],
@@ -192,7 +192,7 @@ let parentCompanyJson = {
             "adabra"
         ]
     },
-    "Adality": {
+    "adality": {
         "properties": [
             "adality"
         ],
@@ -201,7 +201,7 @@ let parentCompanyJson = {
             "adrtx"
         ]
     },
-    "AdaptiveAds": {
+    "adaptiveads": {
         "properties": [
             "adaptiveads"
         ],
@@ -209,7 +209,7 @@ let parentCompanyJson = {
             "adaptiveads"
         ]
     },
-    "Adaptly": {
+    "adaptly": {
         "properties": [
             "adaptly"
         ],
@@ -217,7 +217,7 @@ let parentCompanyJson = {
             "adaptly"
         ]
     },
-    "Adap": {
+    "adap": {
         "properties": [
             "adap"
         ],
@@ -225,7 +225,7 @@ let parentCompanyJson = {
             "adap"
         ]
     },
-    "Adara Media": {
+    "adara media": {
         "properties": [
             "adaramedia",
             "opinmind",
@@ -237,7 +237,7 @@ let parentCompanyJson = {
             "yieldoptimizer"
         ]
     },
-    "Adatus": {
+    "adatus": {
         "properties": [
             "adatus"
         ],
@@ -245,7 +245,7 @@ let parentCompanyJson = {
             "adatus"
         ]
     },
-    "Adbot": {
+    "adbot": {
         "properties": [
             "adbot"
         ],
@@ -253,7 +253,7 @@ let parentCompanyJson = {
             "adbot"
         ]
     },
-    "Adbrain": {
+    "adbrain": {
         "properties": [
             "adbrain"
         ],
@@ -262,7 +262,7 @@ let parentCompanyJson = {
             "adbrn"
         ]
     },
-    "adBrite": {
+    "adbrite": {
         "properties": [
             "adbrite"
         ],
@@ -270,7 +270,7 @@ let parentCompanyJson = {
             "adbrite"
         ]
     },
-    "Adbroker": {
+    "adbroker": {
         "properties": [
             "adbroker"
         ],
@@ -278,7 +278,7 @@ let parentCompanyJson = {
             "adbroker"
         ]
     },
-    "Adchemy": {
+    "adchemy": {
         "properties": [
             "adchemy"
         ],
@@ -286,7 +286,7 @@ let parentCompanyJson = {
             "adchemy"
         ]
     },
-    "AdCirrus": {
+    "adcirrus": {
         "properties": [
             "adcirrus"
         ],
@@ -294,7 +294,7 @@ let parentCompanyJson = {
             "adcirrus"
         ]
     },
-    "Ad Decisive": {
+    "ad decisive": {
         "properties": [
             "a2dfp",
             "addecisive"
@@ -304,7 +304,7 @@ let parentCompanyJson = {
             "addecisive"
         ]
     },
-    "AddFreeStats": {
+    "addfreestats": {
         "properties": [
             "3dstats",
             "addfreestats"
@@ -314,7 +314,7 @@ let parentCompanyJson = {
             "addfreestats"
         ]
     },
-    "addGloo": {
+    "addgloo": {
         "properties": [
             "addgloo"
         ],
@@ -322,7 +322,7 @@ let parentCompanyJson = {
             "addgloo"
         ]
     },
-    "AddThis": {
+    "addthis": {
         "properties": [
             "addthis"
         ],
@@ -336,7 +336,7 @@ let parentCompanyJson = {
             "xgraph"
         ]
     },
-    "Addvantage Media": {
+    "addvantage media": {
         "properties": [
             "addvantagemedia"
         ],
@@ -344,7 +344,7 @@ let parentCompanyJson = {
             "addvantagemedia"
         ]
     },
-    "Ad Dynamo": {
+    "ad dynamo": {
         "properties": [
             "addynamo"
         ],
@@ -353,7 +353,7 @@ let parentCompanyJson = {
             "addynamo"
         ]
     },
-    "Adelphic": {
+    "adelphic": {
         "properties": [
             "adelphic"
         ],
@@ -362,7 +362,7 @@ let parentCompanyJson = {
             "ipredictive"
         ]
     },
-    "AdEngage": {
+    "adengage": {
         "properties": [
             "adengage"
         ],
@@ -370,7 +370,7 @@ let parentCompanyJson = {
             "adengage"
         ]
     },
-    "AD Europe": {
+    "ad europe": {
         "properties": [
             "adeurope"
         ],
@@ -378,7 +378,7 @@ let parentCompanyJson = {
             "adeurope"
         ]
     },
-    "AdExtent": {
+    "adextent": {
         "properties": [
             "adextent"
         ],
@@ -386,7 +386,7 @@ let parentCompanyJson = {
             "adextent"
         ]
     },
-    "AdF": {
+    "adf": {
         "properties": [
             "adf"
         ],
@@ -394,7 +394,7 @@ let parentCompanyJson = {
             "adf"
         ]
     },
-    "Adfonic": {
+    "adfonic": {
         "properties": [
             "adfonic"
         ],
@@ -402,7 +402,7 @@ let parentCompanyJson = {
             "adfonic"
         ]
     },
-    "Adforge": {
+    "adforge": {
         "properties": [
             "adforgeinc"
         ],
@@ -410,7 +410,7 @@ let parentCompanyJson = {
             "adforgeinc"
         ]
     },
-    "Adform": {
+    "adform": {
         "properties": [
             "adform"
         ],
@@ -420,7 +420,7 @@ let parentCompanyJson = {
             "adformdsp"
         ]
     },
-    "AdFox": {
+    "adfox": {
         "properties": [
             "adfox"
         ],
@@ -428,7 +428,7 @@ let parentCompanyJson = {
             "adfox"
         ]
     },
-    "AdFrontiers": {
+    "adfrontiers": {
         "properties": [
             "adfrontiers"
         ],
@@ -436,7 +436,7 @@ let parentCompanyJson = {
             "adfrontiers"
         ]
     },
-    "Adfunky": {
+    "adfunky": {
         "properties": [
             "adfunky",
             "adfunkyserver"
@@ -446,7 +446,7 @@ let parentCompanyJson = {
             "adfunkyserver"
         ]
     },
-    "Adfusion": {
+    "adfusion": {
         "properties": [
             "adfusion"
         ],
@@ -454,7 +454,7 @@ let parentCompanyJson = {
             "adfusion"
         ]
     },
-    "AdGainerSolutions": {
+    "adgainersolutions": {
         "properties": [
             "adgainersolutions"
         ],
@@ -462,7 +462,7 @@ let parentCompanyJson = {
             "adgainersolutions"
         ]
     },
-    "AdGent Digital": {
+    "adgent digital": {
         "properties": [
             "adgentdigital"
         ],
@@ -471,7 +471,7 @@ let parentCompanyJson = {
             "shorttailmedia"
         ]
     },
-    "AdGibbon": {
+    "adgibbon": {
         "properties": [
             "adgibbon"
         ],
@@ -479,7 +479,7 @@ let parentCompanyJson = {
             "adgibbon"
         ]
     },
-    "Adglare": {
+    "adglare": {
         "properties": [
             "adglare"
         ],
@@ -496,7 +496,7 @@ let parentCompanyJson = {
             "adhood"
         ]
     },
-    "Adiant": {
+    "adiant": {
         "properties": [
             "adblade",
             "adiant"
@@ -506,7 +506,7 @@ let parentCompanyJson = {
             "adiant"
         ]
     },
-    "AdInsight": {
+    "adinsight": {
         "properties": [
             "responsetap"
         ],
@@ -516,7 +516,7 @@ let parentCompanyJson = {
             "responsetap"
         ]
     },
-    "AdIQuity": {
+    "adiquity": {
         "properties": [
             "adiquity"
         ],
@@ -524,7 +524,7 @@ let parentCompanyJson = {
             "adiquity"
         ]
     },
-    "ADITION": {
+    "adition": {
         "properties": [
             "adition"
         ],
@@ -532,7 +532,7 @@ let parentCompanyJson = {
             "adition"
         ]
     },
-    "AdJug": {
+    "adjug": {
         "properties": [
             "adjug"
         ],
@@ -540,7 +540,7 @@ let parentCompanyJson = {
             "adjug"
         ]
     },
-    "AdJuggler": {
+    "adjuggler": {
         "properties": [
             "adjuggler",
             "adjuggler"
@@ -550,7 +550,7 @@ let parentCompanyJson = {
             "adjuggler"
         ]
     },
-    "Adjust": {
+    "adjust": {
         "properties": [
             "adjust"
         ],
@@ -558,7 +558,7 @@ let parentCompanyJson = {
             "adjust"
         ]
     },
-    "AdKeeper": {
+    "adkeeper": {
         "properties": [
             "keep"
         ],
@@ -568,7 +568,7 @@ let parentCompanyJson = {
             "keep"
         ]
     },
-    "AdKernel": {
+    "adkernel": {
         "properties": [
             "adkernel"
         ],
@@ -576,7 +576,7 @@ let parentCompanyJson = {
             "adkernel"
         ]
     },
-    "Ad Knife": {
+    "ad knife": {
         "properties": [
             "adknife"
         ],
@@ -584,7 +584,7 @@ let parentCompanyJson = {
             "adknife"
         ]
     },
-    "Adknowledge": {
+    "adknowledge": {
         "properties": [
             "adknowledge",
             "adparlor",
@@ -600,7 +600,7 @@ let parentCompanyJson = {
             "lookery"
         ]
     },
-    "AdLantis": {
+    "adlantis": {
         "properties": [
             "adimg",
             "adlantis",
@@ -612,7 +612,7 @@ let parentCompanyJson = {
             "wwwlantis"
         ]
     },
-    "AdLeave": {
+    "adleave": {
         "properties": [
             "adleave"
         ],
@@ -620,7 +620,7 @@ let parentCompanyJson = {
             "adleave"
         ]
     },
-    "Adlibrium": {
+    "adlibrium": {
         "properties": [
             "adlibrium"
         ],
@@ -628,7 +628,7 @@ let parentCompanyJson = {
             "adlibrium"
         ]
     },
-    "Adloox": {
+    "adloox": {
         "properties": [
             "adloox"
         ],
@@ -637,7 +637,7 @@ let parentCompanyJson = {
             "adlooxtracking"
         ]
     },
-    "Adlucent": {
+    "adlucent": {
         "properties": [
             "adlucent"
         ],
@@ -645,7 +645,7 @@ let parentCompanyJson = {
             "adlucent"
         ]
     },
-    "Ad Magnet": {
+    "ad magnet": {
         "properties": [
             "admagnet",
             "admagnet"
@@ -655,7 +655,7 @@ let parentCompanyJson = {
             "admagnet"
         ]
     },
-    "Admarketplace": {
+    "admarketplace": {
         "properties": [
             "admarketplace"
         ],
@@ -665,7 +665,7 @@ let parentCompanyJson = {
             "ampxchange"
         ]
     },
-    "AdMarvel": {
+    "admarvel": {
         "properties": [
             "admarvel"
         ],
@@ -673,7 +673,7 @@ let parentCompanyJson = {
             "admarvel"
         ]
     },
-    "AdMatrix": {
+    "admatrix": {
         "properties": [
             "admatrix"
         ],
@@ -681,7 +681,7 @@ let parentCompanyJson = {
             "admatrix"
         ]
     },
-    "AdMaven": {
+    "admaven": {
         "properties": [
             "ad-maven"
         ],
@@ -693,7 +693,7 @@ let parentCompanyJson = {
             "wrethicap"
         ]
     },
-    "AdMaximizer Network": {
+    "admaximizer network": {
         "properties": [
             "admaximizer"
         ],
@@ -701,7 +701,7 @@ let parentCompanyJson = {
             "admaximizer"
         ]
     },
-    "AdMedia": {
+    "admedia": {
         "properties": [
             "admedia"
         ],
@@ -709,7 +709,7 @@ let parentCompanyJson = {
             "admedia"
         ]
     },
-    "Admeta": {
+    "admeta": {
         "properties": [
             "admeta",
             "atemda"
@@ -719,7 +719,7 @@ let parentCompanyJson = {
             "atemda"
         ]
     },
-    "Admicro": {
+    "admicro": {
         "properties": [
             "admicro"
         ],
@@ -728,7 +728,7 @@ let parentCompanyJson = {
             "vcmedia"
         ]
     },
-    "Admixer": {
+    "admixer": {
         "properties": [
             "admixer"
         ],
@@ -736,7 +736,7 @@ let parentCompanyJson = {
             "admixer"
         ]
     },
-    "Admized": {
+    "admized": {
         "properties": [
             "admized"
         ],
@@ -744,7 +744,7 @@ let parentCompanyJson = {
             "admized"
         ]
     },
-    "Admobile": {
+    "admobile": {
         "properties": [
             "admobile"
         ],
@@ -752,7 +752,7 @@ let parentCompanyJson = {
             "admobile"
         ]
     },
-    "Admotion": {
+    "admotion": {
         "properties": [
             "admotion"
         ],
@@ -761,7 +761,7 @@ let parentCompanyJson = {
             "nspmotion"
         ]
     },
-    "Adnetik": {
+    "adnetik": {
         "properties": [
             "wtp101"
         ],
@@ -770,7 +770,7 @@ let parentCompanyJson = {
             "wtp101"
         ]
     },
-    "AdNetwork": {
+    "adnetwork": {
         "properties": [
             "adnetwork"
         ],
@@ -778,7 +778,7 @@ let parentCompanyJson = {
             "adnetwork"
         ]
     },
-    "Adnium": {
+    "adnium": {
         "properties": [
             "adnium"
         ],
@@ -797,7 +797,7 @@ let parentCompanyJson = {
             "heias"
         ]
     },
-    "Adobe": {
+    "adobe": {
         "properties": [
             "adobe",
             "livefyre",
@@ -823,7 +823,7 @@ let parentCompanyJson = {
             "typekit"
         ]
     },
-    "AdOcean": {
+    "adocean": {
         "properties": [
             "adocean-global",
             "adocean"
@@ -833,7 +833,7 @@ let parentCompanyJson = {
             "adocean"
         ]
     },
-    "Adometry": {
+    "adometry": {
         "properties": [
             "adometry"
         ],
@@ -842,7 +842,7 @@ let parentCompanyJson = {
             "dmtry"
         ]
     },
-    "Adomik": {
+    "adomik": {
         "properties": [
             "adomik"
         ],
@@ -850,7 +850,7 @@ let parentCompanyJson = {
             "adomik"
         ]
     },
-    "AdOnion": {
+    "adonion": {
         "properties": [
             "adonion"
         ],
@@ -858,7 +858,7 @@ let parentCompanyJson = {
             "adonion"
         ]
     },
-    "Adorika": {
+    "adorika": {
         "properties": [
             "clickotmedia"
         ],
@@ -866,7 +866,7 @@ let parentCompanyJson = {
             "clickotmedia"
         ]
     },
-    "Adotmob": {
+    "adotmob": {
         "properties": [
             "adotmob"
         ],
@@ -874,7 +874,7 @@ let parentCompanyJson = {
             "adotmob"
         ]
     },
-    "ADP Dealer Services": {
+    "adp dealer services": {
         "properties": [
             "cdkglobal"
         ],
@@ -895,7 +895,7 @@ let parentCompanyJson = {
             "adpepper"
         ]
     },
-    "AdPerfect": {
+    "adperfect": {
         "properties": [
             "adperfect"
         ],
@@ -903,7 +903,7 @@ let parentCompanyJson = {
             "adperfect"
         ]
     },
-    "Adperium": {
+    "adperium": {
         "properties": [
             "adperium"
         ],
@@ -911,7 +911,7 @@ let parentCompanyJson = {
             "adperium"
         ]
     },
-    "Adpersia": {
+    "adpersia": {
         "properties": [
             "adpersia"
         ],
@@ -919,7 +919,7 @@ let parentCompanyJson = {
             "adpersia"
         ]
     },
-    "adPrecision": {
+    "adprecision": {
         "properties": [
             "adprecision",
             "adprs"
@@ -930,7 +930,7 @@ let parentCompanyJson = {
             "aprecision"
         ]
     },
-    "AdPredictive": {
+    "adpredictive": {
         "properties": [
             "adpredictive"
         ],
@@ -938,7 +938,7 @@ let parentCompanyJson = {
             "adpredictive"
         ]
     },
-    "AdReactor": {
+    "adreactor": {
         "properties": [
             "adreactor"
         ],
@@ -946,7 +946,7 @@ let parentCompanyJson = {
             "adreactor"
         ]
     },
-    "AdReady": {
+    "adready": {
         "properties": [
             "digitalremedy"
         ],
@@ -956,7 +956,7 @@ let parentCompanyJson = {
             "digitalremedy"
         ]
     },
-    "AdRevolution": {
+    "adrevolution": {
         "properties": [
             "adrevolution"
         ],
@@ -964,7 +964,7 @@ let parentCompanyJson = {
             "adrevolution"
         ]
     },
-    "AdRiver": {
+    "adriver": {
         "properties": [
             "adriver"
         ],
@@ -982,7 +982,7 @@ let parentCompanyJson = {
             "contactimpact"
         ]
     },
-    "AdRoll": {
+    "adroll": {
         "properties": [
             "adroll"
         ],
@@ -999,7 +999,7 @@ let parentCompanyJson = {
             "stroeer"
         ]
     },
-    "Adscience": {
+    "adscience": {
         "properties": [
             "adscience"
         ],
@@ -1007,7 +1007,7 @@ let parentCompanyJson = {
             "adscience"
         ]
     },
-    "AdScore": {
+    "adscore": {
         "properties": [
             "adscoremarketing"
         ],
@@ -1015,7 +1015,7 @@ let parentCompanyJson = {
             "adsco"
         ]
     },
-    "AdServerPub": {
+    "adserverpub": {
         "properties": [
             "adserverpub"
         ],
@@ -1023,7 +1023,7 @@ let parentCompanyJson = {
             "adserverpub"
         ]
     },
-    "AdShuffle": {
+    "adshuffle": {
         "properties": [
             "adshuffle"
         ],
@@ -1031,7 +1031,7 @@ let parentCompanyJson = {
             "adshuffle"
         ]
     },
-    "AdSide": {
+    "adside": {
         "properties": [
             "adside",
             "doclix"
@@ -1041,7 +1041,7 @@ let parentCompanyJson = {
             "doclix"
         ]
     },
-    "AdSpeed": {
+    "adspeed": {
         "properties": [
             "adspeed",
             "adspeed"
@@ -1051,7 +1051,7 @@ let parentCompanyJson = {
             "adspeed"
         ]
     },
-    "Adsperity": {
+    "adsperity": {
         "properties": [
             "adsperity"
         ],
@@ -1059,7 +1059,7 @@ let parentCompanyJson = {
             "adsperity"
         ]
     },
-    "AdSpirit": {
+    "adspirit": {
         "properties": [
             "adspirit",
             "adspirit",
@@ -1071,7 +1071,7 @@ let parentCompanyJson = {
             "adspirit"
         ]
     },
-    "Adsrevenue": {
+    "adsrevenue": {
         "properties": [
             "adsrevenue"
         ],
@@ -1079,7 +1079,7 @@ let parentCompanyJson = {
             "adsrevenue"
         ]
     },
-    "AdStir": {
+    "adstir": {
         "properties": [
             "ad-stir"
         ],
@@ -1087,7 +1087,7 @@ let parentCompanyJson = {
             "ad-stir"
         ]
     },
-    "AdsTours": {
+    "adstours": {
         "properties": [
             "adstours",
             "clickintext"
@@ -1097,7 +1097,7 @@ let parentCompanyJson = {
             "clickintext"
         ]
     },
-    "Adsty": {
+    "adsty": {
         "properties": [
             "adsty",
             "adx1"
@@ -1107,7 +1107,7 @@ let parentCompanyJson = {
             "adx1"
         ]
     },
-    "Adsupply": {
+    "adsupply": {
         "properties": [
             "4dsply",
             "adsupply"
@@ -1117,7 +1117,7 @@ let parentCompanyJson = {
             "adsupply"
         ]
     },
-    "Adswizz": {
+    "adswizz": {
         "properties": [
             "adswizz"
         ],
@@ -1125,7 +1125,7 @@ let parentCompanyJson = {
             "adswizz"
         ]
     },
-    "ADTECH": {
+    "adtech": {
         "properties": [
             "adtech",
             "adtech",
@@ -1137,7 +1137,7 @@ let parentCompanyJson = {
             "adtechus"
         ]
     },
-    "Adtegrity": {
+    "adtegrity": {
         "properties": [
             "adtegrity",
             "adtegrity"
@@ -1147,7 +1147,7 @@ let parentCompanyJson = {
             "adtegrity"
         ]
     },
-    "ADTELLIGENCE": {
+    "adtelligence": {
         "properties": [
             "adtelligence"
         ],
@@ -1155,7 +1155,7 @@ let parentCompanyJson = {
             "adtelligence"
         ]
     },
-    "Adthink": {
+    "adthink": {
         "properties": [
             "adthink"
         ],
@@ -1164,7 +1164,7 @@ let parentCompanyJson = {
             "audienceinsights"
         ]
     },
-    "AdTiger": {
+    "adtiger": {
         "properties": [
             "adtiger"
         ],
@@ -1172,7 +1172,7 @@ let parentCompanyJson = {
             "adtiger"
         ]
     },
-    "AdTruth": {
+    "adtruth": {
         "properties": [
             "adtruth"
         ],
@@ -1180,7 +1180,7 @@ let parentCompanyJson = {
             "adtruth"
         ]
     },
-    "Adult AdWorld": {
+    "adult adworld": {
         "properties": [
             "adultadworld"
         ],
@@ -1188,7 +1188,7 @@ let parentCompanyJson = {
             "adultadworld"
         ]
     },
-    "Adultmoda": {
+    "adultmoda": {
         "properties": [
             "adultmoda"
         ],
@@ -1196,7 +1196,7 @@ let parentCompanyJson = {
             "adultmoda"
         ]
     },
-    "Adventive": {
+    "adventive": {
         "properties": [
             "adventive"
         ],
@@ -1204,7 +1204,7 @@ let parentCompanyJson = {
             "adventive"
         ]
     },
-    "Adventori": {
+    "adventori": {
         "properties": [
             "adventori"
         ],
@@ -1212,7 +1212,7 @@ let parentCompanyJson = {
             "adventori"
         ]
     },
-    "Adverline": {
+    "adverline": {
         "properties": [
             "adnext",
             "adverline"
@@ -1222,7 +1222,7 @@ let parentCompanyJson = {
             "adverline"
         ]
     },
-    "Adversal": {
+    "adversal": {
         "properties": [
             "adv-adserver",
             "adversal"
@@ -1232,7 +1232,7 @@ let parentCompanyJson = {
             "adversal"
         ]
     },
-    "Adverticum": {
+    "adverticum": {
         "properties": [
             "adsmart",
             "adverticum",
@@ -1244,7 +1244,7 @@ let parentCompanyJson = {
             "adverticum"
         ]
     },
-    "Advertise": {
+    "advertise": {
         "properties": [
             "advertise"
         ],
@@ -1252,7 +1252,7 @@ let parentCompanyJson = {
             "advertise"
         ]
     },
-    "AdvertiseSpace": {
+    "advertisespace": {
         "properties": [
             "advertisespace"
         ],
@@ -1260,7 +1260,7 @@ let parentCompanyJson = {
             "advertisespace"
         ]
     },
-    "Advert Stream": {
+    "advert stream": {
         "properties": [
             "advertstream"
         ],
@@ -1268,7 +1268,7 @@ let parentCompanyJson = {
             "advertstream"
         ]
     },
-    "Advisor Media": {
+    "advisor media": {
         "properties": [
             "advisormedia"
         ],
@@ -1276,7 +1276,7 @@ let parentCompanyJson = {
             "advisormedia"
         ]
     },
-    "Adworx": {
+    "adworx": {
         "properties": [
             "adworx",
             "adworx",
@@ -1288,7 +1288,7 @@ let parentCompanyJson = {
             "adworx"
         ]
     },
-    "AdXpansion": {
+    "adxpansion": {
         "properties": [
             "adxpansion"
         ],
@@ -1296,7 +1296,7 @@ let parentCompanyJson = {
             "adxpansion"
         ]
     },
-    "Adxvalue": {
+    "adxvalue": {
         "properties": [
             "adxvalue",
             "adxvalue"
@@ -1314,7 +1314,7 @@ let parentCompanyJson = {
             "adyard"
         ]
     },
-    "AdYield": {
+    "adyield": {
         "properties": [
             "adyield"
         ],
@@ -1323,7 +1323,7 @@ let parentCompanyJson = {
             "adyield"
         ]
     },
-    "AdYouLike": {
+    "adyoulike": {
         "properties": [
             "adyoulike"
         ],
@@ -1333,7 +1333,7 @@ let parentCompanyJson = {
             "pulpix"
         ]
     },
-    "ADZ": {
+    "adz": {
         "properties": [
             "adzcentral"
         ],
@@ -1341,7 +1341,7 @@ let parentCompanyJson = {
             "adzcentral"
         ]
     },
-    "Adzerk": {
+    "adzerk": {
         "properties": [
             "adzerk"
         ],
@@ -1358,7 +1358,7 @@ let parentCompanyJson = {
             "adzly"
         ]
     },
-    "Aegis Group": {
+    "aegis group": {
         "properties": [
             "aemedia",
             "bluestreak",
@@ -1370,7 +1370,7 @@ let parentCompanyJson = {
             "dentsuaegisnetwork"
         ]
     },
-    "AERIFY MEDIA": {
+    "aerify media": {
         "properties": [
             "aerifymedia",
             "anonymous-media"
@@ -1380,7 +1380,7 @@ let parentCompanyJson = {
             "anonymous-media"
         ]
     },
-    "Affectv": {
+    "affectv": {
         "properties": [
             "affectv"
         ],
@@ -1400,7 +1400,7 @@ let parentCompanyJson = {
             "successfultogether"
         ]
     },
-    "Affine": {
+    "affine": {
         "properties": [
             "affine",
             "affinesystems"
@@ -1410,7 +1410,7 @@ let parentCompanyJson = {
             "affinesystems"
         ]
     },
-    "Affinity": {
+    "affinity": {
         "properties": [
             "affinity"
         ],
@@ -1418,7 +1418,7 @@ let parentCompanyJson = {
             "affinity"
         ]
     },
-    "AfterDownload": {
+    "afterdownload": {
         "properties": [
             "afdads",
             "afterdownload"
@@ -1428,7 +1428,7 @@ let parentCompanyJson = {
             "afterdownload"
         ]
     },
-    "AIData": {
+    "aidata": {
         "properties": [
             "advombat",
             "aidata"
@@ -1438,7 +1438,7 @@ let parentCompanyJson = {
             "aidata"
         ]
     },
-    "Aim4Media": {
+    "aim4media": {
         "properties": [
             "aim4media"
         ],
@@ -1446,7 +1446,7 @@ let parentCompanyJson = {
             "aim4media"
         ]
     },
-    "Airpush": {
+    "airpush": {
         "properties": [
             "airpush"
         ],
@@ -1454,7 +1454,7 @@ let parentCompanyJson = {
             "airpush"
         ]
     },
-    "AivaLabs": {
+    "aivalabs": {
         "properties": [
             "aivalabs"
         ],
@@ -1488,7 +1488,7 @@ let parentCompanyJson = {
             "zymerget"
         ]
     },
-    "AK": {
+    "ak": {
         "properties": [
             "aggregateknowledge",
             "agkn"
@@ -1498,7 +1498,7 @@ let parentCompanyJson = {
             "agkn"
         ]
     },
-    "Akamai": {
+    "akamai": {
         "properties": [
             "akamai"
         ],
@@ -1509,7 +1509,7 @@ let parentCompanyJson = {
             "imiclk"
         ]
     },
-    "AKQA": {
+    "akqa": {
         "properties": [
             "akqa"
         ],
@@ -1518,7 +1518,7 @@ let parentCompanyJson = {
             "srtk"
         ]
     },
-    "Albacross": {
+    "albacross": {
         "properties": [
             "albacross"
         ],
@@ -1526,7 +1526,7 @@ let parentCompanyJson = {
             "albacross"
         ]
     },
-    "AllStarMediaGroup": {
+    "allstarmediagroup": {
         "properties": [
             "allstarmediagroup"
         ],
@@ -1534,7 +1534,7 @@ let parentCompanyJson = {
             "allstarmediagroup"
         ]
     },
-    "Aloodo": {
+    "aloodo": {
         "properties": [
             "aloodo"
         ],
@@ -1542,7 +1542,7 @@ let parentCompanyJson = {
             "aloodo"
         ]
     },
-    "Amadesa": {
+    "amadesa": {
         "properties": [
             "amadesa"
         ],
@@ -1550,7 +1550,7 @@ let parentCompanyJson = {
             "amadesa"
         ]
     },
-    "Amazing Counters": {
+    "amazing counters": {
         "properties": [
             "amazingcounters"
         ],
@@ -1558,7 +1558,7 @@ let parentCompanyJson = {
             "amazingcounters"
         ]
     },
-    "Amazon": {
+    "amazon": {
         "properties": [
             "6pm",
             "abebooks",
@@ -1642,7 +1642,7 @@ let parentCompanyJson = {
             "ssl-images-amazon"
         ]
     },
-    "Ambient Digital": {
+    "ambient digital": {
         "properties": [
             "adnetwork",
             "ambientdigital"
@@ -1652,7 +1652,7 @@ let parentCompanyJson = {
             "ambientdigital"
         ]
     },
-    "Amobee": {
+    "amobee": {
         "properties": [
             "amobee",
             "smartclip"
@@ -1666,7 +1666,7 @@ let parentCompanyJson = {
             "turn"
         ]
     },
-    "Amplitude": {
+    "amplitude": {
         "properties": [
             "amplitude"
         ],
@@ -1674,7 +1674,7 @@ let parentCompanyJson = {
             "amplitude"
         ]
     },
-    "AndBeyond": {
+    "andbeyond": {
         "properties": [
             "andbeyond"
         ],
@@ -1693,7 +1693,7 @@ let parentCompanyJson = {
             "primawebtools"
         ]
     },
-    "Answers": {
+    "answers": {
         "properties": [
             "answers",
             "dsply"
@@ -1702,7 +1702,7 @@ let parentCompanyJson = {
             "dsply"
         ]
     },
-    "AOL": {
+    "aol": {
         "properties": [
             "5min",
             "adsonar",
@@ -1765,7 +1765,7 @@ let parentCompanyJson = {
             "winamp"
         ]
     },
-    "AppCast": {
+    "appcast": {
         "properties": [
             "appcast"
         ],
@@ -1773,7 +1773,7 @@ let parentCompanyJson = {
             "appcast"
         ]
     },
-    "Appenda": {
+    "appenda": {
         "properties": [
             "appenda"
         ],
@@ -1781,7 +1781,7 @@ let parentCompanyJson = {
             "appenda"
         ]
     },
-    "AppFlood": {
+    "appflood": {
         "properties": [
             "appflood"
         ],
@@ -1789,7 +1789,7 @@ let parentCompanyJson = {
             "appflood"
         ]
     },
-    "Appier": {
+    "appier": {
         "properties": [
             "appier"
         ],
@@ -1797,7 +1797,7 @@ let parentCompanyJson = {
             "appier"
         ]
     },
-    "Applifier": {
+    "applifier": {
         "properties": [
             "applifier"
         ],
@@ -1805,7 +1805,7 @@ let parentCompanyJson = {
             "applifier"
         ]
     },
-    "Applovin": {
+    "applovin": {
         "properties": [
             "applovin"
         ],
@@ -1813,7 +1813,7 @@ let parentCompanyJson = {
             "applovin"
         ]
     },
-    "AppNexus": {
+    "appnexus": {
         "properties": [
             "adlantic",
             "adnxs",
@@ -1827,7 +1827,7 @@ let parentCompanyJson = {
             "appnexus"
         ]
     },
-    "AppsFlyer": {
+    "appsflyer": {
         "properties": [
             "appsflyer"
         ],
@@ -1843,7 +1843,7 @@ let parentCompanyJson = {
             "appssavvy"
         ]
     },
-    "Arkwrights Homebrew": {
+    "arkwrights homebrew": {
         "properties": [
             "whiskyandwines"
         ],
@@ -1853,7 +1853,7 @@ let parentCompanyJson = {
             "whiskyandwines"
         ]
     },
-    "AT Internet": {
+    "at internet": {
         "properties": [
             "atinternet",
             "hit-parade",
@@ -1865,7 +1865,7 @@ let parentCompanyJson = {
             "xiti"
         ]
     },
-    "ATN": {
+    "atn": {
         "properties": [
             "affiliatetracking"
         ],
@@ -1873,7 +1873,7 @@ let parentCompanyJson = {
             "affiliatetracking"
         ]
     },
-    "Atoomic": {
+    "atoomic": {
         "properties": [
             "atoomic"
         ],
@@ -1881,7 +1881,7 @@ let parentCompanyJson = {
             "atoomic"
         ]
     },
-    "Atrinsic": {
+    "atrinsic": {
         "properties": [
             "atrinsic"
         ],
@@ -1889,7 +1889,7 @@ let parentCompanyJson = {
             "atrinsic"
         ]
     },
-    "AT&T": {
+    "at&t": {
         "properties": [
             "att",
             "yp"
@@ -1899,7 +1899,7 @@ let parentCompanyJson = {
             "yp"
         ]
     },
-    "Attracta": {
+    "attracta": {
         "properties": [
             "attracta"
         ],
@@ -1907,7 +1907,7 @@ let parentCompanyJson = {
             "attracta"
         ]
     },
-    "Audience2Media": {
+    "audience2media": {
         "properties": [
             "audience2media"
         ],
@@ -1915,7 +1915,7 @@ let parentCompanyJson = {
             "audience2media"
         ]
     },
-    "Audience Ad Network": {
+    "audience ad network": {
         "properties": [
             "audienceadnetwork"
         ],
@@ -1923,7 +1923,7 @@ let parentCompanyJson = {
             "audienceadnetwork"
         ]
     },
-    "AudienceScience": {
+    "audiencescience": {
         "properties": [
             "audiencescience"
         ],
@@ -1934,7 +1934,7 @@ let parentCompanyJson = {
             "wunderloop"
         ]
     },
-    "AuditedMedia": {
+    "auditedmedia": {
         "properties": [
             "auditedmedia"
         ],
@@ -1944,7 +1944,7 @@ let parentCompanyJson = {
             "auditedmedia"
         ]
     },
-    "Augme": {
+    "augme": {
         "properties": [
             "hipcricket"
         ],
@@ -1953,7 +1953,7 @@ let parentCompanyJson = {
             "hipcricket"
         ]
     },
-    "Augur": {
+    "augur": {
         "properties": [
             "augur"
         ],
@@ -1961,7 +1961,7 @@ let parentCompanyJson = {
             "augur"
         ]
     },
-    "AUTOCENTRE": {
+    "autocentre": {
         "properties": [
             "am",
             "autocentre"
@@ -1971,7 +1971,7 @@ let parentCompanyJson = {
             "autocentre"
         ]
     },
-    "Automattic": {
+    "automattic": {
         "properties": [
             "automattic",
             "gravatar",
@@ -1986,7 +1986,7 @@ let parentCompanyJson = {
             "pubmine"
         ]
     },
-    "Avalanchers": {
+    "avalanchers": {
         "properties": [
             "avalanchers"
         ],
@@ -1994,7 +1994,7 @@ let parentCompanyJson = {
             "avalanchers"
         ]
     },
-    "AvantLink": {
+    "avantlink": {
         "properties": [
             "avantlink",
             "avantmetrics"
@@ -2004,7 +2004,7 @@ let parentCompanyJson = {
             "avmws"
         ]
     },
-    "Avocet": {
+    "avocet": {
         "properties": [
             "avocet"
         ],
@@ -2012,7 +2012,7 @@ let parentCompanyJson = {
             "avocet"
         ]
     },
-    "Avsads": {
+    "avsads": {
         "properties": [
             "avsads"
         ],
@@ -2020,7 +2020,7 @@ let parentCompanyJson = {
             "avsads"
         ]
     },
-    "AWeber": {
+    "aweber": {
         "properties": [
             "aweber"
         ],
@@ -2028,7 +2028,7 @@ let parentCompanyJson = {
             "aweber"
         ]
     },
-    "Awin": {
+    "awin": {
         "properties": [
             "awin"
         ],
@@ -2039,7 +2039,7 @@ let parentCompanyJson = {
             "perfiliate"
         ]
     },
-    "Awio": {
+    "awio": {
         "properties": [
             "awio",
             "w3counter"
@@ -2050,7 +2050,7 @@ let parentCompanyJson = {
             "w3roi"
         ]
     },
-    "Azet": {
+    "azet": {
         "properties": [
             "azet",
             "mediaimpact"
@@ -2062,7 +2062,7 @@ let parentCompanyJson = {
             "rsz"
         ]
     },
-    "BackBeat Media": {
+    "backbeat media": {
         "properties": [
             "backbeatmedia"
         ],
@@ -2070,7 +2070,7 @@ let parentCompanyJson = {
             "backbeatmedia"
         ]
     },
-    "Bannerconnect": {
+    "bannerconnect": {
         "properties": [
             "bannerconnect"
         ],
@@ -2078,7 +2078,7 @@ let parentCompanyJson = {
             "bannerconnect"
         ]
     },
-    "Barilliance": {
+    "barilliance": {
         "properties": [
             "barilliance"
         ],
@@ -2086,7 +2086,7 @@ let parentCompanyJson = {
             "barilliance"
         ]
     },
-    "BaronsNetworks": {
+    "baronsnetworks": {
         "properties": [
             "baronsoffers"
         ],
@@ -2094,7 +2094,7 @@ let parentCompanyJson = {
             "baronsoffers"
         ]
     },
-    "Batanga Network": {
+    "batanga network": {
         "properties": [
             "batanga",
             "corp",
@@ -2106,7 +2106,7 @@ let parentCompanyJson = {
             "vix"
         ]
     },
-    "Baynote": {
+    "baynote": {
         "properties": [
             "baynote"
         ],
@@ -2115,7 +2115,7 @@ let parentCompanyJson = {
             "baynote"
         ]
     },
-    "Bazaarvoice": {
+    "bazaarvoice": {
         "properties": [
             "bazaarvoice"
         ],
@@ -2123,7 +2123,7 @@ let parentCompanyJson = {
             "bazaarvoice"
         ]
     },
-    "BeachFront": {
+    "beachfront": {
         "properties": [
             "beachfront"
         ],
@@ -2131,7 +2131,7 @@ let parentCompanyJson = {
             "beachfront"
         ]
     },
-    "Beanstock Media": {
+    "beanstock media": {
         "properties": [
             "beanstockmedia"
         ],
@@ -2147,7 +2147,7 @@ let parentCompanyJson = {
             "beencounter"
         ]
     },
-    "Begun": {
+    "begun": {
         "properties": [
             "begun"
         ],
@@ -2164,7 +2164,7 @@ let parentCompanyJson = {
             "belboon"
         ]
     },
-    "Belstat": {
+    "belstat": {
         "properties": [
             "belstat",
             "belstat",
@@ -2180,7 +2180,7 @@ let parentCompanyJson = {
             "belstat"
         ]
     },
-    "Betgenius": {
+    "betgenius": {
         "properties": [
             "betgenius",
             "connextra"
@@ -2190,7 +2190,7 @@ let parentCompanyJson = {
             "connextra"
         ]
     },
-    "BetssonPalantir": {
+    "betssonpalantir": {
         "properties": [
             "betssonpalantir"
         ],
@@ -2198,7 +2198,7 @@ let parentCompanyJson = {
             "betssonpalantir"
         ]
     },
-    "BetweenDigital": {
+    "betweendigital": {
         "properties": [
             "betweendigital"
         ],
@@ -2206,7 +2206,7 @@ let parentCompanyJson = {
             "betweendigital"
         ]
     },
-    "Bidfluence": {
+    "bidfluence": {
         "properties": [
             "bidfluence"
         ],
@@ -2214,7 +2214,7 @@ let parentCompanyJson = {
             "bidfluence"
         ]
     },
-    "Bidr": {
+    "bidr": {
         "properties": [
             "bidr"
         ],
@@ -2222,7 +2222,7 @@ let parentCompanyJson = {
             "bidr"
         ]
     },
-    "BidSwitch": {
+    "bidswitch": {
         "properties": [
             "bidswitch"
         ],
@@ -2231,7 +2231,7 @@ let parentCompanyJson = {
             "mfadsrvr"
         ]
     },
-    "Bidtellect": {
+    "bidtellect": {
         "properties": [
             "bidtellect",
             "bttrack"
@@ -2241,7 +2241,7 @@ let parentCompanyJson = {
             "bttrack"
         ]
     },
-    "BidVertiser": {
+    "bidvertiser": {
         "properties": [
             "bidvertiser"
         ],
@@ -2249,7 +2249,7 @@ let parentCompanyJson = {
             "bidvertiser"
         ]
     },
-    "BigClick": {
+    "bigclick": {
         "properties": [
             "bigclick"
         ],
@@ -2258,7 +2258,7 @@ let parentCompanyJson = {
             "xcvgdf"
         ]
     },
-    "BigDoor": {
+    "bigdoor": {
         "properties": [
             "bigdoor"
         ],
@@ -2275,7 +2275,7 @@ let parentCompanyJson = {
             "bigmir"
         ]
     },
-    "BinLayer": {
+    "binlayer": {
         "properties": [
             "binlayer"
         ],
@@ -2283,7 +2283,7 @@ let parentCompanyJson = {
             "binlayer"
         ]
     },
-    "Bitcoin Plus": {
+    "bitcoin plus": {
         "properties": [
             "bitcoinplus"
         ],
@@ -2291,7 +2291,7 @@ let parentCompanyJson = {
             "bitcoinplus"
         ]
     },
-    "BitMedia": {
+    "bitmedia": {
         "properties": [
             "bitmedia"
         ],
@@ -2299,7 +2299,7 @@ let parentCompanyJson = {
             "bitmedia"
         ]
     },
-    "BittAds": {
+    "bittads": {
         "properties": [
             "bittads"
         ],
@@ -2307,7 +2307,7 @@ let parentCompanyJson = {
             "bittads"
         ]
     },
-    "Bizo": {
+    "bizo": {
         "properties": [
             "bizo",
             "bizographics"
@@ -2317,7 +2317,7 @@ let parentCompanyJson = {
             "bizographics"
         ]
     },
-    "Black Label Ads": {
+    "black label ads": {
         "properties": [
             "blacklabelads"
         ],
@@ -2325,7 +2325,7 @@ let parentCompanyJson = {
             "blacklabelads"
         ]
     },
-    "BlogCatalog": {
+    "blogcatalog": {
         "properties": [
             "blogcatalog"
         ],
@@ -2333,7 +2333,7 @@ let parentCompanyJson = {
             "blogcatalog"
         ]
     },
-    "BlogCounter": {
+    "blogcounter": {
         "properties": [
             "blogcounter"
         ],
@@ -2341,7 +2341,7 @@ let parentCompanyJson = {
             "blogcounter"
         ]
     },
-    "BlogFrog": {
+    "blogfrog": {
         "properties": [
             "theblogfrog"
         ],
@@ -2349,7 +2349,7 @@ let parentCompanyJson = {
             "theblogfrog"
         ]
     },
-    "BlogHer": {
+    "blogher": {
         "properties": [
             "blogher",
             "blogherads"
@@ -2359,7 +2359,7 @@ let parentCompanyJson = {
             "blogherads"
         ]
     },
-    "BlogRollr": {
+    "blogrollr": {
         "properties": [
             "blogrollr"
         ],
@@ -2367,7 +2367,7 @@ let parentCompanyJson = {
             "blogrollr"
         ]
     },
-    "BLOOM Digital Platforms": {
+    "bloom digital platforms": {
         "properties": [
             "adgear",
             "bloom-hq"
@@ -2378,7 +2378,7 @@ let parentCompanyJson = {
             "bloom-hq"
         ]
     },
-    "BloomReach": {
+    "bloomreach": {
         "properties": [
             "bloomreach",
             "brcdn"
@@ -2389,7 +2389,7 @@ let parentCompanyJson = {
             "brsrvr"
         ]
     },
-    "BlueCava": {
+    "bluecava": {
         "properties": [
             "bluecava"
         ],
@@ -2397,7 +2397,7 @@ let parentCompanyJson = {
             "bluecava"
         ]
     },
-    "BlueKai": {
+    "bluekai": {
         "properties": [
             "bluekai",
             "tracksimple"
@@ -2408,7 +2408,7 @@ let parentCompanyJson = {
             "tracksimple"
         ]
     },
-    "Bluemetrix": {
+    "bluemetrix": {
         "properties": [
             "bluemetrix",
             "bmmetrix"
@@ -2418,7 +2418,7 @@ let parentCompanyJson = {
             "bmmetrix"
         ]
     },
-    "Blu Trumpet": {
+    "blu trumpet": {
         "properties": [
             "blutrumpet"
         ],
@@ -2426,7 +2426,7 @@ let parentCompanyJson = {
             "blutrumpet"
         ]
     },
-    "Bombora": {
+    "bombora": {
         "properties": [
             "bombora"
         ],
@@ -2434,7 +2434,7 @@ let parentCompanyJson = {
             "ml314"
         ]
     },
-    "Boo-Box": {
+    "boo-box": {
         "properties": [
             "boo-box"
         ],
@@ -2442,7 +2442,7 @@ let parentCompanyJson = {
             "boo-box"
         ]
     },
-    "BoostBox": {
+    "boostbox": {
         "properties": [
             "boostbox"
         ],
@@ -2450,7 +2450,7 @@ let parentCompanyJson = {
             "boostbox"
         ]
     },
-    "Bouncex": {
+    "bouncex": {
         "properties": [
             "bouncex"
         ],
@@ -2460,7 +2460,7 @@ let parentCompanyJson = {
             "bouncex"
         ]
     },
-    "Brainient": {
+    "brainient": {
         "properties": [
             "brainient"
         ],
@@ -2468,7 +2468,7 @@ let parentCompanyJson = {
             "brainient"
         ]
     },
-    "Branch": {
+    "branch": {
         "properties": [
             "branch"
         ],
@@ -2476,7 +2476,7 @@ let parentCompanyJson = {
             "branch"
         ]
     },
-    "Brand Affinity Technologies": {
+    "brand affinity technologies": {
         "properties": [
             "brandaffinity"
         ],
@@ -2484,7 +2484,7 @@ let parentCompanyJson = {
             "brandaffinity"
         ]
     },
-    "Brandcrumb": {
+    "brandcrumb": {
         "properties": [
             "brandcrumb"
         ],
@@ -2492,7 +2492,7 @@ let parentCompanyJson = {
             "brandcrumb"
         ]
     },
-    "Brand": {
+    "brand": {
         "properties": [
             "brand"
         ],
@@ -2500,7 +2500,7 @@ let parentCompanyJson = {
             "brand"
         ]
     },
-    "Brandscreen": {
+    "brandscreen": {
         "properties": [
             "brandscreen",
             "rtbidder"
@@ -2510,7 +2510,7 @@ let parentCompanyJson = {
             "rtbidder"
         ]
     },
-    "Branica": {
+    "branica": {
         "properties": [
             "branica"
         ],
@@ -2518,7 +2518,7 @@ let parentCompanyJson = {
             "branica"
         ]
     },
-    "BreakTime": {
+    "breaktime": {
         "properties": [
             "breaktime"
         ],
@@ -2526,7 +2526,7 @@ let parentCompanyJson = {
             "breaktime"
         ]
     },
-    "Brightcove": {
+    "brightcove": {
         "properties": [
             "brightcove"
         ],
@@ -2534,7 +2534,7 @@ let parentCompanyJson = {
             "brightcove"
         ]
     },
-    "BrightEdge": {
+    "brightedge": {
         "properties": [
             "brightedge"
         ],
@@ -2543,7 +2543,7 @@ let parentCompanyJson = {
             "brightedge"
         ]
     },
-    "BrightRoll": {
+    "brightroll": {
         "properties": [
             "brightroll"
         ],
@@ -2552,7 +2552,7 @@ let parentCompanyJson = {
             "btrll"
         ]
     },
-    "BrightTag": {
+    "brighttag": {
         "properties": [
             "brighttag",
             "btstatic",
@@ -2564,7 +2564,7 @@ let parentCompanyJson = {
             "thebrighttag"
         ]
     },
-    "Brilig": {
+    "brilig": {
         "properties": [
             "brilig"
         ],
@@ -2572,7 +2572,7 @@ let parentCompanyJson = {
             "brilig"
         ]
     },
-    "Browser-Update": {
+    "browser-update": {
         "properties": [
             "browser-update"
         ],
@@ -2580,7 +2580,7 @@ let parentCompanyJson = {
             "browser-update"
         ]
     },
-    "BTBuckets": {
+    "btbuckets": {
         "properties": [
             "btbuckets"
         ],
@@ -2588,7 +2588,7 @@ let parentCompanyJson = {
             "btbuckets"
         ]
     },
-    "Bubblestat": {
+    "bubblestat": {
         "properties": [
             "bubblestat"
         ],
@@ -2596,7 +2596,7 @@ let parentCompanyJson = {
             "bubblestat"
         ]
     },
-    "BuckSense": {
+    "bucksense": {
         "properties": [
             "bucksense"
         ],
@@ -2604,7 +2604,7 @@ let parentCompanyJson = {
             "bucksense"
         ]
     },
-    "Buffer": {
+    "buffer": {
         "properties": [
             "bufferapp"
         ],
@@ -2612,7 +2612,7 @@ let parentCompanyJson = {
             "bufferapp"
         ]
     },
-    "Bunchball": {
+    "bunchball": {
         "properties": [
             "bunchball"
         ],
@@ -2620,7 +2620,7 @@ let parentCompanyJson = {
             "bunchball"
         ]
     },
-    "Burstly": {
+    "burstly": {
         "properties": [
             "burstly"
         ],
@@ -2628,7 +2628,7 @@ let parentCompanyJson = {
             "burstly"
         ]
     },
-    "Burst Media": {
+    "burst media": {
         "properties": [
             "burstbeacon",
             "burstdirectads",
@@ -2644,7 +2644,7 @@ let parentCompanyJson = {
             "giantrealm"
         ]
     },
-    "BusinessOnline": {
+    "businessonline": {
         "properties": [
             "businessol"
         ],
@@ -2652,7 +2652,7 @@ let parentCompanyJson = {
             "businessol"
         ]
     },
-    "Button": {
+    "button": {
         "properties": [
             "usebutton"
         ],
@@ -2660,7 +2660,7 @@ let parentCompanyJson = {
             "usebutton"
         ]
     },
-    "buySAFE": {
+    "buysafe": {
         "properties": [
             "buysafe"
         ],
@@ -2668,7 +2668,7 @@ let parentCompanyJson = {
             "buysafe"
         ]
     },
-    "BuySellAds": {
+    "buysellads": {
         "properties": [
             "beaconads",
             "buysellads"
@@ -2678,7 +2678,7 @@ let parentCompanyJson = {
             "buysellads"
         ]
     },
-    "Buysight": {
+    "buysight": {
         "properties": [
             "buysight",
             "permuto",
@@ -2690,7 +2690,7 @@ let parentCompanyJson = {
             "pulsemgr"
         ]
     },
-    "BuzzFeed": {
+    "buzzfeed": {
         "properties": [
             "buzzfeed"
         ],
@@ -2699,7 +2699,7 @@ let parentCompanyJson = {
             "buzzfeed"
         ]
     },
-    "BuzzParadise": {
+    "buzzparadise": {
         "properties": [
             "buzzparadise"
         ],
@@ -2707,7 +2707,7 @@ let parentCompanyJson = {
             "buzzparadise"
         ]
     },
-    "BV! MEDIA": {
+    "bv! media": {
         "properties": [
             "branchez-vous",
             "bvmedia"
@@ -2727,7 +2727,7 @@ let parentCompanyJson = {
             "c1exchange"
         ]
     },
-    "C3 Metrics": {
+    "c3 metrics": {
         "properties": [
             "attributionmodel",
             "c3metrics",
@@ -2739,7 +2739,7 @@ let parentCompanyJson = {
             "c3tag"
         ]
     },
-    "Cadreon": {
+    "cadreon": {
         "properties": [
             "cadreon"
         ],
@@ -2747,7 +2747,7 @@ let parentCompanyJson = {
             "cadreon"
         ]
     },
-    "CallSource": {
+    "callsource": {
         "properties": [
             "callsource"
         ],
@@ -2755,7 +2755,7 @@ let parentCompanyJson = {
             "leadtrackingdata"
         ]
     },
-    "CampaignGrid": {
+    "campaigngrid": {
         "properties": [
             "campaigngrid"
         ],
@@ -2763,7 +2763,7 @@ let parentCompanyJson = {
             "campaigngrid"
         ]
     },
-    "CAPITALDATA": {
+    "capitaldata": {
         "properties": [
             "capitaldata"
         ],
@@ -2771,7 +2771,7 @@ let parentCompanyJson = {
             "capitaldata"
         ]
     },
-    "Carambola": {
+    "carambola": {
         "properties": [
             "carambola"
         ],
@@ -2779,7 +2779,7 @@ let parentCompanyJson = {
             "carambo"
         ]
     },
-    "Caraytech": {
+    "caraytech": {
         "properties": [
             "caraytech",
             "e-planning",
@@ -2791,7 +2791,7 @@ let parentCompanyJson = {
             "www"
         ]
     },
-    "Cardlytics": {
+    "cardlytics": {
         "properties": [
             "cardlytics"
         ],
@@ -2799,7 +2799,7 @@ let parentCompanyJson = {
             "cardlytics"
         ]
     },
-    "Cart": {
+    "cart": {
         "properties": [
             "cart"
         ],
@@ -2808,7 +2808,7 @@ let parentCompanyJson = {
             "statistics"
         ]
     },
-    "CartsGuru": {
+    "cartsguru": {
         "properties": [
             "carts"
         ],
@@ -2816,7 +2816,7 @@ let parentCompanyJson = {
             "carts"
         ]
     },
-    "Casale Media": {
+    "casale media": {
         "properties": [
             "casalemedia",
             "medianet"
@@ -2826,7 +2826,7 @@ let parentCompanyJson = {
             "medianet"
         ]
     },
-    "CashBeet": {
+    "cashbeet": {
         "properties": [
             "cashbeet"
         ],
@@ -2835,7 +2835,7 @@ let parentCompanyJson = {
             "serv1swork"
         ]
     },
-    "Causes": {
+    "causes": {
         "properties": [
             "causes"
         ],
@@ -2843,7 +2843,7 @@ let parentCompanyJson = {
             "causes"
         ]
     },
-    "Cbox": {
+    "cbox": {
         "properties": [
             "cbox"
         ],
@@ -2851,7 +2851,7 @@ let parentCompanyJson = {
             "cbox"
         ]
     },
-    "CBproADS": {
+    "cbproads": {
         "properties": [
             "cbproads"
         ],
@@ -2859,7 +2859,7 @@ let parentCompanyJson = {
             "cbproads"
         ]
     },
-    "CBS Interactive": {
+    "cbs interactive": {
         "properties": [
             "cbsinteractive",
             "com"
@@ -2869,7 +2869,7 @@ let parentCompanyJson = {
             "com"
         ]
     },
-    "Cedato": {
+    "cedato": {
         "properties": [
             "cedato"
         ],
@@ -2877,7 +2877,7 @@ let parentCompanyJson = {
             "cedato"
         ]
     },
-    "Cedexis": {
+    "cedexis": {
         "properties": [
             "cedexis"
         ],
@@ -2886,7 +2886,7 @@ let parentCompanyJson = {
             "cedexis"
         ]
     },
-    "Certona": {
+    "certona": {
         "properties": [
             "certona",
             "res-x"
@@ -2896,7 +2896,7 @@ let parentCompanyJson = {
             "res-x"
         ]
     },
-    "Chango": {
+    "chango": {
         "properties": [
             "chango",
             "chango"
@@ -2906,7 +2906,7 @@ let parentCompanyJson = {
             "chango"
         ]
     },
-    "ChannelAdvisor": {
+    "channeladvisor": {
         "properties": [
             "channeladvisor",
             "searchmarketing"
@@ -2916,7 +2916,7 @@ let parentCompanyJson = {
             "searchmarketing"
         ]
     },
-    "Channel Intelligence": {
+    "channel intelligence": {
         "properties": [
             "channelintelligence"
         ],
@@ -2924,7 +2924,7 @@ let parentCompanyJson = {
             "channelintelligence"
         ]
     },
-    "Chartbeat": {
+    "chartbeat": {
         "properties": [
             "chartbeat",
             "chartbeat"
@@ -2934,7 +2934,7 @@ let parentCompanyJson = {
             "chartbeat"
         ]
     },
-    "Chartboost": {
+    "chartboost": {
         "properties": [
             "chartboost"
         ],
@@ -2942,7 +2942,7 @@ let parentCompanyJson = {
             "chartboost"
         ]
     },
-    "CheckM8": {
+    "checkm8": {
         "properties": [
             "checkm8"
         ],
@@ -2950,7 +2950,7 @@ let parentCompanyJson = {
             "checkm8"
         ]
     },
-    "Chitika": {
+    "chitika": {
         "properties": [
             "chitika"
         ],
@@ -2959,7 +2959,7 @@ let parentCompanyJson = {
             "chitika"
         ]
     },
-    "ChoiceStream": {
+    "choicestream": {
         "properties": [
             "choicestream"
         ],
@@ -2967,7 +2967,7 @@ let parentCompanyJson = {
             "choicestream"
         ]
     },
-    "ClearLink": {
+    "clearlink": {
         "properties": [
             "clearlink"
         ],
@@ -2975,7 +2975,7 @@ let parentCompanyJson = {
             "clearlink"
         ]
     },
-    "ClearSaleing": {
+    "clearsaleing": {
         "properties": [
             "clearsaleing"
         ],
@@ -2986,7 +2986,7 @@ let parentCompanyJson = {
             "csdata3"
         ]
     },
-    "Clearsearch Media": {
+    "clearsearch media": {
         "properties": [
             "pathinteractive"
         ],
@@ -2996,7 +2996,7 @@ let parentCompanyJson = {
             "pathinteractive"
         ]
     },
-    "ClearSight Interactive": {
+    "clearsight interactive": {
         "properties": [
             "clearsightinteractive",
             "csi-tracking"
@@ -3006,7 +3006,7 @@ let parentCompanyJson = {
             "csi-tracking"
         ]
     },
-    "ClickAider": {
+    "clickaider": {
         "properties": [
             "clickaider"
         ],
@@ -3014,7 +3014,7 @@ let parentCompanyJson = {
             "clickaider"
         ]
     },
-    "Clickayab": {
+    "clickayab": {
         "properties": [
             "clickyab"
         ],
@@ -3022,7 +3022,7 @@ let parentCompanyJson = {
             "clickyab"
         ]
     },
-    "Clickbooth": {
+    "clickbooth": {
         "properties": [
             "clickbooth"
         ],
@@ -3031,7 +3031,7 @@ let parentCompanyJson = {
             "clickbooth"
         ]
     },
-    "Clickdensity": {
+    "clickdensity": {
         "properties": [
             "clickdensity"
         ],
@@ -3039,7 +3039,7 @@ let parentCompanyJson = {
             "clickdensity"
         ]
     },
-    "ClickDimensions": {
+    "clickdimensions": {
         "properties": [
             "clickdimensions"
         ],
@@ -3047,7 +3047,7 @@ let parentCompanyJson = {
             "clickdimensions"
         ]
     },
-    "ClickDistrict": {
+    "clickdistrict": {
         "properties": [
             "clickdistrict",
             "creative-serving"
@@ -3057,7 +3057,7 @@ let parentCompanyJson = {
             "creative-serving"
         ]
     },
-    "ClickFrog": {
+    "clickfrog": {
         "properties": [
             "clickfrog"
         ],
@@ -3071,7 +3071,7 @@ let parentCompanyJson = {
             "wisokykulas"
         ]
     },
-    "ClickFuel": {
+    "clickfuel": {
         "properties": [
             "clickfuel",
             "myconversionlab"
@@ -3082,7 +3082,7 @@ let parentCompanyJson = {
             "myconversionlab"
         ]
     },
-    "ClickGuard": {
+    "clickguard": {
         "properties": [
             "clickguard"
         ],
@@ -3090,7 +3090,7 @@ let parentCompanyJson = {
             "clickguard"
         ]
     },
-    "ClickInc": {
+    "clickinc": {
         "properties": [
             "clickinc"
         ],
@@ -3098,7 +3098,7 @@ let parentCompanyJson = {
             "clickinc"
         ]
     },
-    "Clicksor": {
+    "clicksor": {
         "properties": [
             "clicksor",
             "clicksor"
@@ -3108,7 +3108,7 @@ let parentCompanyJson = {
             "clicksor"
         ]
     },
-    "ClickTale": {
+    "clicktale": {
         "properties": [
             "clicktale"
         ],
@@ -3118,7 +3118,7 @@ let parentCompanyJson = {
             "pantherssl"
         ]
     },
-    "Clickwinks": {
+    "clickwinks": {
         "properties": [
             "clickwinks"
         ],
@@ -3126,7 +3126,7 @@ let parentCompanyJson = {
             "clickwinks"
         ]
     },
-    "ClicManager": {
+    "clicmanager": {
         "properties": [
             "clicmanager"
         ],
@@ -3134,7 +3134,7 @@ let parentCompanyJson = {
             "clicmanager"
         ]
     },
-    "ClipSyndicate": {
+    "clipsyndicate": {
         "properties": [
             "clipsyndicate"
         ],
@@ -3142,7 +3142,7 @@ let parentCompanyJson = {
             "clipsyndicate"
         ]
     },
-    "ClixMetrix": {
+    "clixmetrix": {
         "properties": [
             "clixmetrix"
         ],
@@ -3150,7 +3150,7 @@ let parentCompanyJson = {
             "clixmetrix"
         ]
     },
-    "Clixpy": {
+    "clixpy": {
         "properties": [
             "clixpy"
         ],
@@ -3158,7 +3158,7 @@ let parentCompanyJson = {
             "clixpy"
         ]
     },
-    "Clixtell": {
+    "clixtell": {
         "properties": [
             "clixtell"
         ],
@@ -3166,7 +3166,7 @@ let parentCompanyJson = {
             "clixtell"
         ]
     },
-    "Clove Network": {
+    "clove network": {
         "properties": [
             "clovenetwork"
         ],
@@ -3174,7 +3174,7 @@ let parentCompanyJson = {
             "clovenetwork"
         ]
     },
-    "ClustrMaps": {
+    "clustrmaps": {
         "properties": [
             "clustrmaps"
         ],
@@ -3182,7 +3182,7 @@ let parentCompanyJson = {
             "clustrmaps"
         ]
     },
-    "CNZZ": {
+    "cnzz": {
         "properties": [
             "cnzz"
         ],
@@ -3190,7 +3190,7 @@ let parentCompanyJson = {
             "cnzz"
         ]
     },
-    "Cognitive Match": {
+    "cognitive match": {
         "properties": [
             "cmads",
             "cmadsasia",
@@ -3206,7 +3206,7 @@ let parentCompanyJson = {
             "cognitivematch"
         ]
     },
-    "CoinHive": {
+    "coinhive": {
         "properties": [
             "authedmine",
             "coinhive"
@@ -3221,7 +3221,7 @@ let parentCompanyJson = {
             "wsservices"
         ]
     },
-    "CoinPot": {
+    "coinpot": {
         "properties": [
             "coinpot"
         ],
@@ -3229,7 +3229,7 @@ let parentCompanyJson = {
             "coinpot"
         ]
     },
-    "Collarity": {
+    "collarity": {
         "properties": [
             "collarity"
         ],
@@ -3237,7 +3237,7 @@ let parentCompanyJson = {
             "collarity"
         ]
     },
-    "Collective": {
+    "collective": {
         "properties": [
             "collective"
         ],
@@ -3250,7 +3250,7 @@ let parentCompanyJson = {
             "yt1187"
         ]
     },
-    "Commission Junction": {
+    "commission junction": {
         "properties": [
             "cj"
         ],
@@ -3266,7 +3266,7 @@ let parentCompanyJson = {
             "yceml"
         ]
     },
-    "Communicator Corp": {
+    "communicator corp": {
         "properties": [
             "communicatorcorp"
         ],
@@ -3274,7 +3274,7 @@ let parentCompanyJson = {
             "communicatorcorp"
         ]
     },
-    "Compass Labs": {
+    "compass labs": {
         "properties": [
             "compasslabs"
         ],
@@ -3282,7 +3282,7 @@ let parentCompanyJson = {
             "compasslabs"
         ]
     },
-    "Complex Media": {
+    "complex media": {
         "properties": [
             "collider",
             "complex",
@@ -3297,7 +3297,7 @@ let parentCompanyJson = {
             "complexmedianetwork"
         ]
     },
-    "Compuware": {
+    "compuware": {
         "properties": [
             "axf8",
             "compuware",
@@ -3310,7 +3310,7 @@ let parentCompanyJson = {
             "gomez"
         ]
     },
-    "comScore": {
+    "comscore": {
         "properties": [
             "adxpose",
             "comscore",
@@ -3331,7 +3331,7 @@ let parentCompanyJson = {
             "voicefive"
         ]
     },
-    "Conduit": {
+    "conduit": {
         "properties": [
             "conduit-banners",
             "conduit"
@@ -3343,7 +3343,7 @@ let parentCompanyJson = {
             "wibiya"
         ]
     },
-    "Congoo": {
+    "congoo": {
         "properties": [
             "congoo"
         ],
@@ -3351,7 +3351,7 @@ let parentCompanyJson = {
             "congoo"
         ]
     },
-    "Connatix": {
+    "connatix": {
         "properties": [
             "connatix"
         ],
@@ -3359,7 +3359,7 @@ let parentCompanyJson = {
             "connatix"
         ]
     },
-    "Connexity": {
+    "connexity": {
         "properties": [
             "connexity",
             "pricegrabber"
@@ -3370,7 +3370,7 @@ let parentCompanyJson = {
             "pricegrabber"
         ]
     },
-    "Consilium Media": {
+    "consilium media": {
         "properties": [
             "consiliummedia"
         ],
@@ -3378,7 +3378,7 @@ let parentCompanyJson = {
             "consiliummedia"
         ]
     },
-    "Consumable": {
+    "consumable": {
         "properties": [
             "consumable"
         ],
@@ -3386,7 +3386,7 @@ let parentCompanyJson = {
             "consumable"
         ]
     },
-    "Contact At Once!": {
+    "contact at once!": {
         "properties": [
             "contactatonce"
         ],
@@ -3394,7 +3394,7 @@ let parentCompanyJson = {
             "contactatonce"
         ]
     },
-    "CONTAXE": {
+    "contaxe": {
         "properties": [
             "contaxe"
         ],
@@ -3402,7 +3402,7 @@ let parentCompanyJson = {
             "contaxe"
         ]
     },
-    "ContentABC": {
+    "contentabc": {
         "properties": [
             "contentabc"
         ],
@@ -3410,7 +3410,7 @@ let parentCompanyJson = {
             "contentabc"
         ]
     },
-    "CONTEXTin": {
+    "contextin": {
         "properties": [
             "admailtiser",
             "contextin"
@@ -3420,7 +3420,7 @@ let parentCompanyJson = {
             "contextin"
         ]
     },
-    "ContextuAds": {
+    "contextuads": {
         "properties": [
             "agencytradingdesk",
             "contextuads"
@@ -3430,7 +3430,7 @@ let parentCompanyJson = {
             "contextuads"
         ]
     },
-    "CONTEXTWEB": {
+    "contextweb": {
         "properties": [
             "contextweb"
         ],
@@ -3438,7 +3438,7 @@ let parentCompanyJson = {
             "contextweb"
         ]
     },
-    "ConvergeDirect": {
+    "convergedirect": {
         "properties": [
             "convergedirect",
             "convergetrack"
@@ -3448,7 +3448,7 @@ let parentCompanyJson = {
             "convergetrack"
         ]
     },
-    "ConversantMedia": {
+    "conversantmedia": {
         "properties": [
             "conversantmedia"
         ],
@@ -3468,7 +3468,7 @@ let parentCompanyJson = {
             "valueclickmedia"
         ]
     },
-    "ConversionRuler": {
+    "conversionruler": {
         "properties": [
             "conversionruler"
         ],
@@ -3476,7 +3476,7 @@ let parentCompanyJson = {
             "conversionruler"
         ]
     },
-    "Conversive": {
+    "conversive": {
         "properties": [
             "conversive"
         ],
@@ -3484,7 +3484,7 @@ let parentCompanyJson = {
             "conversive"
         ]
     },
-    "Convert Insights": {
+    "convert insights": {
         "properties": [
             "convert",
             "reedge"
@@ -3494,7 +3494,7 @@ let parentCompanyJson = {
             "reedge"
         ]
     },
-    "Convertro": {
+    "convertro": {
         "properties": [
             "convertro"
         ],
@@ -3502,7 +3502,7 @@ let parentCompanyJson = {
             "convertro"
         ]
     },
-    "Conviva": {
+    "conviva": {
         "properties": [
             "conviva"
         ],
@@ -3510,7 +3510,7 @@ let parentCompanyJson = {
             "conviva"
         ]
     },
-    "CoreMotives": {
+    "coremotives": {
         "properties": [
             "coremotives"
         ],
@@ -3518,7 +3518,7 @@ let parentCompanyJson = {
             "coremotives"
         ]
     },
-    "Cox Digital Solutions": {
+    "cox digital solutions": {
         "properties": [
             "adify",
             "coxdigitalsolutions",
@@ -3531,7 +3531,7 @@ let parentCompanyJson = {
             "novomotus"
         ]
     },
-    "CPMStar": {
+    "cpmstar": {
         "properties": [
             "cpmstar"
         ],
@@ -3539,7 +3539,7 @@ let parentCompanyJson = {
             "cpmstar"
         ]
     },
-    "CPX Interactive": {
+    "cpx interactive": {
         "properties": [
             "cpxadroit"
         ],
@@ -3549,7 +3549,7 @@ let parentCompanyJson = {
             "cpxinteractive"
         ]
     },
-    "Crazy Egg": {
+    "crazy egg": {
         "properties": [
             "cetrk",
             "crazyegg"
@@ -3559,7 +3559,7 @@ let parentCompanyJson = {
             "crazyegg"
         ]
     },
-    "Creafi": {
+    "creafi": {
         "properties": [
             "creafi"
         ],
@@ -3567,7 +3567,7 @@ let parentCompanyJson = {
             "creafi"
         ]
     },
-    "Crimtan": {
+    "crimtan": {
         "properties": [
             "crimtan"
         ],
@@ -3575,7 +3575,7 @@ let parentCompanyJson = {
             "crimtan"
         ]
     },
-    "Crisp Media": {
+    "crisp media": {
         "properties": [
             "crispmedia"
         ],
@@ -3583,7 +3583,7 @@ let parentCompanyJson = {
             "crispmedia"
         ]
     },
-    "Criteo": {
+    "criteo": {
         "properties": [
             "criteo",
             "criteo"
@@ -3595,7 +3595,7 @@ let parentCompanyJson = {
             "hooklogic"
         ]
     },
-    "Cross Pixel": {
+    "cross pixel": {
         "properties": [
             "crosspixel"
         ],
@@ -3605,7 +3605,7 @@ let parentCompanyJson = {
             "crsspxl"
         ]
     },
-    "Crowd Science": {
+    "crowd science": {
         "properties": [
             "crowdscience"
         ],
@@ -3613,7 +3613,7 @@ let parentCompanyJson = {
             "crowdscience"
         ]
     },
-    "CryptoLoot": {
+    "cryptoloot": {
         "properties": [
             "crypto-loot"
         ],
@@ -3628,7 +3628,7 @@ let parentCompanyJson = {
             "webmine"
         ]
     },
-    "CryptoWebMiner": {
+    "cryptowebminer": {
         "properties": [
             "crypto-webminer"
         ],
@@ -3639,7 +3639,7 @@ let parentCompanyJson = {
             "ethtrader"
         ]
     },
-    "cXense": {
+    "cxense": {
         "properties": [
             "cxense"
         ],
@@ -3651,7 +3651,7 @@ let parentCompanyJson = {
             "emediate"
         ]
     },
-    "Cya2": {
+    "cya2": {
         "properties": [
             "cya2"
         ],
@@ -3659,7 +3659,7 @@ let parentCompanyJson = {
             "cya2"
         ]
     },
-    "Cyberplex": {
+    "cyberplex": {
         "properties": [
             "cyberplex"
         ],
@@ -3667,7 +3667,7 @@ let parentCompanyJson = {
             "cyberplex"
         ]
     },
-    "Dada": {
+    "dada": {
         "properties": [
             "dada",
             "dada",
@@ -3679,7 +3679,7 @@ let parentCompanyJson = {
             "simply"
         ]
     },
-    "DailyMe": {
+    "dailyme": {
         "properties": [
             "dailyme",
             "newstogram"
@@ -3689,7 +3689,7 @@ let parentCompanyJson = {
             "newstogram"
         ]
     },
-    "Dataium": {
+    "dataium": {
         "properties": [
             "collserve",
             "ihs"
@@ -3700,7 +3700,7 @@ let parentCompanyJson = {
             "ihs"
         ]
     },
-    "Datalogix": {
+    "datalogix": {
         "properties": [
             "datalogix",
             "nexac"
@@ -3711,7 +3711,7 @@ let parentCompanyJson = {
             "nextaction"
         ]
     },
-    "DataSift": {
+    "datasift": {
         "properties": [
             "datasift",
             "tweetmeme"
@@ -3721,7 +3721,7 @@ let parentCompanyJson = {
             "tweetmeme"
         ]
     },
-    "DataXu": {
+    "dataxu": {
         "properties": [
             "dataxu",
             "mexad",
@@ -3734,7 +3734,7 @@ let parentCompanyJson = {
             "w55c"
         ]
     },
-    "Datonics": {
+    "datonics": {
         "properties": [
             "datonics"
         ],
@@ -3743,7 +3743,7 @@ let parentCompanyJson = {
             "pro-market"
         ]
     },
-    "Datran Media": {
+    "datran media": {
         "properties": [
             "datranmedia",
             "displaymarketplace"
@@ -3753,7 +3753,7 @@ let parentCompanyJson = {
             "displaymarketplace"
         ]
     },
-    "Datvantage": {
+    "datvantage": {
         "properties": [
             "datvantage"
         ],
@@ -3761,7 +3761,7 @@ let parentCompanyJson = {
             "datvantage"
         ]
     },
-    "DC Storm": {
+    "dc storm": {
         "properties": [
             "dc-storm",
             "stormiq"
@@ -3771,7 +3771,7 @@ let parentCompanyJson = {
             "stormiq"
         ]
     },
-    "Dedicated Media": {
+    "dedicated media": {
         "properties": [
             "dedicatedmedia",
             "dedicatednetworks"
@@ -3781,7 +3781,7 @@ let parentCompanyJson = {
             "dedicatednetworks"
         ]
     },
-    "Deep Intent": {
+    "deep intent": {
         "properties": [
             "deepintent"
         ],
@@ -3789,7 +3789,7 @@ let parentCompanyJson = {
             "deepintent"
         ]
     },
-    "Delivr": {
+    "delivr": {
         "properties": [
             "delivr"
         ],
@@ -3798,7 +3798,7 @@ let parentCompanyJson = {
             "percentmobile"
         ]
     },
-    "Delta Projects": {
+    "delta projects": {
         "properties": [
             "deltaprojects"
         ],
@@ -3809,7 +3809,7 @@ let parentCompanyJson = {
             "deltaprojects"
         ]
     },
-    "Demandbase": {
+    "demandbase": {
         "properties": [
             "demandbase"
         ],
@@ -3818,7 +3818,7 @@ let parentCompanyJson = {
             "demandbase"
         ]
     },
-    "Demand Media": {
+    "demand media": {
         "properties": [
             "leafgroup"
         ],
@@ -3827,7 +3827,7 @@ let parentCompanyJson = {
             "indieclick"
         ]
     },
-    "Deutsche Post DHL": {
+    "deutsche post dhl": {
         "properties": [
             "dpdhl"
         ],
@@ -3838,7 +3838,7 @@ let parentCompanyJson = {
             "dpdhl"
         ]
     },
-    "Developer Media": {
+    "developer media": {
         "properties": [
             "developermedia"
         ],
@@ -3847,7 +3847,7 @@ let parentCompanyJson = {
             "lqcdn"
         ]
     },
-    "DG": {
+    "dg": {
         "properties": [
             "dgit",
             "sizmek"
@@ -3869,7 +3869,7 @@ let parentCompanyJson = {
             "dianomi"
         ]
     },
-    "Didit": {
+    "didit": {
         "properties": [
             "didit"
         ],
@@ -3878,7 +3878,7 @@ let parentCompanyJson = {
             "didit"
         ]
     },
-    "Digg": {
+    "digg": {
         "properties": [
             "digg"
         ],
@@ -3886,7 +3886,7 @@ let parentCompanyJson = {
             "digg"
         ]
     },
-    "DigitalAdConsortium": {
+    "digitaladconsortium": {
         "properties": [
             "dac"
         ],
@@ -3894,7 +3894,7 @@ let parentCompanyJson = {
             "impact-ad"
         ]
     },
-    "Digital River": {
+    "digital river": {
         "properties": [
             "digitalriver",
             "keywordmax",
@@ -3906,7 +3906,7 @@ let parentCompanyJson = {
             "netflame"
         ]
     },
-    "Digital Target": {
+    "digital target": {
         "properties": [
             "digitaltarget"
         ],
@@ -3914,7 +3914,7 @@ let parentCompanyJson = {
             "digitaltarget"
         ]
     },
-    "Digitize": {
+    "digitize": {
         "properties": [
             "digitize"
         ],
@@ -3922,7 +3922,7 @@ let parentCompanyJson = {
             "digitize"
         ]
     },
-    "DirectAdvert": {
+    "directadvert": {
         "properties": [
             "directadvert"
         ],
@@ -3930,7 +3930,7 @@ let parentCompanyJson = {
             "directadvert"
         ]
     },
-    "DirectCORP": {
+    "directcorp": {
         "properties": [
             "directcorp",
             "ipcounter"
@@ -3940,7 +3940,7 @@ let parentCompanyJson = {
             "ipcounter"
         ]
     },
-    "Direct Response Group": {
+    "direct response group": {
         "properties": [
             "directresponsegroup"
         ],
@@ -3949,7 +3949,7 @@ let parentCompanyJson = {
             "ppctracking"
         ]
     },
-    "Directtrack": {
+    "directtrack": {
         "properties": [
             "directtrack"
         ],
@@ -3957,7 +3957,7 @@ let parentCompanyJson = {
             "directtrack"
         ]
     },
-    "Disqus": {
+    "disqus": {
         "properties": [
             "disqus",
             "disqusads"
@@ -3967,7 +3967,7 @@ let parentCompanyJson = {
             "disqusads"
         ]
     },
-    "DistilNetworks": {
+    "distilnetworks": {
         "properties": [
             "distilnetworks"
         ],
@@ -3976,7 +3976,7 @@ let parentCompanyJson = {
             "distiltag"
         ]
     },
-    "DistrictM": {
+    "districtm": {
         "properties": [
             "districtm"
         ],
@@ -3992,7 +3992,7 @@ let parentCompanyJson = {
             "dmpxs"
         ]
     },
-    "DoublePimp": {
+    "doublepimp": {
         "properties": [
             "doublepimp"
         ],
@@ -4000,7 +4000,7 @@ let parentCompanyJson = {
             "doublepimp"
         ]
     },
-    "DoublePositive": {
+    "doublepositive": {
         "properties": [
             "doublepositive"
         ],
@@ -4009,7 +4009,7 @@ let parentCompanyJson = {
             "doublepositive"
         ]
     },
-    "DoubleVerify": {
+    "doubleverify": {
         "properties": [
             "doubleverify"
         ],
@@ -4017,7 +4017,7 @@ let parentCompanyJson = {
             "doubleverify"
         ]
     },
-    "Drawbridge": {
+    "drawbridge": {
         "properties": [
             "drawbridge"
         ],
@@ -4027,7 +4027,7 @@ let parentCompanyJson = {
             "drawbridge"
         ]
     },
-    "DS-IQ": {
+    "ds-iq": {
         "properties": [
             "ds-iq"
         ],
@@ -4035,7 +4035,7 @@ let parentCompanyJson = {
             "ds-iq"
         ]
     },
-    "DSNR Group": {
+    "dsnr group": {
         "properties": [
             "dsnrgroup",
             "dsnrmg",
@@ -4058,7 +4058,7 @@ let parentCompanyJson = {
             "dwstat"
         ]
     },
-    "DynAdmic": {
+    "dynadmic": {
         "properties": [
             "dynadmic"
         ],
@@ -4067,7 +4067,7 @@ let parentCompanyJson = {
             "dyntrk"
         ]
     },
-    "DynamicOxygen": {
+    "dynamicoxygen": {
         "properties": [
             "dynamicoxygen",
             "exitjunction"
@@ -4077,7 +4077,7 @@ let parentCompanyJson = {
             "exitjunction"
         ]
     },
-    "DynamicYield": {
+    "dynamicyield": {
         "properties": [
             "dynamicyield"
         ],
@@ -4085,7 +4085,7 @@ let parentCompanyJson = {
             "dynamicyield"
         ]
     },
-    "Earnify": {
+    "earnify": {
         "properties": [
             "earnify"
         ],
@@ -4093,7 +4093,7 @@ let parentCompanyJson = {
             "earnify"
         ]
     },
-    "eBay": {
+    "ebay": {
         "properties": [
             "ebay",
             "ebay",
@@ -4126,7 +4126,7 @@ let parentCompanyJson = {
             "gopjn"
         ]
     },
-    "Echo": {
+    "echo": {
         "properties": [
             "aboutecho",
             "haloscan",
@@ -4138,7 +4138,7 @@ let parentCompanyJson = {
             "js-kit"
         ]
     },
-    "ECSAnalytics": {
+    "ecsanalytics": {
         "properties": [
             "ecsanalytics",
             "theecsinc"
@@ -4147,7 +4147,7 @@ let parentCompanyJson = {
             "ecsanalytics"
         ]
     },
-    "EFF": {
+    "eff": {
         "properties": [
             "do-not-tracker",
             "eff",
@@ -4161,7 +4161,7 @@ let parentCompanyJson = {
             "trackersimulator"
         ]
     },
-    "Effective Measure": {
+    "effective measure": {
         "properties": [
             "effectivemeasure",
             "effectivemeasure"
@@ -4181,7 +4181,7 @@ let parentCompanyJson = {
             "hurriyet"
         ]
     },
-    "Eleavers": {
+    "eleavers": {
         "properties": [
             "eleavers"
         ],
@@ -4189,7 +4189,7 @@ let parentCompanyJson = {
             "eleavers"
         ]
     },
-    "Emego": {
+    "emego": {
         "properties": [
             "usemax"
         ],
@@ -4197,7 +4197,7 @@ let parentCompanyJson = {
             "usemax"
         ]
     },
-    "Emerse": {
+    "emerse": {
         "properties": [
             "emerse"
         ],
@@ -4205,7 +4205,7 @@ let parentCompanyJson = {
             "emerse"
         ]
     },
-    "EMX": {
+    "emx": {
         "properties": [
             "emxdigital"
         ],
@@ -4216,7 +4216,7 @@ let parentCompanyJson = {
             "emxdigital"
         ]
     },
-    "Enecto": {
+    "enecto": {
         "properties": [
             "enecto"
         ],
@@ -4224,7 +4224,7 @@ let parentCompanyJson = {
             "enecto"
         ]
     },
-    "engage:BDR": {
+    "engage:bdr": {
         "properties": [
             "engagebdr"
         ],
@@ -4233,7 +4233,7 @@ let parentCompanyJson = {
             "engagebdr"
         ]
     },
-    "Engago Technology": {
+    "engago technology": {
         "properties": [
             "engago"
         ],
@@ -4242,7 +4242,7 @@ let parentCompanyJson = {
             "engago"
         ]
     },
-    "Engine Network": {
+    "engine network": {
         "properties": [
             "enginenetwork"
         ],
@@ -4250,7 +4250,7 @@ let parentCompanyJson = {
             "enginenetwork"
         ]
     },
-    "Ensighten": {
+    "ensighten": {
         "properties": [
             "ensighten"
         ],
@@ -4258,7 +4258,7 @@ let parentCompanyJson = {
             "ensighten"
         ]
     },
-    "Entireweb": {
+    "entireweb": {
         "properties": [
             "entireweb"
         ],
@@ -4266,7 +4266,7 @@ let parentCompanyJson = {
             "entireweb"
         ]
     },
-    "Epic Media Group": {
+    "epic media group": {
         "properties": [
             "epicadvertising",
             "epicmarketplace",
@@ -4280,7 +4280,7 @@ let parentCompanyJson = {
             "trafficmp"
         ]
     },
-    "eProof": {
+    "eproof": {
         "properties": [
             "eproof"
         ],
@@ -4288,7 +4288,7 @@ let parentCompanyJson = {
             "eproof"
         ]
     },
-    "Epsilon": {
+    "epsilon": {
         "properties": [
             "epsilon"
         ],
@@ -4296,7 +4296,7 @@ let parentCompanyJson = {
             "epsilon"
         ]
     },
-    "EQ Ads": {
+    "eq ads": {
         "properties": [
             "eqads"
         ],
@@ -4304,7 +4304,7 @@ let parentCompanyJson = {
             "eqads"
         ]
     },
-    "EroAdvertising": {
+    "eroadvertising": {
         "properties": [
             "ero-advertising"
         ],
@@ -4312,7 +4312,7 @@ let parentCompanyJson = {
             "ero-advertising"
         ]
     },
-    "Etarget": {
+    "etarget": {
         "properties": [
             "etarget",
             "etargetnet"
@@ -4322,7 +4322,7 @@ let parentCompanyJson = {
             "etargetnet"
         ]
     },
-    "Etineria": {
+    "etineria": {
         "properties": [
             "adwitserver",
             "etineria"
@@ -4344,7 +4344,7 @@ let parentCompanyJson = {
             "sedotracker"
         ]
     },
-    "eTrigue": {
+    "etrigue": {
         "properties": [
             "etrigue"
         ],
@@ -4352,7 +4352,7 @@ let parentCompanyJson = {
             "etrigue"
         ]
     },
-    "Eulerian Technologies": {
+    "eulerian technologies": {
         "properties": [
             "eulerian"
         ],
@@ -4361,7 +4361,7 @@ let parentCompanyJson = {
             "eulerian"
         ]
     },
-    "Evergage": {
+    "evergage": {
         "properties": [
             "evergage"
         ],
@@ -4370,7 +4370,7 @@ let parentCompanyJson = {
             "veruta"
         ]
     },
-    "Everyday Health": {
+    "everyday health": {
         "properties": [
             "everydayhealth",
             "waterfrontmedia"
@@ -4380,7 +4380,7 @@ let parentCompanyJson = {
             "waterfrontmedia"
         ]
     },
-    "Evisions Marketing": {
+    "evisions marketing": {
         "properties": [
             "engineseeker",
             "evisionsmarketing"
@@ -4390,7 +4390,7 @@ let parentCompanyJson = {
             "evisionsmarketing"
         ]
     },
-    "Evolve": {
+    "evolve": {
         "properties": [
             "evolvemediacorp",
             "gorillanation"
@@ -4401,7 +4401,7 @@ let parentCompanyJson = {
             "gorillanation"
         ]
     },
-    "eWayDirect": {
+    "ewaydirect": {
         "properties": [
             "ewaydirect"
         ],
@@ -4428,7 +4428,7 @@ let parentCompanyJson = {
             "excitad"
         ]
     },
-    "eXelate": {
+    "exelate": {
         "properties": [
             "exelate"
         ],
@@ -4437,7 +4437,7 @@ let parentCompanyJson = {
             "exelator"
         ]
     },
-    "ExoClick": {
+    "exoclick": {
         "properties": [
             "exoclick"
         ],
@@ -4445,7 +4445,7 @@ let parentCompanyJson = {
             "exoclick"
         ]
     },
-    "Exosrv": {
+    "exosrv": {
         "properties": [
             "exosrv"
         ],
@@ -4453,7 +4453,7 @@ let parentCompanyJson = {
             "exosrv"
         ]
     },
-    "Experian": {
+    "experian": {
         "properties": [
             "experian"
         ],
@@ -4462,7 +4462,7 @@ let parentCompanyJson = {
             "experian"
         ]
     },
-    "expo-MAX": {
+    "expo-max": {
         "properties": [
             "expo-max"
         ],
@@ -4470,7 +4470,7 @@ let parentCompanyJson = {
             "expo-max"
         ]
     },
-    "Exponential Interactive": {
+    "exponential interactive": {
         "properties": [
             "exponential",
             "fulltango"
@@ -4482,7 +4482,7 @@ let parentCompanyJson = {
             "tribalfusion"
         ]
     },
-    "Extension Factory": {
+    "extension factory": {
         "properties": [
             "extensionfactory"
         ],
@@ -4490,7 +4490,7 @@ let parentCompanyJson = {
             "extensionfactory"
         ]
     },
-    "EXTENSIONS": {
+    "extensions": {
         "properties": [
             "extensions"
         ],
@@ -4498,7 +4498,7 @@ let parentCompanyJson = {
             "extensions"
         ]
     },
-    "eXTReMe digital": {
+    "extreme digital": {
         "properties": [
             "extremetracking"
         ],
@@ -4507,7 +4507,7 @@ let parentCompanyJson = {
             "extremetracking"
         ]
     },
-    "Eyeconomy": {
+    "eyeconomy": {
         "properties": [
             "eyeconomy"
         ],
@@ -4518,7 +4518,7 @@ let parentCompanyJson = {
             "www"
         ]
     },
-    "EyeNewton": {
+    "eyenewton": {
         "properties": [
             "eyenewton"
         ],
@@ -4526,7 +4526,7 @@ let parentCompanyJson = {
             "eyenewton"
         ]
     },
-    "Eyeota": {
+    "eyeota": {
         "properties": [
             "eyeota"
         ],
@@ -4534,7 +4534,7 @@ let parentCompanyJson = {
             "eyeota"
         ]
     },
-    "eyeReturn Marketing": {
+    "eyereturn marketing": {
         "properties": [
             "eyereturnmarketing"
         ],
@@ -4543,7 +4543,7 @@ let parentCompanyJson = {
             "eyereturnmarketing"
         ]
     },
-    "Eyeviewdigital": {
+    "eyeviewdigital": {
         "properties": [
             "eyeviewdigital"
         ],
@@ -4552,7 +4552,7 @@ let parentCompanyJson = {
             "eyeviewdigital"
         ]
     },
-    "Facebook": {
+    "facebook": {
         "properties": [
             "atlassolutions",
             "facebook",
@@ -4585,7 +4585,7 @@ let parentCompanyJson = {
             "messenger"
         ]
     },
-    "Facilitate Digital": {
+    "facilitate digital": {
         "properties": [
             "adsfac",
             "adsfac",
@@ -4601,7 +4601,7 @@ let parentCompanyJson = {
             "facilitatedigital"
         ]
     },
-    "Fairfax Media": {
+    "fairfax media": {
         "properties": [
             "fairfax",
             "fxj",
@@ -4621,7 +4621,7 @@ let parentCompanyJson = {
             "faithadnet"
         ]
     },
-    "Fanplayr": {
+    "fanplayr": {
         "properties": [
             "fanplayr"
         ],
@@ -4629,7 +4629,7 @@ let parentCompanyJson = {
             "fanplayr"
         ]
     },
-    "Fathom": {
+    "fathom": {
         "properties": [
             "fathomdelivers",
             "fathomseo"
@@ -4639,7 +4639,7 @@ let parentCompanyJson = {
             "fathomseo"
         ]
     },
-    "Federated Media": {
+    "federated media": {
         "properties": [
             "hyfn",
             "lijit"
@@ -4651,7 +4651,7 @@ let parentCompanyJson = {
             "lijit"
         ]
     },
-    "Feedjit": {
+    "feedjit": {
         "properties": [
             "feedjit"
         ],
@@ -4659,7 +4659,7 @@ let parentCompanyJson = {
             "feedjit"
         ]
     },
-    "FetchBack": {
+    "fetchback": {
         "properties": [
             "fetchback"
         ],
@@ -4667,7 +4667,7 @@ let parentCompanyJson = {
             "fetchback"
         ]
     },
-    "Fiksu": {
+    "fiksu": {
         "properties": [
             "fiksu"
         ],
@@ -4675,7 +4675,7 @@ let parentCompanyJson = {
             "fiksu"
         ]
     },
-    "FinancialContent": {
+    "financialcontent": {
         "properties": [
             "financialcontent"
         ],
@@ -4683,7 +4683,7 @@ let parentCompanyJson = {
             "financialcontent"
         ]
     },
-    "Fizz-Buzz Media": {
+    "fizz-buzz media": {
         "properties": [
             "fizzbuzzmedia",
             "fizzbuzzmedia"
@@ -4693,7 +4693,7 @@ let parentCompanyJson = {
             "fizzbuzzmedia"
         ]
     },
-    "Flashtalking": {
+    "flashtalking": {
         "properties": [
             "flashtalking"
         ],
@@ -4703,7 +4703,7 @@ let parentCompanyJson = {
             "sitecompass"
         ]
     },
-    "Flattr": {
+    "flattr": {
         "properties": [
             "flattr"
         ],
@@ -4711,7 +4711,7 @@ let parentCompanyJson = {
             "flattr"
         ]
     },
-    "Flite": {
+    "flite": {
         "properties": [
             "flite",
             "widgetserver"
@@ -4721,7 +4721,7 @@ let parentCompanyJson = {
             "widgetserver"
         ]
     },
-    "Fluct": {
+    "fluct": {
         "properties": [
             "adingo",
             "fluct"
@@ -4731,7 +4731,7 @@ let parentCompanyJson = {
             "fluct"
         ]
     },
-    "Flytxt": {
+    "flytxt": {
         "properties": [
             "flytxt"
         ],
@@ -4739,7 +4739,7 @@ let parentCompanyJson = {
             "flytxt"
         ]
     },
-    "Footprint": {
+    "footprint": {
         "properties": [
             "footprintlive"
         ],
@@ -4747,7 +4747,7 @@ let parentCompanyJson = {
             "footprintlive"
         ]
     },
-    "Forbes": {
+    "forbes": {
         "properties": [
             "brandsideplatform",
             "forbes"
@@ -4757,7 +4757,7 @@ let parentCompanyJson = {
             "forbes"
         ]
     },
-    "Foresee": {
+    "foresee": {
         "properties": [
             "foresee"
         ],
@@ -4765,7 +4765,7 @@ let parentCompanyJson = {
             "answerscloud"
         ]
     },
-    "Fox One Stop Media": {
+    "fox one stop media": {
         "properties": [
             "fimserve",
             "foxnetworks",
@@ -4783,7 +4783,7 @@ let parentCompanyJson = {
             "othersonline"
         ]
     },
-    "FreakOut": {
+    "freakout": {
         "properties": [
             "fout"
         ],
@@ -4791,7 +4791,7 @@ let parentCompanyJson = {
             "fout"
         ]
     },
-    "Freedom Communications": {
+    "freedom communications": {
         "properties": [
             "freedom"
         ],
@@ -4799,7 +4799,7 @@ let parentCompanyJson = {
             "freedom"
         ]
     },
-    "Free Online Users": {
+    "free online users": {
         "properties": [
             "freeonlineusers"
         ],
@@ -4807,7 +4807,7 @@ let parentCompanyJson = {
             "freeonlineusers"
         ]
     },
-    "Free-PageRank": {
+    "free-pagerank": {
         "properties": [
             "free-pagerank"
         ],
@@ -4815,7 +4815,7 @@ let parentCompanyJson = {
             "free-pagerank"
         ]
     },
-    "FreeWheel": {
+    "freewheel": {
         "properties": [
             "freewheel",
             "fwmrm"
@@ -4826,7 +4826,7 @@ let parentCompanyJson = {
             "stickyadstv"
         ]
     },
-    "FriendFinder Networks": {
+    "friendfinder networks": {
         "properties": [
             "adultfriendfinder",
             "ffn",
@@ -4838,7 +4838,7 @@ let parentCompanyJson = {
             "pop6"
         ]
     },
-    "Friends2Follow": {
+    "friends2follow": {
         "properties": [
             "friends2follow"
         ],
@@ -4846,7 +4846,7 @@ let parentCompanyJson = {
             "friends2follow"
         ]
     },
-    "Frog Sex": {
+    "frog sex": {
         "properties": [
             "double-check",
             "frogsex"
@@ -4856,7 +4856,7 @@ let parentCompanyJson = {
             "frogsex"
         ]
     },
-    "FuelX": {
+    "fuelx": {
         "properties": [
             "fuelx"
         ],
@@ -4864,7 +4864,7 @@ let parentCompanyJson = {
             "fuel451"
         ]
     },
-    "Fullstory": {
+    "fullstory": {
         "properties": [
             "fullstory"
         ],
@@ -4872,7 +4872,7 @@ let parentCompanyJson = {
             "fullstory"
         ]
     },
-    "Future Ads": {
+    "future ads": {
         "properties": [
             "futureads",
             "resultlinks"
@@ -4882,7 +4882,7 @@ let parentCompanyJson = {
             "resultlinks"
         ]
     },
-    "Fyber": {
+    "fyber": {
         "properties": [
             "fyber"
         ],
@@ -4890,7 +4890,7 @@ let parentCompanyJson = {
             "fyber"
         ]
     },
-    "Game Advertising Online": {
+    "game advertising online": {
         "properties": [
             "game-advertising-online"
         ],
@@ -4898,7 +4898,7 @@ let parentCompanyJson = {
             "game-advertising-online"
         ]
     },
-    "Games2win": {
+    "games2win": {
         "properties": [
             "games2win",
             "inviziads"
@@ -4908,7 +4908,7 @@ let parentCompanyJson = {
             "inviziads"
         ]
     },
-    "Gamned": {
+    "gamned": {
         "properties": [
             "gamned"
         ],
@@ -4916,7 +4916,7 @@ let parentCompanyJson = {
             "gamned"
         ]
     },
-    "Gannett": {
+    "gannett": {
         "properties": [
             "gannett",
             "pointroll"
@@ -4926,7 +4926,7 @@ let parentCompanyJson = {
             "pointroll"
         ]
     },
-    "GB-World": {
+    "gb-world": {
         "properties": [
             "gb-world"
         ],
@@ -4934,7 +4934,7 @@ let parentCompanyJson = {
             "gb-world"
         ]
     },
-    "Gemius": {
+    "gemius": {
         "properties": [
             "gemius",
             "gemius"
@@ -4944,7 +4944,7 @@ let parentCompanyJson = {
             "gemius"
         ]
     },
-    "Genesis Media": {
+    "genesis media": {
         "properties": [
             "genesismedia"
         ],
@@ -4953,7 +4953,7 @@ let parentCompanyJson = {
             "genesismediaus"
         ]
     },
-    "GENIEE": {
+    "geniee": {
         "properties": [
             "geniee"
         ],
@@ -4962,7 +4962,7 @@ let parentCompanyJson = {
             "gssprt"
         ]
     },
-    "GENIE GROUP": {
+    "genie group": {
         "properties": [
             "geniegroupltd",
             "www"
@@ -4972,7 +4972,7 @@ let parentCompanyJson = {
             "www"
         ]
     },
-    "Genius": {
+    "genius": {
         "properties": [
             "genius",
             "rsvpgenius"
@@ -4982,7 +4982,7 @@ let parentCompanyJson = {
             "rsvpgenius"
         ]
     },
-    "GeoAds": {
+    "geoads": {
         "properties": [
             "geoads"
         ],
@@ -4990,7 +4990,7 @@ let parentCompanyJson = {
             "geoads"
         ]
     },
-    "GetGlue": {
+    "getglue": {
         "properties": [
             "elfie",
             "smrtlnks"
@@ -5000,7 +5000,7 @@ let parentCompanyJson = {
             "smrtlnks"
         ]
     },
-    "GetIntent": {
+    "getintent": {
         "properties": [
             "adhigh",
             "getintent"
@@ -5010,7 +5010,7 @@ let parentCompanyJson = {
             "getintent"
         ]
     },
-    "Get Satisfaction": {
+    "get satisfaction": {
         "properties": [
             "getsatisfaction"
         ],
@@ -5018,7 +5018,7 @@ let parentCompanyJson = {
             "getsatisfaction"
         ]
     },
-    "GetSiteControl": {
+    "getsitecontrol": {
         "properties": [
             "getsitecontrol"
         ],
@@ -5026,7 +5026,7 @@ let parentCompanyJson = {
             "getsitecontrol"
         ]
     },
-    "GfK Group": {
+    "gfk group": {
         "properties": [
             "gfk"
         ],
@@ -5036,7 +5036,7 @@ let parentCompanyJson = {
             "gfkdaphne"
         ]
     },
-    "Gigya": {
+    "gigya": {
         "properties": [
             "gigya"
         ],
@@ -5045,7 +5045,7 @@ let parentCompanyJson = {
             "gigya"
         ]
     },
-    "GISMAds": {
+    "gismads": {
         "properties": [
             "gismads"
         ],
@@ -5053,7 +5053,7 @@ let parentCompanyJson = {
             "gismads"
         ]
     },
-    "GitHub": {
+    "github": {
         "properties": [
             "gaug",
             "github"
@@ -5063,7 +5063,7 @@ let parentCompanyJson = {
             "github"
         ]
     },
-    "Glam Media": {
+    "glam media": {
         "properties": [
             "glam",
             "glammedia"
@@ -5073,7 +5073,7 @@ let parentCompanyJson = {
             "glammedia"
         ]
     },
-    "Gleam": {
+    "gleam": {
         "properties": [
             "gleam"
         ],
@@ -5082,7 +5082,7 @@ let parentCompanyJson = {
             "gleam"
         ]
     },
-    "Global Takeoff": {
+    "global takeoff": {
         "properties": [
             "globaltakeoff",
             "globaltakeoff"
@@ -5092,7 +5092,7 @@ let parentCompanyJson = {
             "globaltakeoff"
         ]
     },
-    "Globe7": {
+    "globe7": {
         "properties": [
             "globe7"
         ],
@@ -5100,7 +5100,7 @@ let parentCompanyJson = {
             "globe7"
         ]
     },
-    "Go Daddy": {
+    "go daddy": {
         "properties": [
             "godaddy",
             "trafficfacts"
@@ -5110,7 +5110,7 @@ let parentCompanyJson = {
             "trafficfacts"
         ]
     },
-    "GoDataFeed": {
+    "godatafeed": {
         "properties": [
             "godatafeed"
         ],
@@ -5118,7 +5118,7 @@ let parentCompanyJson = {
             "godatafeed"
         ]
     },
-    "GoGrid": {
+    "gogrid": {
         "properties": [
             "datapipe",
             "formalyzer"
@@ -5130,7 +5130,7 @@ let parentCompanyJson = {
             "komli"
         ]
     },
-    "Goldbach": {
+    "goldbach": {
         "properties": [
             "goldbachgroup"
         ],
@@ -5139,7 +5139,7 @@ let parentCompanyJson = {
             "goldbachgroup"
         ]
     },
-    "GoldSpot Media": {
+    "goldspot media": {
         "properties": [
             "goldspotmedia"
         ],
@@ -5147,7 +5147,7 @@ let parentCompanyJson = {
             "goldspotmedia"
         ]
     },
-    "Google": {
+    "google": {
         "properties": [
             "googletagmanager",
             "abc",
@@ -5194,7 +5194,7 @@ let parentCompanyJson = {
             "youtube"
         ]
     },
-    "GoSquared": {
+    "gosquared": {
         "properties": [
             "gosquared"
         ],
@@ -5202,7 +5202,7 @@ let parentCompanyJson = {
             "gosquared"
         ]
     },
-    "GoStats": {
+    "gostats": {
         "properties": [
             "gostats"
         ],
@@ -5210,7 +5210,7 @@ let parentCompanyJson = {
             "gostats"
         ]
     },
-    "Grapeshot": {
+    "grapeshot": {
         "properties": [
             "grapeshot",
             "www"
@@ -5220,7 +5220,7 @@ let parentCompanyJson = {
             "www"
         ]
     },
-    "GrapheneMedia": {
+    "graphenemedia": {
         "properties": [
             "graphenemedia"
         ],
@@ -5228,7 +5228,7 @@ let parentCompanyJson = {
             "graphenedigitalanalytics"
         ]
     },
-    "Gravity": {
+    "gravity": {
         "properties": [
             "gravity",
             "grvcdn"
@@ -5238,7 +5238,7 @@ let parentCompanyJson = {
             "grvcdn"
         ]
     },
-    "Gridcash": {
+    "gridcash": {
         "properties": [
             "adless",
             "gridcash"
@@ -5248,7 +5248,7 @@ let parentCompanyJson = {
             "gridcash"
         ]
     },
-    "Grocery Shopping Network": {
+    "grocery shopping network": {
         "properties": [
             "groceryshopping"
         ],
@@ -5256,7 +5256,7 @@ let parentCompanyJson = {
             "groceryshopping"
         ]
     },
-    "GroovinAds": {
+    "groovinads": {
         "properties": [
             "groovinads"
         ],
@@ -5264,7 +5264,7 @@ let parentCompanyJson = {
             "groovinads"
         ]
     },
-    "Gruner + Jahr": {
+    "gruner + jahr": {
         "properties": [
             "guj",
             "ligatus"
@@ -5274,7 +5274,7 @@ let parentCompanyJson = {
             "ligatus"
         ]
     },
-    "GTop": {
+    "gtop": {
         "properties": [
             "arenaweb"
         ],
@@ -5284,7 +5284,7 @@ let parentCompanyJson = {
             "gtopstats"
         ]
     },
-    "GumGum": {
+    "gumgum": {
         "properties": [
             "gumgum"
         ],
@@ -5292,7 +5292,7 @@ let parentCompanyJson = {
             "gumgum"
         ]
     },
-    "Gunggo": {
+    "gunggo": {
         "properties": [
             "gunggo"
         ],
@@ -5300,7 +5300,7 @@ let parentCompanyJson = {
             "gunggo"
         ]
     },
-    "Hands Mobile": {
+    "hands mobile": {
         "properties": [
             "hands",
             "www"
@@ -5310,7 +5310,7 @@ let parentCompanyJson = {
             "www"
         ]
     },
-    "Harrenmedia": {
+    "harrenmedia": {
         "properties": [
             "harrenmedia",
             "harrenmedianetwork"
@@ -5320,7 +5320,7 @@ let parentCompanyJson = {
             "harrenmedianetwork"
         ]
     },
-    "HealthPricer": {
+    "healthpricer": {
         "properties": [
             "adacado",
             "healthpricer"
@@ -5330,7 +5330,7 @@ let parentCompanyJson = {
             "healthpricer"
         ]
     },
-    "Hearst": {
+    "hearst": {
         "properties": [
             "hearst",
             "ic-live",
@@ -5351,7 +5351,7 @@ let parentCompanyJson = {
             "sptag3"
         ]
     },
-    "Heyzap": {
+    "heyzap": {
         "properties": [
             "heyzap"
         ],
@@ -5359,7 +5359,7 @@ let parentCompanyJson = {
             "heyzap"
         ]
     },
-    "HilltopAds": {
+    "hilltopads": {
         "properties": [
             "hilltopads"
         ],
@@ -5369,7 +5369,7 @@ let parentCompanyJson = {
             "shoporielder"
         ]
     },
-    "Hi-media": {
+    "hi-media": {
         "properties": [
             "himediagroup"
         ],
@@ -5379,7 +5379,7 @@ let parentCompanyJson = {
             "himediagroup"
         ]
     },
-    "Histats": {
+    "histats": {
         "properties": [
             "histats"
         ],
@@ -5387,7 +5387,7 @@ let parentCompanyJson = {
             "histats"
         ]
     },
-    "HitsLink": {
+    "hitslink": {
         "properties": [
             "hitslink"
         ],
@@ -5395,7 +5395,7 @@ let parentCompanyJson = {
             "hitslink"
         ]
     },
-    "Hit Sniffer": {
+    "hit sniffer": {
         "properties": [
             "hitsniffer"
         ],
@@ -5403,7 +5403,7 @@ let parentCompanyJson = {
             "hitsniffer"
         ]
     },
-    "Horyzon Media": {
+    "horyzon media": {
         "properties": [
             "horyzon-media",
             "meetic-partners",
@@ -5415,7 +5415,7 @@ let parentCompanyJson = {
             "smartadserver"
         ]
     },
-    "HotelChamp": {
+    "hotelchamp": {
         "properties": [
             "hotelchamp"
         ],
@@ -5423,7 +5423,7 @@ let parentCompanyJson = {
             "hotelchamp"
         ]
     },
-    "Hotjar": {
+    "hotjar": {
         "properties": [
             "hotjar"
         ],
@@ -5431,7 +5431,7 @@ let parentCompanyJson = {
             "hotjar"
         ]
     },
-    "HotMart": {
+    "hotmart": {
         "properties": [
             "hotmart"
         ],
@@ -5439,7 +5439,7 @@ let parentCompanyJson = {
             "hotmart"
         ]
     },
-    "HOTWords": {
+    "hotwords": {
         "properties": [
             "hotwords",
             "hotwords"
@@ -5449,7 +5449,7 @@ let parentCompanyJson = {
             "hotwords"
         ]
     },
-    "HP": {
+    "hp": {
         "properties": [
             "hp",
             "opentext",
@@ -5460,7 +5460,7 @@ let parentCompanyJson = {
             "optimost"
         ]
     },
-    "Httpool": {
+    "httpool": {
         "properties": [
             "httpool"
         ],
@@ -5468,7 +5468,7 @@ let parentCompanyJson = {
             "httpool"
         ]
     },
-    "HubSpot": {
+    "hubspot": {
         "properties": [
             "hubspot"
         ],
@@ -5477,7 +5477,7 @@ let parentCompanyJson = {
             "hubspot"
         ]
     },
-    "HUNT Mobile Ads": {
+    "hunt mobile ads": {
         "properties": [
             "huntmads"
         ],
@@ -5485,7 +5485,7 @@ let parentCompanyJson = {
             "huntmads"
         ]
     },
-    "Hurra": {
+    "hurra": {
         "properties": [
             "hurra"
         ],
@@ -5493,7 +5493,7 @@ let parentCompanyJson = {
             "hurra"
         ]
     },
-    "IAC": {
+    "iac": {
         "properties": [
             "iac",
             "iacadvertising"
@@ -5503,7 +5503,7 @@ let parentCompanyJson = {
             "iacadvertising"
         ]
     },
-    "iBehavior": {
+    "ibehavior": {
         "properties": [
             "i-behavior",
             "ib-ibi"
@@ -5513,7 +5513,7 @@ let parentCompanyJson = {
             "ib-ibi"
         ]
     },
-    "IBM": {
+    "ibm": {
         "properties": [
             "ibm"
         ],
@@ -5525,7 +5525,7 @@ let parentCompanyJson = {
             "xtify"
         ]
     },
-    "IDG": {
+    "idg": {
         "properties": [
             "idg",
             "idgtechnetwork"
@@ -5535,7 +5535,7 @@ let parentCompanyJson = {
             "idgtechnetwork"
         ]
     },
-    "iEntry": {
+    "ientry": {
         "properties": [
             "600z",
             "ientry"
@@ -5545,7 +5545,7 @@ let parentCompanyJson = {
             "ientry"
         ]
     },
-    "IgnitAd": {
+    "ignitad": {
         "properties": [
             "ignitad"
         ],
@@ -5553,7 +5553,7 @@ let parentCompanyJson = {
             "ignitad"
         ]
     },
-    "IgnitionOne": {
+    "ignitionone": {
         "properties": [
             "ignitionone",
             "ignitionone",
@@ -5565,7 +5565,7 @@ let parentCompanyJson = {
             "searchignite"
         ]
     },
-    "iMedia": {
+    "imedia": {
         "properties": [
             "imedia"
         ],
@@ -5573,7 +5573,7 @@ let parentCompanyJson = {
             "imedia"
         ]
     },
-    "Improve Digital": {
+    "improve digital": {
         "properties": [
             "360yield",
             "improvedigital"
@@ -5583,7 +5583,7 @@ let parentCompanyJson = {
             "improvedigital"
         ]
     },
-    "Inadco": {
+    "inadco": {
         "properties": [
             "inadco"
         ],
@@ -5593,7 +5593,7 @@ let parentCompanyJson = {
             "inadcoads"
         ]
     },
-    "InboundWriter": {
+    "inboundwriter": {
         "properties": [
             "enquisite",
             "inboundwriter"
@@ -5603,7 +5603,7 @@ let parentCompanyJson = {
             "inboundwriter"
         ]
     },
-    "IndexExchange": {
+    "indexexchange": {
         "properties": [
             "indexexchange"
         ],
@@ -5611,7 +5611,7 @@ let parentCompanyJson = {
             "indexexchange"
         ]
     },
-    "Infectious Media": {
+    "infectious media": {
         "properties": [
             "infectiousmedia"
         ],
@@ -5620,7 +5620,7 @@ let parentCompanyJson = {
             "infectiousmedia"
         ]
     },
-    "Infernotions": {
+    "infernotions": {
         "properties": [
             "infernotions"
         ],
@@ -5628,7 +5628,7 @@ let parentCompanyJson = {
             "infernotions"
         ]
     },
-    "Inflection Point Media": {
+    "inflection point media": {
         "properties": [
             "inflectionpointmedia"
         ],
@@ -5636,7 +5636,7 @@ let parentCompanyJson = {
             "inflectionpointmedia"
         ]
     },
-    "Infogroup": {
+    "infogroup": {
         "properties": [
             "infogroup"
         ],
@@ -5644,7 +5644,7 @@ let parentCompanyJson = {
             "infogroup"
         ]
     },
-    "Infolinks": {
+    "infolinks": {
         "properties": [
             "infolinks"
         ],
@@ -5652,7 +5652,7 @@ let parentCompanyJson = {
             "infolinks"
         ]
     },
-    "INFOnline": {
+    "infonline": {
         "properties": [
             "infonline"
         ],
@@ -5662,7 +5662,7 @@ let parentCompanyJson = {
             "ivwbox"
         ]
     },
-    "InfoStars": {
+    "infostars": {
         "properties": [
             "hotlog",
             "infostars"
@@ -5672,7 +5672,7 @@ let parentCompanyJson = {
             "infostars"
         ]
     },
-    "Infra-Ad": {
+    "infra-ad": {
         "properties": [
             "infra-ad"
         ],
@@ -5680,7 +5680,7 @@ let parentCompanyJson = {
             "infra-ad"
         ]
     },
-    "InMobi": {
+    "inmobi": {
         "properties": [
             "aerserv",
             "inmobi",
@@ -5700,7 +5700,7 @@ let parentCompanyJson = {
             "inner-active"
         ]
     },
-    "Innity": {
+    "innity": {
         "properties": [
             "innity"
         ],
@@ -5708,7 +5708,7 @@ let parentCompanyJson = {
             "innity"
         ]
     },
-    "InsightExpress": {
+    "insightexpress": {
         "properties": [
             "insightexpress"
         ],
@@ -5717,7 +5717,7 @@ let parentCompanyJson = {
             "insightexpressai"
         ]
     },
-    "InSkin Media": {
+    "inskin media": {
         "properties": [
             "inskinmedia"
         ],
@@ -5725,7 +5725,7 @@ let parentCompanyJson = {
             "inskinmedia"
         ]
     },
-    "Inspectlet": {
+    "inspectlet": {
         "properties": [
             "inspectlet"
         ],
@@ -5733,7 +5733,7 @@ let parentCompanyJson = {
             "inspectlet"
         ]
     },
-    "Instinctive": {
+    "instinctive": {
         "properties": [
             "instinctive"
         ],
@@ -5742,7 +5742,7 @@ let parentCompanyJson = {
             "instinctiveads"
         ]
     },
-    "Integral Ad Science": {
+    "integral ad science": {
         "properties": [
             "integralads"
         ],
@@ -5753,7 +5753,7 @@ let parentCompanyJson = {
             "integralads"
         ]
     },
-    "IntelligenceFocus": {
+    "intelligencefocus": {
         "properties": [
             "intelligencefocus",
             "leadchampion"
@@ -5764,7 +5764,7 @@ let parentCompanyJson = {
             "leadchampion"
         ]
     },
-    "Intent Media": {
+    "intent media": {
         "properties": [
             "intentmedia"
         ],
@@ -5773,7 +5773,7 @@ let parentCompanyJson = {
             "intentmedia"
         ]
     },
-    "Intergi": {
+    "intergi": {
         "properties": [
             "intergi"
         ],
@@ -5781,7 +5781,7 @@ let parentCompanyJson = {
             "intergi"
         ]
     },
-    "Intermarkets": {
+    "intermarkets": {
         "properties": [
             "intermarkets"
         ],
@@ -5789,7 +5789,7 @@ let parentCompanyJson = {
             "intermarkets"
         ]
     },
-    "Intermundo Media": {
+    "intermundo media": {
         "properties": [
             "intermundomedia"
         ],
@@ -5797,7 +5797,7 @@ let parentCompanyJson = {
             "intermundomedia"
         ]
     },
-    "Internet Brands": {
+    "internet brands": {
         "properties": [
             "ibpxl",
             "internetbrands"
@@ -5807,7 +5807,7 @@ let parentCompanyJson = {
             "internetbrands"
         ]
     },
-    "Interpolls": {
+    "interpolls": {
         "properties": [
             "interpolls"
         ],
@@ -5815,7 +5815,7 @@ let parentCompanyJson = {
             "interpolls"
         ]
     },
-    "Inuvo": {
+    "inuvo": {
         "properties": [
             "inuvo"
         ],
@@ -5823,7 +5823,7 @@ let parentCompanyJson = {
             "inuvo"
         ]
     },
-    "InvestingChannel": {
+    "investingchannel": {
         "properties": [
             "investingchannel"
         ],
@@ -5840,7 +5840,7 @@ let parentCompanyJson = {
             "iovation"
         ]
     },
-    "iPerceptions": {
+    "iperceptions": {
         "properties": [
             "iperceptions"
         ],
@@ -5848,7 +5848,7 @@ let parentCompanyJson = {
             "iperceptions"
         ]
     },
-    "iPROM": {
+    "iprom": {
         "properties": [
             "centraliprom",
             "iprom",
@@ -5862,7 +5862,7 @@ let parentCompanyJson = {
             "mediaiprom"
         ]
     },
-    "iPromote": {
+    "ipromote": {
         "properties": [
             "ipromote"
         ],
@@ -5870,7 +5870,7 @@ let parentCompanyJson = {
             "ipromote"
         ]
     },
-    "iProspect": {
+    "iprospect": {
         "properties": [
             "iprospect"
         ],
@@ -5879,7 +5879,7 @@ let parentCompanyJson = {
             "iprospect"
         ]
     },
-    "ISI Technologies": {
+    "isi technologies": {
         "properties": [
             "adversalservers",
             "digbro"
@@ -5889,7 +5889,7 @@ let parentCompanyJson = {
             "digbro"
         ]
     },
-    "IslayTech": {
+    "islaytech": {
         "properties": [
             "islay"
         ],
@@ -5905,7 +5905,7 @@ let parentCompanyJson = {
             "ismatlab"
         ]
     },
-    "Itch": {
+    "itch": {
         "properties": [
             "itch"
         ],
@@ -5913,7 +5913,7 @@ let parentCompanyJson = {
             "itch"
         ]
     },
-    "ItIsATracker": {
+    "itisatracker": {
         "properties": [
             "itisatracker"
         ],
@@ -5921,7 +5921,7 @@ let parentCompanyJson = {
             "itisatracker"
         ]
     },
-    "I": {
+    "i": {
         "properties": [
             "i"
         ],
@@ -5929,7 +5929,7 @@ let parentCompanyJson = {
             "i"
         ]
     },
-    "Jaroop": {
+    "jaroop": {
         "properties": [
             "jaroop"
         ],
@@ -5937,7 +5937,7 @@ let parentCompanyJson = {
             "jaroop"
         ]
     },
-    "JasperLabs": {
+    "jasperlabs": {
         "properties": [
             "jasperlabs"
         ],
@@ -5945,7 +5945,7 @@ let parentCompanyJson = {
             "jasperlabs"
         ]
     },
-    "Jemm": {
+    "jemm": {
         "properties": [
             "jemmgroup"
         ],
@@ -5953,7 +5953,7 @@ let parentCompanyJson = {
             "jemmgroup"
         ]
     },
-    "Jink": {
+    "jink": {
         "properties": [
             "jink",
             "jinkads"
@@ -5963,7 +5963,7 @@ let parentCompanyJson = {
             "jinkads"
         ]
     },
-    "Jirbo": {
+    "jirbo": {
         "properties": [
             "adcolony"
         ],
@@ -5972,7 +5972,7 @@ let parentCompanyJson = {
             "jirbo"
         ]
     },
-    "Jivox": {
+    "jivox": {
         "properties": [
             "jivox"
         ],
@@ -5980,7 +5980,7 @@ let parentCompanyJson = {
             "jivox"
         ]
     },
-    "JobThread": {
+    "jobthread": {
         "properties": [
             "jobthread"
         ],
@@ -5988,7 +5988,7 @@ let parentCompanyJson = {
             "jobthread"
         ]
     },
-    "JSE": {
+    "jse": {
         "properties": [
             "jsecoin"
         ],
@@ -6002,7 +6002,7 @@ let parentCompanyJson = {
             "jsecoin"
         ]
     },
-    "JuicyAds": {
+    "juicyads": {
         "properties": [
             "juicyads"
         ],
@@ -6010,7 +6010,7 @@ let parentCompanyJson = {
             "juicyads"
         ]
     },
-    "Jumptap": {
+    "jumptap": {
         "properties": [
             "jumptap"
         ],
@@ -6026,7 +6026,7 @@ let parentCompanyJson = {
             "justuno"
         ]
     },
-    "Kaltura": {
+    "kaltura": {
         "properties": [
             "kaltura"
         ],
@@ -6034,7 +6034,7 @@ let parentCompanyJson = {
             "kaltura"
         ]
     },
-    "Kargo": {
+    "kargo": {
         "properties": [
             "kargo"
         ],
@@ -6042,7 +6042,7 @@ let parentCompanyJson = {
             "kargo"
         ]
     },
-    "Kenshoo": {
+    "kenshoo": {
         "properties": [
             "kenshoo",
             "xg4ken"
@@ -6052,7 +6052,7 @@ let parentCompanyJson = {
             "xg4ken"
         ]
     },
-    "Keyade": {
+    "keyade": {
         "properties": [
             "keyade"
         ],
@@ -6060,7 +6060,7 @@ let parentCompanyJson = {
             "keyade"
         ]
     },
-    "KeyMetric": {
+    "keymetric": {
         "properties": [
             "keymetric"
         ],
@@ -6076,7 +6076,7 @@ let parentCompanyJson = {
             "kikin"
         ]
     },
-    "KISSmetrics": {
+    "kissmetrics": {
         "properties": [
             "kissmetrics"
         ],
@@ -6084,7 +6084,7 @@ let parentCompanyJson = {
             "kissmetrics"
         ]
     },
-    "KissMyAds": {
+    "kissmyads": {
         "properties": [
             "kissmyads"
         ],
@@ -6092,7 +6092,7 @@ let parentCompanyJson = {
             "kissmyads"
         ]
     },
-    "Kitara Media": {
+    "kitara media": {
         "properties": [
             "103092804",
             "kitaramedia"
@@ -6102,7 +6102,7 @@ let parentCompanyJson = {
             "kitaramedia"
         ]
     },
-    "Kitcode": {
+    "kitcode": {
         "properties": [
             "kitcode"
         ],
@@ -6110,7 +6110,7 @@ let parentCompanyJson = {
             "kitcode"
         ]
     },
-    "KIT digital": {
+    "kit digital": {
         "properties": [
             "kitd"
         ],
@@ -6120,7 +6120,7 @@ let parentCompanyJson = {
             "peerset"
         ]
     },
-    "Kokteyl": {
+    "kokteyl": {
         "properties": [
             "admost",
             "kokteyl"
@@ -6130,7 +6130,7 @@ let parentCompanyJson = {
             "kokteyl"
         ]
     },
-    "Komli": {
+    "komli": {
         "properties": [
             "komli"
         ],
@@ -6138,7 +6138,7 @@ let parentCompanyJson = {
             "komli"
         ]
     },
-    "Konduto": {
+    "konduto": {
         "properties": [
             "konduto"
         ],
@@ -6147,7 +6147,7 @@ let parentCompanyJson = {
             "konduto"
         ]
     },
-    "Kontera": {
+    "kontera": {
         "properties": [
             "kontera"
         ],
@@ -6155,7 +6155,7 @@ let parentCompanyJson = {
             "kontera"
         ]
     },
-    "Korrelate": {
+    "korrelate": {
         "properties": [
             "korrelate"
         ],
@@ -6165,7 +6165,7 @@ let parentCompanyJson = {
             "korrelate"
         ]
     },
-    "Krux": {
+    "krux": {
         "properties": [
             "krux",
             "kruxdigital"
@@ -6176,7 +6176,7 @@ let parentCompanyJson = {
             "krxd"
         ]
     },
-    "Lakana": {
+    "lakana": {
         "properties": [
             "lakana"
         ],
@@ -6185,7 +6185,7 @@ let parentCompanyJson = {
             "lakana"
         ]
     },
-    "Layer-Ad": {
+    "layer-ad": {
         "properties": [
             "layer-ad"
         ],
@@ -6193,7 +6193,7 @@ let parentCompanyJson = {
             "layer-ad"
         ]
     },
-    "Layer Ads": {
+    "layer ads": {
         "properties": [
             "layer-ads"
         ],
@@ -6201,7 +6201,7 @@ let parentCompanyJson = {
             "layer-ads"
         ]
     },
-    "LeadBolt": {
+    "leadbolt": {
         "properties": [
             "leadbolt"
         ],
@@ -6209,7 +6209,7 @@ let parentCompanyJson = {
             "leadbolt"
         ]
     },
-    "LeadForensics": {
+    "leadforensics": {
         "properties": [
             "leadforensics"
         ],
@@ -6217,7 +6217,7 @@ let parentCompanyJson = {
             "leadforensics"
         ]
     },
-    "LeadFormix": {
+    "leadformix": {
         "properties": [
             "calliduscloud",
             "leadforce1",
@@ -6229,7 +6229,7 @@ let parentCompanyJson = {
             "leadformix"
         ]
     },
-    "LeadsHub": {
+    "leadshub": {
         "properties": [
             "ztsrv"
         ],
@@ -6237,7 +6237,7 @@ let parentCompanyJson = {
             "ztsrv"
         ]
     },
-    "LeanPlum": {
+    "leanplum": {
         "properties": [
             "leanplum"
         ],
@@ -6245,7 +6245,7 @@ let parentCompanyJson = {
             "leanplum"
         ]
     },
-    "Legolas Media": {
+    "legolas media": {
         "properties": [
             "legolas-media"
         ],
@@ -6253,7 +6253,7 @@ let parentCompanyJson = {
             "legolas-media"
         ]
     },
-    "Levexis": {
+    "levexis": {
         "properties": [
             "levexis"
         ],
@@ -6261,7 +6261,7 @@ let parentCompanyJson = {
             "levexis"
         ]
     },
-    "Lexos Media": {
+    "lexos media": {
         "properties": [
             "adbull",
             "lexosmedia"
@@ -6271,7 +6271,7 @@ let parentCompanyJson = {
             "lexosmedia"
         ]
     },
-    "LifeStreet": {
+    "lifestreet": {
         "properties": [
             "lfstmedia",
             "lifestreetmedia"
@@ -6281,7 +6281,7 @@ let parentCompanyJson = {
             "lifestreetmedia"
         ]
     },
-    "Limelight Networks": {
+    "limelight networks": {
         "properties": [
             "limelight"
         ],
@@ -6291,7 +6291,7 @@ let parentCompanyJson = {
             "llnwd"
         ]
     },
-    "LineZing": {
+    "linezing": {
         "properties": [
             "linezing"
         ],
@@ -6299,7 +6299,7 @@ let parentCompanyJson = {
             "linezing"
         ]
     },
-    "LinkConnector": {
+    "linkconnector": {
         "properties": [
             "linkconnector"
         ],
@@ -6307,7 +6307,7 @@ let parentCompanyJson = {
             "linkconnector"
         ]
     },
-    "LinkedIn": {
+    "linkedin": {
         "properties": [
             "linkedin"
         ],
@@ -6316,7 +6316,7 @@ let parentCompanyJson = {
             "linkedin"
         ]
     },
-    "LinkShare": {
+    "linkshare": {
         "properties": [
             "rakutenmarketing"
         ],
@@ -6326,7 +6326,7 @@ let parentCompanyJson = {
             "rakutenmarketing"
         ]
     },
-    "Linkz": {
+    "linkz": {
         "properties": [
             "linkz"
         ],
@@ -6334,7 +6334,7 @@ let parentCompanyJson = {
             "linkz"
         ]
     },
-    "Listrak": {
+    "listrak": {
         "properties": [
             "listrak",
             "listrakbi"
@@ -6344,7 +6344,7 @@ let parentCompanyJson = {
             "listrakbi"
         ]
     },
-    "LiveIntent": {
+    "liveintent": {
         "properties": [
             "liveintent"
         ],
@@ -6353,7 +6353,7 @@ let parentCompanyJson = {
             "liveintent"
         ]
     },
-    "LiveInternet": {
+    "liveinternet": {
         "properties": [
             "liveinternet",
             "yadro"
@@ -6363,7 +6363,7 @@ let parentCompanyJson = {
             "yadro"
         ]
     },
-    "LivePerson": {
+    "liveperson": {
         "properties": [
             "liveperson"
         ],
@@ -6373,7 +6373,7 @@ let parentCompanyJson = {
             "nuconomy"
         ]
     },
-    "LiveRail": {
+    "liverail": {
         "properties": [
             "liverail"
         ],
@@ -6381,7 +6381,7 @@ let parentCompanyJson = {
             "liverail"
         ]
     },
-    "LKQD": {
+    "lkqd": {
         "properties": [
             "lkqd",
             "lkqd"
@@ -6391,7 +6391,7 @@ let parentCompanyJson = {
             "lkqd"
         ]
     },
-    "Local Yokel Media": {
+    "local yokel media": {
         "properties": [
             "localyokelmedia"
         ],
@@ -6399,7 +6399,7 @@ let parentCompanyJson = {
             "localyokelmedia"
         ]
     },
-    "Localytics": {
+    "localytics": {
         "properties": [
             "localytics"
         ],
@@ -6407,7 +6407,7 @@ let parentCompanyJson = {
             "localytics"
         ]
     },
-    "LockerDome": {
+    "lockerdome": {
         "properties": [
             "lockerdome"
         ],
@@ -6415,7 +6415,7 @@ let parentCompanyJson = {
             "lockerdome"
         ]
     },
-    "Lockerz": {
+    "lockerz": {
         "properties": [
             "lockerz"
         ],
@@ -6423,7 +6423,7 @@ let parentCompanyJson = {
             "lockerz"
         ]
     },
-    "Logdy": {
+    "logdy": {
         "properties": [
             "logdy"
         ],
@@ -6431,7 +6431,7 @@ let parentCompanyJson = {
             "logdy"
         ]
     },
-    "Longboard Media": {
+    "longboard media": {
         "properties": [
             "longboardmedia"
         ],
@@ -6439,7 +6439,7 @@ let parentCompanyJson = {
             "longboardmedia"
         ]
     },
-    "LongTail Video": {
+    "longtail video": {
         "properties": [
             "jwplayer"
         ],
@@ -6448,7 +6448,7 @@ let parentCompanyJson = {
             "ltassrv"
         ]
     },
-    "Loomia": {
+    "loomia": {
         "properties": [
             "loomia"
         ],
@@ -6456,7 +6456,7 @@ let parentCompanyJson = {
             "loomia"
         ]
     },
-    "LoopFuse": {
+    "loopfuse": {
         "properties": [
             "lfov",
             "loopfuse"
@@ -6466,7 +6466,7 @@ let parentCompanyJson = {
             "loopfuse"
         ]
     },
-    "LoopMe": {
+    "loopme": {
         "properties": [
             "loopme"
         ],
@@ -6474,7 +6474,7 @@ let parentCompanyJson = {
             "loopme"
         ]
     },
-    "Lotame": {
+    "lotame": {
         "properties": [
             "crwdcntrl",
             "lotame"
@@ -6484,7 +6484,7 @@ let parentCompanyJson = {
             "lotame"
         ]
     },
-    "LotLinx": {
+    "lotlinx": {
         "properties": [
             "lotlinx"
         ],
@@ -6492,7 +6492,7 @@ let parentCompanyJson = {
             "lotlinx"
         ]
     },
-    "Lower My Bills": {
+    "lower my bills": {
         "properties": [
             "lowermybills"
         ],
@@ -6508,7 +6508,7 @@ let parentCompanyJson = {
             "lptracker"
         ]
     },
-    "LucidMedia": {
+    "lucidmedia": {
         "properties": [
             "lucidmedia"
         ],
@@ -6516,7 +6516,7 @@ let parentCompanyJson = {
             "lucidmedia"
         ]
     },
-    "LuckyOrange": {
+    "luckyorange": {
         "properties": [
             "luckyorange"
         ],
@@ -6525,7 +6525,7 @@ let parentCompanyJson = {
             "luckyorange"
         ]
     },
-    "Lynchpin": {
+    "lynchpin": {
         "properties": [
             "lynchpin"
         ],
@@ -6534,7 +6534,7 @@ let parentCompanyJson = {
             "lypn"
         ]
     },
-    "Lyris": {
+    "lyris": {
         "properties": [
             "aurea"
         ],
@@ -6544,7 +6544,7 @@ let parentCompanyJson = {
             "lyris"
         ]
     },
-    "Lytiks": {
+    "lytiks": {
         "properties": [
             "lytiks"
         ],
@@ -6562,7 +6562,7 @@ let parentCompanyJson = {
             "media6degrees"
         ]
     },
-    "Madhouse": {
+    "madhouse": {
         "properties": [
             "madhouse"
         ],
@@ -6570,7 +6570,7 @@ let parentCompanyJson = {
             "madhouse"
         ]
     },
-    "Madison Logic": {
+    "madison logic": {
         "properties": [
             "dinclinx",
             "madisonlogic"
@@ -6588,7 +6588,7 @@ let parentCompanyJson = {
             "madvertise"
         ]
     },
-    "Magnetic": {
+    "magnetic": {
         "properties": [
             "domdex",
             "magnetic"
@@ -6600,7 +6600,7 @@ let parentCompanyJson = {
             "qjex"
         ]
     },
-    "Magnify360": {
+    "magnify360": {
         "properties": [
             "dialogmgr",
             "magnify360"
@@ -6610,7 +6610,7 @@ let parentCompanyJson = {
             "magnify360"
         ]
     },
-    "MailChimp": {
+    "mailchimp": {
         "properties": [
             "campaign-archive1",
             "mailchi",
@@ -6623,7 +6623,7 @@ let parentCompanyJson = {
             "mailchimp"
         ]
     },
-    "Mail": {
+    "mail": {
         "properties": [
             "list",
             "mail"
@@ -6633,7 +6633,7 @@ let parentCompanyJson = {
             "mail"
         ]
     },
-    "Manifest": {
+    "manifest": {
         "properties": [
             "bannerbank",
             "manifest"
@@ -6643,7 +6643,7 @@ let parentCompanyJson = {
             "manifest"
         ]
     },
-    "Marchex": {
+    "marchex": {
         "properties": [
             "industrybrains",
             "marchex"
@@ -6653,7 +6653,7 @@ let parentCompanyJson = {
             "marchex"
         ]
     },
-    "Marimedia": {
+    "marimedia": {
         "properties": [
             "marimedia"
         ],
@@ -6661,7 +6661,7 @@ let parentCompanyJson = {
             "marimedia"
         ]
     },
-    "MarketGid": {
+    "marketgid": {
         "properties": [
             "dt00",
             "dt07",
@@ -6673,7 +6673,7 @@ let parentCompanyJson = {
             "marketgid"
         ]
     },
-    "Marketo": {
+    "marketo": {
         "properties": [
             "marketo"
         ],
@@ -6682,7 +6682,7 @@ let parentCompanyJson = {
             "marketo"
         ]
     },
-    "Markit": {
+    "markit": {
         "properties": [
             "markit",
             "wsod"
@@ -6692,7 +6692,7 @@ let parentCompanyJson = {
             "wsod"
         ]
     },
-    "MarkMonitor": {
+    "markmonitor": {
         "properties": [
             "9c9media",
             "markmonitor"
@@ -6702,7 +6702,7 @@ let parentCompanyJson = {
             "markmonitor"
         ]
     },
-    "Marktest": {
+    "marktest": {
         "properties": [
             "marktest",
             "marktest"
@@ -6712,7 +6712,7 @@ let parentCompanyJson = {
             "marktest"
         ]
     },
-    "Martini Media": {
+    "martini media": {
         "properties": [
             "martiniadnetwork"
         ],
@@ -6729,7 +6729,7 @@ let parentCompanyJson = {
             "mashero"
         ]
     },
-    "MashLogic": {
+    "mashlogic": {
         "properties": [
             "mashlogic"
         ],
@@ -6737,7 +6737,7 @@ let parentCompanyJson = {
             "mashlogic"
         ]
     },
-    "Match": {
+    "match": {
         "properties": [
             "chemistry",
             "match"
@@ -6747,7 +6747,7 @@ let parentCompanyJson = {
             "match"
         ]
     },
-    "Matomy": {
+    "matomy": {
         "properties": [
             "matomy"
         ],
@@ -6762,7 +6762,7 @@ let parentCompanyJson = {
             "xtendmedia"
         ]
     },
-    "MaxBounty": {
+    "maxbounty": {
         "properties": [
             "maxbounty",
             "mb01"
@@ -6772,7 +6772,7 @@ let parentCompanyJson = {
             "mb01"
         ]
     },
-    "MaxMind": {
+    "maxmind": {
         "properties": [
             "maxmind"
         ],
@@ -6781,7 +6781,7 @@ let parentCompanyJson = {
             "mmapiws"
         ]
     },
-    "MaxPoint": {
+    "maxpoint": {
         "properties": [
             "maxpointinteractive",
             "maxusglobal",
@@ -6793,7 +6793,7 @@ let parentCompanyJson = {
             "mxptint"
         ]
     },
-    "McAfee": {
+    "mcafee": {
         "properties": [
             "mcafee",
             "mcafeesecure"
@@ -6804,7 +6804,7 @@ let parentCompanyJson = {
             "scanalert"
         ]
     },
-    "MdotM": {
+    "mdotm": {
         "properties": [
             "mdotm"
         ],
@@ -6812,7 +6812,7 @@ let parentCompanyJson = {
             "mdotm"
         ]
     },
-    "MediaBrix": {
+    "mediabrix": {
         "properties": [
             "mediabrix"
         ],
@@ -6820,7 +6820,7 @@ let parentCompanyJson = {
             "mediabrix"
         ]
     },
-    "MediaCom": {
+    "mediacom": {
         "properties": [
             "mediacom"
         ],
@@ -6828,7 +6828,7 @@ let parentCompanyJson = {
             "mediacom"
         ]
     },
-    "mediaFORGE": {
+    "mediaforge": {
         "properties": [
             "mediaforge"
         ],
@@ -6836,7 +6836,7 @@ let parentCompanyJson = {
             "mediaforge"
         ]
     },
-    "Medialets": {
+    "medialets": {
         "properties": [
             "medialets"
         ],
@@ -6844,7 +6844,7 @@ let parentCompanyJson = {
             "medialets"
         ]
     },
-    "MediaMath": {
+    "mediamath": {
         "properties": [
             "mediamath"
         ],
@@ -6855,7 +6855,7 @@ let parentCompanyJson = {
             "mediamath"
         ]
     },
-    "Médiamétrie-eStat": {
+    "médiamétrie-estat": {
         "properties": [
             "mediametrie-estat"
         ],
@@ -6872,7 +6872,7 @@ let parentCompanyJson = {
             "media"
         ]
     },
-    "Mediaocean": {
+    "mediaocean": {
         "properties": [
             "adbuyer",
             "mediaocean"
@@ -6882,7 +6882,7 @@ let parentCompanyJson = {
             "mediaocean"
         ]
     },
-    "MediaShakers": {
+    "mediashakers": {
         "properties": [
             "media-servers",
             "mediashakers"
@@ -6892,7 +6892,7 @@ let parentCompanyJson = {
             "mediashakers"
         ]
     },
-    "MediaTrust": {
+    "mediatrust": {
         "properties": [
             "mediatrust"
         ],
@@ -6900,7 +6900,7 @@ let parentCompanyJson = {
             "mediatrust"
         ]
     },
-    "Medicx Media Solutions": {
+    "medicx media solutions": {
         "properties": [
             "medicxmedia"
         ],
@@ -6908,7 +6908,7 @@ let parentCompanyJson = {
             "medicxmedia"
         ]
     },
-    "Meebo": {
+    "meebo": {
         "properties": [
             "meebo"
         ],
@@ -6917,7 +6917,7 @@ let parentCompanyJson = {
             "meebocdn"
         ]
     },
-    "MegaIndex": {
+    "megaindex": {
         "properties": [
             "megaindex"
         ],
@@ -6925,7 +6925,7 @@ let parentCompanyJson = {
             "megaindex"
         ]
     },
-    "Mercadopago": {
+    "mercadopago": {
         "properties": [
             "mercadolibre",
             "mercadolibre",
@@ -6952,7 +6952,7 @@ let parentCompanyJson = {
             "mercadopago"
         ]
     },
-    "Mercent": {
+    "mercent": {
         "properties": [
             "mercent"
         ],
@@ -6960,7 +6960,7 @@ let parentCompanyJson = {
             "mercent"
         ]
     },
-    "MerchantAdvantage": {
+    "merchantadvantage": {
         "properties": [
             "merchantadvantage"
         ],
@@ -6968,7 +6968,7 @@ let parentCompanyJson = {
             "merchantadvantage"
         ]
     },
-    "Merchenta": {
+    "merchenta": {
         "properties": [
             "merchenta"
         ],
@@ -6976,7 +6976,7 @@ let parentCompanyJson = {
             "merchenta"
         ]
     },
-    "Merkle": {
+    "merkle": {
         "properties": [
             "merkleinc",
             "rkdms"
@@ -6987,7 +6987,7 @@ let parentCompanyJson = {
             "rkdms"
         ]
     },
-    "Meta Network": {
+    "meta network": {
         "properties": [
             "metanetwork"
         ],
@@ -6995,7 +6995,7 @@ let parentCompanyJson = {
             "metanetwork"
         ]
     },
-    "Meteor": {
+    "meteor": {
         "properties": [
             "meteorsolutions"
         ],
@@ -7003,7 +7003,7 @@ let parentCompanyJson = {
             "meteorsolutions"
         ]
     },
-    "MetrixLab": {
+    "metrixlab": {
         "properties": [
             "crm-metrix",
             "customerconversio",
@@ -7018,7 +7018,7 @@ let parentCompanyJson = {
             "opinionbar"
         ]
     },
-    "MicroAd": {
+    "microad": {
         "properties": [
             "microad",
             "www"
@@ -7028,7 +7028,7 @@ let parentCompanyJson = {
             "www"
         ]
     },
-    "Microsoft": {
+    "microsoft": {
         "properties": [
             "bing",
             "gamesforwindows",
@@ -7075,7 +7075,7 @@ let parentCompanyJson = {
             "skype"
         ]
     },
-    "Millennial Media": {
+    "millennial media": {
         "properties": [
             "decktrade",
             "millennialmedia",
@@ -7087,7 +7087,7 @@ let parentCompanyJson = {
             "mydas"
         ]
     },
-    "Mindset Media": {
+    "mindset media": {
         "properties": [
             "mindset-media"
         ],
@@ -7096,7 +7096,7 @@ let parentCompanyJson = {
             "mmismm"
         ]
     },
-    "MinerAlt": {
+    "mineralt": {
         "properties": [
             "mineralt",
             "vidzi",
@@ -7121,7 +7121,7 @@ let parentCompanyJson = {
             "yololike"
         ]
     },
-    "Minescripts": {
+    "minescripts": {
         "properties": [
             "minescripts"
         ],
@@ -7130,7 +7130,7 @@ let parentCompanyJson = {
             "sslverify"
         ]
     },
-    "MineXMR": {
+    "minexmr": {
         "properties": [
             "minexmrream"
         ],
@@ -7138,7 +7138,7 @@ let parentCompanyJson = {
             "minexmrream"
         ]
     },
-    "Mirando": {
+    "mirando": {
         "properties": [
             "mirando"
         ],
@@ -7146,7 +7146,7 @@ let parentCompanyJson = {
             "mirando"
         ]
     },
-    "Mixpanel": {
+    "mixpanel": {
         "properties": [
             "mixpanel"
         ],
@@ -7155,7 +7155,7 @@ let parentCompanyJson = {
             "mxpnl"
         ]
     },
-    "Mixpo": {
+    "mixpo": {
         "properties": [
             "mixpo"
         ],
@@ -7163,7 +7163,7 @@ let parentCompanyJson = {
             "mixpo"
         ]
     },
-    "Moat": {
+    "moat": {
         "properties": [
             "moat",
             "moatads"
@@ -7173,7 +7173,7 @@ let parentCompanyJson = {
             "moatads"
         ]
     },
-    "MobFox": {
+    "mobfox": {
         "properties": [
             "mobfox"
         ],
@@ -7181,7 +7181,7 @@ let parentCompanyJson = {
             "mobfox"
         ]
     },
-    "Mobials": {
+    "mobials": {
         "properties": [
             "mobials"
         ],
@@ -7189,7 +7189,7 @@ let parentCompanyJson = {
             "mobials"
         ]
     },
-    "MobileAdTrading": {
+    "mobileadtrading": {
         "properties": [
             "mobileadtrading"
         ],
@@ -7197,7 +7197,7 @@ let parentCompanyJson = {
             "mobileadtrading"
         ]
     },
-    "Mobile Meteor": {
+    "mobile meteor": {
         "properties": [
             "mobilemeteor"
         ],
@@ -7206,7 +7206,7 @@ let parentCompanyJson = {
             "showmeinn"
         ]
     },
-    "Mobile Storm": {
+    "mobile storm": {
         "properties": [
             "mobilestorm"
         ],
@@ -7214,7 +7214,7 @@ let parentCompanyJson = {
             "mobilestorm"
         ]
     },
-    "MobVision": {
+    "mobvision": {
         "properties": [
             "admoda"
         ],
@@ -7223,7 +7223,7 @@ let parentCompanyJson = {
             "mobvision"
         ]
     },
-    "Mocean Mobile": {
+    "mocean mobile": {
         "properties": [
             "moceanmobile"
         ],
@@ -7231,7 +7231,7 @@ let parentCompanyJson = {
             "moceanmobile"
         ]
     },
-    "Mochila": {
+    "mochila": {
         "properties": [
             "mochila"
         ],
@@ -7239,7 +7239,7 @@ let parentCompanyJson = {
             "mochila"
         ]
     },
-    "Mojiva": {
+    "mojiva": {
         "properties": [
             "mojiva"
         ],
@@ -7247,7 +7247,7 @@ let parentCompanyJson = {
             "mojiva"
         ]
     },
-    "Monetate": {
+    "monetate": {
         "properties": [
             "monetate",
             "monetate"
@@ -7257,7 +7257,7 @@ let parentCompanyJson = {
             "monetate"
         ]
     },
-    "MONETIZEdigital": {
+    "monetizedigital": {
         "properties": [
             "cpalead"
         ],
@@ -7265,7 +7265,7 @@ let parentCompanyJson = {
             "cpalead"
         ]
     },
-    "Monetize More": {
+    "monetize more": {
         "properties": [
             "monetizemore"
         ],
@@ -7273,7 +7273,7 @@ let parentCompanyJson = {
             "monetizemore"
         ]
     },
-    "Mongoose Metrics": {
+    "mongoose metrics": {
         "properties": [
             "mongoosemetrics"
         ],
@@ -7281,7 +7281,7 @@ let parentCompanyJson = {
             "mongoosemetrics"
         ]
     },
-    "Monitus": {
+    "monitus": {
         "properties": [
             "monitus"
         ],
@@ -7289,7 +7289,7 @@ let parentCompanyJson = {
             "monitus"
         ]
     },
-    "Monoloop": {
+    "monoloop": {
         "properties": [
             "monoloop"
         ],
@@ -7297,7 +7297,7 @@ let parentCompanyJson = {
             "monoloop"
         ]
     },
-    "Monster": {
+    "monster": {
         "properties": [
             "monster"
         ],
@@ -7305,7 +7305,7 @@ let parentCompanyJson = {
             "monster"
         ]
     },
-    "Moolah Media": {
+    "moolah media": {
         "properties": [
             "moolah-media",
             "moolahmedia"
@@ -7315,7 +7315,7 @@ let parentCompanyJson = {
             "moolahmedia"
         ]
     },
-    "MoPub": {
+    "mopub": {
         "properties": [
             "mopub"
         ],
@@ -7332,7 +7332,7 @@ let parentCompanyJson = {
             "nedstatbasic"
         ]
     },
-    "Mouseflow": {
+    "mouseflow": {
         "properties": [
             "mouseflow"
         ],
@@ -7340,7 +7340,7 @@ let parentCompanyJson = {
             "mouseflow"
         ]
     },
-    "MovieLush": {
+    "movielush": {
         "properties": [
             "affbuzzads",
             "movielush"
@@ -7350,7 +7350,7 @@ let parentCompanyJson = {
             "movielush"
         ]
     },
-    "Multiple Stream Media": {
+    "multiple stream media": {
         "properties": [
             "adclickmedia",
             "multiplestreammktg"
@@ -7360,7 +7360,7 @@ let parentCompanyJson = {
             "multiplestreammktg"
         ]
     },
-    "MUNDO Media": {
+    "mundo media": {
         "properties": [
             "mundomedia",
             "silver-path"
@@ -7370,7 +7370,7 @@ let parentCompanyJson = {
             "silver-path"
         ]
     },
-    "MyCounter": {
+    "mycounter": {
         "properties": [
             "mycounter"
         ],
@@ -7378,7 +7378,7 @@ let parentCompanyJson = {
             "mycounter"
         ]
     },
-    "MyPagerank": {
+    "mypagerank": {
         "properties": [
             "mypagerank"
         ],
@@ -7386,7 +7386,7 @@ let parentCompanyJson = {
             "mypagerank"
         ]
     },
-    "MyPressPlus": {
+    "mypressplus": {
         "properties": [
             "mypressplus",
             "ppjol"
@@ -7396,7 +7396,7 @@ let parentCompanyJson = {
             "ppjol"
         ]
     },
-    "Mystighty": {
+    "mystighty": {
         "properties": [
             "mystighty"
         ],
@@ -7405,7 +7405,7 @@ let parentCompanyJson = {
             "sweeterge"
         ]
     },
-    "myThings": {
+    "mythings": {
         "properties": [
             "mythings",
             "mythingsmedia"
@@ -7415,7 +7415,7 @@ let parentCompanyJson = {
             "mythingsmedia"
         ]
     },
-    "MyWebGrocer": {
+    "mywebgrocer": {
         "properties": [
             "mywebgrocer"
         ],
@@ -7423,7 +7423,7 @@ let parentCompanyJson = {
             "mywebgrocer"
         ]
     },
-    "Nanigans": {
+    "nanigans": {
         "properties": [
             "nanigans"
         ],
@@ -7431,7 +7431,7 @@ let parentCompanyJson = {
             "nanigans"
         ]
     },
-    "Narrative": {
+    "narrative": {
         "properties": [
             "narrative"
         ],
@@ -7439,7 +7439,7 @@ let parentCompanyJson = {
             "narrative"
         ]
     },
-    "NativeAds": {
+    "nativeads": {
         "properties": [
             "nativeads"
         ],
@@ -7447,7 +7447,7 @@ let parentCompanyJson = {
             "nativeads"
         ]
     },
-    "Nativo": {
+    "nativo": {
         "properties": [
             "nativo",
             "postrelease"
@@ -7457,7 +7457,7 @@ let parentCompanyJson = {
             "postrelease"
         ]
     },
-    "Navegg": {
+    "navegg": {
         "properties": [
             "navdmp",
             "navegg"
@@ -7467,7 +7467,7 @@ let parentCompanyJson = {
             "navegg"
         ]
     },
-    "NDN": {
+    "ndn": {
         "properties": [
             "newsinc"
         ],
@@ -7475,7 +7475,7 @@ let parentCompanyJson = {
             "newsinc"
         ]
     },
-    "Negishim": {
+    "negishim": {
         "properties": [
             "negishim"
         ],
@@ -7483,7 +7483,7 @@ let parentCompanyJson = {
             "negishim"
         ]
     },
-    "NeroHut": {
+    "nerohut": {
         "properties": [
             "nerohut"
         ],
@@ -7492,7 +7492,7 @@ let parentCompanyJson = {
             "nhsrv"
         ]
     },
-    "NetAffiliation": {
+    "netaffiliation": {
         "properties": [
             "netaffiliation"
         ],
@@ -7500,7 +7500,7 @@ let parentCompanyJson = {
             "netaffiliation"
         ]
     },
-    "Net Applications": {
+    "net applications": {
         "properties": [
             "netapplications"
         ],
@@ -7509,7 +7509,7 @@ let parentCompanyJson = {
             "netapplications"
         ]
     },
-    "NetBina": {
+    "netbina": {
         "properties": [
             "netbina"
         ],
@@ -7517,7 +7517,7 @@ let parentCompanyJson = {
             "netbina"
         ]
     },
-    "NetElixir": {
+    "netelixir": {
         "properties": [
             "adelixir",
             "netelixir"
@@ -7527,7 +7527,7 @@ let parentCompanyJson = {
             "netelixir"
         ]
     },
-    "Netmining": {
+    "netmining": {
         "properties": [
             "netmining",
             "netmng"
@@ -7537,7 +7537,7 @@ let parentCompanyJson = {
             "netmng"
         ]
     },
-    "Net-Results": {
+    "net-results": {
         "properties": [
             "net-results",
             "nr7"
@@ -7548,7 +7548,7 @@ let parentCompanyJson = {
             "nr7"
         ]
     },
-    "NetSeer": {
+    "netseer": {
         "properties": [
             "netseer"
         ],
@@ -7556,7 +7556,7 @@ let parentCompanyJson = {
             "netseer"
         ]
     },
-    "NetShelter": {
+    "netshelter": {
         "properties": [
             "ziffdavistech"
         ],
@@ -7566,7 +7566,7 @@ let parentCompanyJson = {
             "ziffdavistech"
         ]
     },
-    "Neustar": {
+    "neustar": {
         "properties": [
             "adadvisor",
             "neustar"
@@ -7576,7 +7576,7 @@ let parentCompanyJson = {
             "neustar"
         ]
     },
-    "New Relic": {
+    "new relic": {
         "properties": [
             "newrelic"
         ],
@@ -7585,7 +7585,7 @@ let parentCompanyJson = {
             "nr-data"
         ]
     },
-    "NewsRight": {
+    "newsright": {
         "properties": [
             "apnewsregistry",
             "newsright"
@@ -7607,7 +7607,7 @@ let parentCompanyJson = {
             "newtentionassets"
         ]
     },
-    "Nexage": {
+    "nexage": {
         "properties": [
             "nexage"
         ],
@@ -7615,7 +7615,7 @@ let parentCompanyJson = {
             "nexage"
         ]
     },
-    "Nextag": {
+    "nextag": {
         "properties": [
             "nextag"
         ],
@@ -7623,7 +7623,7 @@ let parentCompanyJson = {
             "nextag"
         ]
     },
-    "NextPerformance": {
+    "nextperformance": {
         "properties": [
             "nextperf",
             "nextperformance",
@@ -7635,7 +7635,7 @@ let parentCompanyJson = {
             "nxtck"
         ]
     },
-    "NextSTAT": {
+    "nextstat": {
         "properties": [
             "nextstat"
         ],
@@ -7643,7 +7643,7 @@ let parentCompanyJson = {
             "nextstat"
         ]
     },
-    "Nielsen": {
+    "nielsen": {
         "properties": [
             "glanceguide",
             "imrworldwide",
@@ -7657,7 +7657,7 @@ let parentCompanyJson = {
             "nielsen"
         ]
     },
-    "Ninua": {
+    "ninua": {
         "properties": [
             "networkedblogs",
             "ninua"
@@ -7667,7 +7667,7 @@ let parentCompanyJson = {
             "ninua"
         ]
     },
-    "Nokta": {
+    "nokta": {
         "properties": [
             "noktamedya",
             "virgul"
@@ -7677,7 +7677,7 @@ let parentCompanyJson = {
             "virgul"
         ]
     },
-    "NowSpots": {
+    "nowspots": {
         "properties": [
             "nowspots"
         ],
@@ -7693,7 +7693,7 @@ let parentCompanyJson = {
             "nrelate"
         ]
     },
-    "NuDataSecurity": {
+    "nudatasecurity": {
         "properties": [
             "nudatasecurity"
         ],
@@ -7701,7 +7701,7 @@ let parentCompanyJson = {
             "nudatasecurity"
         ]
     },
-    "Nuffnang": {
+    "nuffnang": {
         "properties": [
             "nuffnang",
             "nuffnang",
@@ -7732,7 +7732,7 @@ let parentCompanyJson = {
             "sensic"
         ]
     },
-    "Oberon Media": {
+    "oberon media": {
         "properties": [
             "iwin"
         ],
@@ -7742,7 +7742,7 @@ let parentCompanyJson = {
             "oberon-media"
         ]
     },
-    "Observer": {
+    "observer": {
         "properties": [
             "observerapp"
         ],
@@ -7750,7 +7750,7 @@ let parentCompanyJson = {
             "observerapp"
         ]
     },
-    "Ohana Media": {
+    "ohana media": {
         "properties": [
             "adohana",
             "ohana-media",
@@ -7762,7 +7762,7 @@ let parentCompanyJson = {
             "ohanaqb"
         ]
     },
-    "Olark": {
+    "olark": {
         "properties": [
             "olark"
         ],
@@ -7770,7 +7770,7 @@ let parentCompanyJson = {
             "olark"
         ]
     },
-    "Omnicom Group": {
+    "omnicom group": {
         "properties": [
             "accuenmedia",
             "omnicomgroup"
@@ -7781,7 +7781,7 @@ let parentCompanyJson = {
             "p-td"
         ]
     },
-    "onAd": {
+    "onad": {
         "properties": [
             "onad"
         ],
@@ -7789,7 +7789,7 @@ let parentCompanyJson = {
             "onad"
         ]
     },
-    "OnAudience": {
+    "onaudience": {
         "properties": [
             "behavioralengine",
             "onaudience"
@@ -7799,7 +7799,7 @@ let parentCompanyJson = {
             "onaudience"
         ]
     },
-    "OneAd": {
+    "onead": {
         "properties": [
             "onead"
         ],
@@ -7808,7 +7808,7 @@ let parentCompanyJson = {
             "onevision"
         ]
     },
-    "One iota": {
+    "one iota": {
         "properties": [
             "itsoneiota",
             "oneiota"
@@ -7818,7 +7818,7 @@ let parentCompanyJson = {
             "oneiota"
         ]
     },
-    "OneStat": {
+    "onestat": {
         "properties": [
             "onestat"
         ],
@@ -7826,7 +7826,7 @@ let parentCompanyJson = {
             "onestat"
         ]
     },
-    "Oneupweb": {
+    "oneupweb": {
         "properties": [
             "oneupweb",
             "sodoit"
@@ -7836,7 +7836,7 @@ let parentCompanyJson = {
             "sodoit"
         ]
     },
-    "OnlineMetrix": {
+    "onlinemetrix": {
         "properties": [
             "online-metrix"
         ],
@@ -7844,7 +7844,7 @@ let parentCompanyJson = {
             "online-metrix"
         ]
     },
-    "Ooyala": {
+    "ooyala": {
         "properties": [
             "ooyala"
         ],
@@ -7853,7 +7853,7 @@ let parentCompanyJson = {
             "ooyala"
         ]
     },
-    "Open New Media": {
+    "open new media": {
         "properties": [
             "onm"
         ],
@@ -7861,7 +7861,7 @@ let parentCompanyJson = {
             "onm"
         ]
     },
-    "Openstat": {
+    "openstat": {
         "properties": [
             "openstat"
         ],
@@ -7871,7 +7871,7 @@ let parentCompanyJson = {
             "spylog"
         ]
     },
-    "Opentracker": {
+    "opentracker": {
         "properties": [
             "opentracker"
         ],
@@ -7879,7 +7879,7 @@ let parentCompanyJson = {
             "opentracker"
         ]
     },
-    "OpenX": {
+    "openx": {
         "properties": [
             "openx",
             "openx"
@@ -7893,7 +7893,7 @@ let parentCompanyJson = {
             "servedbyopenx"
         ]
     },
-    "Opera": {
+    "opera": {
         "properties": [
             "opera"
         ],
@@ -7902,7 +7902,7 @@ let parentCompanyJson = {
             "opera"
         ]
     },
-    "Opolen": {
+    "opolen": {
         "properties": [
             "opolen"
         ],
@@ -7910,7 +7910,7 @@ let parentCompanyJson = {
             "opolen"
         ]
     },
-    "OPT": {
+    "opt": {
         "properties": [
             "www"
         ],
@@ -7921,7 +7921,7 @@ let parentCompanyJson = {
             "www"
         ]
     },
-    "Optify": {
+    "optify": {
         "properties": [
             "optify"
         ],
@@ -7929,7 +7929,7 @@ let parentCompanyJson = {
             "optify"
         ]
     },
-    "Optimal": {
+    "optimal": {
         "properties": [
             "bn"
         ],
@@ -7942,7 +7942,7 @@ let parentCompanyJson = {
             "xa"
         ]
     },
-    "Optimizely": {
+    "optimizely": {
         "properties": [
             "optimizely"
         ],
@@ -7950,7 +7950,7 @@ let parentCompanyJson = {
             "optimizely"
         ]
     },
-    "OptimumResponse": {
+    "optimumresponse": {
         "properties": [
             "optimumresponse"
         ],
@@ -7958,7 +7958,7 @@ let parentCompanyJson = {
             "optimumresponse"
         ]
     },
-    "OptinMonster": {
+    "optinmonster": {
         "properties": [
             "optinmonster",
             "optnmstr"
@@ -7968,7 +7968,7 @@ let parentCompanyJson = {
             "optnmstr"
         ]
     },
-    "OptMD": {
+    "optmd": {
         "properties": [
             "optmd"
         ],
@@ -7976,7 +7976,7 @@ let parentCompanyJson = {
             "optmd"
         ]
     },
-    "Oracle": {
+    "oracle": {
         "properties": [
             "oracle"
         ],
@@ -7990,7 +7990,7 @@ let parentCompanyJson = {
             "oracle"
         ]
     },
-    "OrangeSoda": {
+    "orangesoda": {
         "properties": [
             "orangesoda",
             "otracking"
@@ -8000,7 +8000,7 @@ let parentCompanyJson = {
             "otracking"
         ]
     },
-    "Outbrain": {
+    "outbrain": {
         "properties": [
             "outbrain",
             "sphere"
@@ -8011,7 +8011,7 @@ let parentCompanyJson = {
             "visualrevenue"
         ]
     },
-    "Out There Media": {
+    "out there media": {
         "properties": [
             "out-there-media"
         ],
@@ -8019,7 +8019,7 @@ let parentCompanyJson = {
             "out-there-media"
         ]
     },
-    "Oversee": {
+    "oversee": {
         "properties": [
             "dsnextgen",
             "oversee"
@@ -8029,7 +8029,7 @@ let parentCompanyJson = {
             "oversee"
         ]
     },
-    "ÖWA": {
+    "öwa": {
         "properties": [
             "oewa"
         ],
@@ -8038,7 +8038,7 @@ let parentCompanyJson = {
             "oewabox"
         ]
     },
-    "OwnerIQ": {
+    "owneriq": {
         "properties": [
             "owneriq",
             "owneriq"
@@ -8048,7 +8048,7 @@ let parentCompanyJson = {
             "owneriq"
         ]
     },
-    "OxaMedia": {
+    "oxamedia": {
         "properties": [
             "oxamedia"
         ],
@@ -8058,7 +8058,7 @@ let parentCompanyJson = {
             "oxamedia"
         ]
     },
-    "PageFair": {
+    "pagefair": {
         "properties": [
             "pagefair",
             "pagefair"
@@ -8068,7 +8068,7 @@ let parentCompanyJson = {
             "pagefair"
         ]
     },
-    "Paid-To-Promote": {
+    "paid-to-promote": {
         "properties": [
             "paid-to-promote"
         ],
@@ -8076,7 +8076,7 @@ let parentCompanyJson = {
             "paid-to-promote"
         ]
     },
-    "Papaya": {
+    "papaya": {
         "properties": [
             "papayamobile"
         ],
@@ -8084,7 +8084,7 @@ let parentCompanyJson = {
             "papayamobile"
         ]
     },
-    "Pardot": {
+    "pardot": {
         "properties": [
             "pardot"
         ],
@@ -8092,7 +8092,7 @@ let parentCompanyJson = {
             "pardot"
         ]
     },
-    "Parse": {
+    "parse": {
         "properties": [
             "parsely"
         ],
@@ -8100,7 +8100,7 @@ let parentCompanyJson = {
             "parsely"
         ]
     },
-    "PayHit": {
+    "payhit": {
         "properties": [
             "payhit"
         ],
@@ -8108,7 +8108,7 @@ let parentCompanyJson = {
             "payhit"
         ]
     },
-    "PaymentsMB": {
+    "paymentsmb": {
         "properties": [
             "paymentsmb"
         ],
@@ -8116,7 +8116,7 @@ let parentCompanyJson = {
             "paymentsmb"
         ]
     },
-    "Paypal": {
+    "paypal": {
         "properties": [
             "paypal",
             "simility"
@@ -8126,7 +8126,7 @@ let parentCompanyJson = {
             "simility"
         ]
     },
-    "Paypopup": {
+    "paypopup": {
         "properties": [
             "paypopup"
         ],
@@ -8135,7 +8135,7 @@ let parentCompanyJson = {
             "paypopup"
         ]
     },
-    "Peer39": {
+    "peer39": {
         "properties": [
             "peer39",
             "peer39"
@@ -8145,7 +8145,7 @@ let parentCompanyJson = {
             "peer39"
         ]
     },
-    "PeerFly": {
+    "peerfly": {
         "properties": [
             "peerfly"
         ],
@@ -8153,7 +8153,7 @@ let parentCompanyJson = {
             "peerfly"
         ]
     },
-    "Peerius": {
+    "peerius": {
         "properties": [
             "peerius"
         ],
@@ -8161,7 +8161,7 @@ let parentCompanyJson = {
             "peerius"
         ]
     },
-    "Performancing": {
+    "performancing": {
         "properties": [
             "performancing"
         ],
@@ -8169,7 +8169,7 @@ let parentCompanyJson = {
             "performancing"
         ]
     },
-    "PerimeterX": {
+    "perimeterx": {
         "properties": [
             "perimeterx"
         ],
@@ -8177,7 +8177,7 @@ let parentCompanyJson = {
             "perimeterx"
         ]
     },
-    "PersianStat": {
+    "persianstat": {
         "properties": [
             "persianstat"
         ],
@@ -8185,7 +8185,7 @@ let parentCompanyJson = {
             "persianstat"
         ]
     },
-    "Pheedo": {
+    "pheedo": {
         "properties": [
             "pheedo"
         ],
@@ -8193,7 +8193,7 @@ let parentCompanyJson = {
             "pheedo"
         ]
     },
-    "Phonalytics": {
+    "phonalytics": {
         "properties": [
             "phonalytics"
         ],
@@ -8201,7 +8201,7 @@ let parentCompanyJson = {
             "phonalytics"
         ]
     },
-    "phpMyVisites": {
+    "phpmyvisites": {
         "properties": [
             "phpmyvisites"
         ],
@@ -8209,7 +8209,7 @@ let parentCompanyJson = {
             "phpmyvisites"
         ]
     },
-    "Pictela": {
+    "pictela": {
         "properties": [
             "pictela",
             "pictela"
@@ -8219,7 +8219,7 @@ let parentCompanyJson = {
             "pictela"
         ]
     },
-    "PinPoll": {
+    "pinpoll": {
         "properties": [
             "pinpoll"
         ],
@@ -8227,7 +8227,7 @@ let parentCompanyJson = {
             "pinpoll"
         ]
     },
-    "Pinterest": {
+    "pinterest": {
         "properties": [
             "pinterest",
             "pinterest",
@@ -8253,7 +8253,7 @@ let parentCompanyJson = {
             "pinterest"
         ]
     },
-    "Piwik": {
+    "piwik": {
         "properties": [
             "piwik"
         ],
@@ -8261,7 +8261,7 @@ let parentCompanyJson = {
             "piwik"
         ]
     },
-    "PixAnalytics": {
+    "pixanalytics": {
         "properties": [
             "pixanalytics"
         ],
@@ -8269,7 +8269,7 @@ let parentCompanyJson = {
             "pixanalytics"
         ]
     },
-    "Pixel": {
+    "pixel": {
         "properties": [
             "pixel"
         ],
@@ -8277,7 +8277,7 @@ let parentCompanyJson = {
             "pixel"
         ]
     },
-    "Piximedia": {
+    "piximedia": {
         "properties": [
             "piximedia"
         ],
@@ -8285,7 +8285,7 @@ let parentCompanyJson = {
             "piximedia"
         ]
     },
-    "Pixlee": {
+    "pixlee": {
         "properties": [
             "pixlee"
         ],
@@ -8293,7 +8293,7 @@ let parentCompanyJson = {
             "pixlee"
         ]
     },
-    "PLATFORM ONE": {
+    "platform one": {
         "properties": [
             "platform-one",
             "wwwatform-one"
@@ -8311,7 +8311,7 @@ let parentCompanyJson = {
             "plista"
         ]
     },
-    "PocketCents": {
+    "pocketcents": {
         "properties": [
             "pocketcents"
         ],
@@ -8319,7 +8319,7 @@ let parentCompanyJson = {
             "pocketcents"
         ]
     },
-    "Polar Mobile": {
+    "polar mobile": {
         "properties": [
             "mediavoice"
         ],
@@ -8328,7 +8328,7 @@ let parentCompanyJson = {
             "polarmobile"
         ]
     },
-    "Politads": {
+    "politads": {
         "properties": [
             "politads"
         ],
@@ -8336,7 +8336,7 @@ let parentCompanyJson = {
             "politads"
         ]
     },
-    "Polymorph": {
+    "polymorph": {
         "properties": [
             "getpolymorph"
         ],
@@ -8345,7 +8345,7 @@ let parentCompanyJson = {
             "getpolymorph"
         ]
     },
-    "Pontiflex": {
+    "pontiflex": {
         "properties": [
             "pontiflex"
         ],
@@ -8353,7 +8353,7 @@ let parentCompanyJson = {
             "pontiflex"
         ]
     },
-    "Poool": {
+    "poool": {
         "properties": [
             "poool"
         ],
@@ -8361,7 +8361,7 @@ let parentCompanyJson = {
             "poool"
         ]
     },
-    "PopAds": {
+    "popads": {
         "properties": [
             "popads"
         ],
@@ -8370,7 +8370,7 @@ let parentCompanyJson = {
             "popadscdn"
         ]
     },
-    "PopRule": {
+    "poprule": {
         "properties": [
             "gocampaignlive",
             "poprule"
@@ -8380,7 +8380,7 @@ let parentCompanyJson = {
             "poprule"
         ]
     },
-    "Popunder": {
+    "popunder": {
         "properties": [
             "popunder"
         ],
@@ -8388,7 +8388,7 @@ let parentCompanyJson = {
             "popunder"
         ]
     },
-    "Po": {
+    "po": {
         "properties": [
             "po"
         ],
@@ -8396,7 +8396,7 @@ let parentCompanyJson = {
             "po"
         ]
     },
-    "Powerlinks": {
+    "powerlinks": {
         "properties": [
             "powerlinks"
         ],
@@ -8404,7 +8404,7 @@ let parentCompanyJson = {
             "powerlinks"
         ]
     },
-    "PPCProtect": {
+    "ppcprotect": {
         "properties": [
             "ppcprotect"
         ],
@@ -8412,7 +8412,7 @@ let parentCompanyJson = {
             "ppcprotect"
         ]
     },
-    "PrecisionClick": {
+    "precisionclick": {
         "properties": [
             "precisionclick"
         ],
@@ -8420,7 +8420,7 @@ let parentCompanyJson = {
             "precisionclick"
         ]
     },
-    "PredictAd": {
+    "predictad": {
         "properties": [
             "predictad"
         ],
@@ -8428,7 +8428,7 @@ let parentCompanyJson = {
             "predictad"
         ]
     },
-    "Pressflex": {
+    "pressflex": {
         "properties": [
             "blogads",
             "pressflex"
@@ -8438,7 +8438,7 @@ let parentCompanyJson = {
             "pressflex"
         ]
     },
-    "Prime Visibility": {
+    "prime visibility": {
         "properties": [
             "primevisibility"
         ],
@@ -8459,7 +8459,7 @@ let parentCompanyJson = {
             "urtbk"
         ]
     },
-    "Primis": {
+    "primis": {
         "properties": [
             "primis"
         ],
@@ -8467,7 +8467,7 @@ let parentCompanyJson = {
             "sekindo"
         ]
     },
-    "PrismApp": {
+    "prismapp": {
         "properties": [
             "prismapp"
         ],
@@ -8475,7 +8475,7 @@ let parentCompanyJson = {
             "prismapp"
         ]
     },
-    "Proclivity": {
+    "proclivity": {
         "properties": [
             "proclivitysystems",
             "pswec"
@@ -8486,7 +8486,7 @@ let parentCompanyJson = {
             "pswec"
         ]
     },
-    "Project Wonderful": {
+    "project wonderful": {
         "properties": [
             "projectwonderful"
         ],
@@ -8494,7 +8494,7 @@ let parentCompanyJson = {
             "projectwonderful"
         ]
     },
-    "PrometheusIntelligenceTechnology": {
+    "prometheusintelligencetechnology": {
         "properties": [
             "prometheusintelligencetechnology"
         ],
@@ -8502,7 +8502,7 @@ let parentCompanyJson = {
             "prometheusintelligencetechnology"
         ]
     },
-    "Pronunciator": {
+    "pronunciator": {
         "properties": [
             "pronunciator",
             "visitorville"
@@ -8512,7 +8512,7 @@ let parentCompanyJson = {
             "visitorville"
         ]
     },
-    "Propeller Ads": {
+    "propeller ads": {
         "properties": [
             "propellerads"
         ],
@@ -8520,7 +8520,7 @@ let parentCompanyJson = {
             "propellerads"
         ]
     },
-    "Prosperent": {
+    "prosperent": {
         "properties": [
             "prosperent"
         ],
@@ -8528,7 +8528,7 @@ let parentCompanyJson = {
             "prosperent"
         ]
     },
-    "Protected Media": {
+    "protected media": {
         "properties": [
             "ad-score",
             "protected"
@@ -8538,7 +8538,7 @@ let parentCompanyJson = {
             "protected"
         ]
     },
-    "Provers": {
+    "provers": {
         "properties": [
             "provers"
         ],
@@ -8546,7 +8546,7 @@ let parentCompanyJson = {
             "provers"
         ]
     },
-    "Psonstrentie": {
+    "psonstrentie": {
         "properties": [
             "psonstrentie"
         ],
@@ -8554,7 +8554,7 @@ let parentCompanyJson = {
             "psonstrentie"
         ]
     },
-    "Public-Idées": {
+    "public-idées": {
         "properties": [
             "publicidees"
         ],
@@ -8562,7 +8562,7 @@ let parentCompanyJson = {
             "publicidees"
         ]
     },
-    "Publishers Clearing House": {
+    "publishers clearing house": {
         "properties": [
             "pch"
         ],
@@ -8570,7 +8570,7 @@ let parentCompanyJson = {
             "pch"
         ]
     },
-    "PubMatic": {
+    "pubmatic": {
         "properties": [
             "pubmatic"
         ],
@@ -8579,7 +8579,7 @@ let parentCompanyJson = {
             "revinet"
         ]
     },
-    "PulsePoint": {
+    "pulsepoint": {
         "properties": [
             "pulsepoint"
         ],
@@ -8587,7 +8587,7 @@ let parentCompanyJson = {
             "pulsepoint"
         ]
     },
-    "PunchTab": {
+    "punchtab": {
         "properties": [
             "punchtab"
         ],
@@ -8595,7 +8595,7 @@ let parentCompanyJson = {
             "punchtab"
         ]
     },
-    "quadrantOne": {
+    "quadrantone": {
         "properties": [
             "quadrantone"
         ],
@@ -8603,7 +8603,7 @@ let parentCompanyJson = {
             "quadrantone"
         ]
     },
-    "Quake Marketing": {
+    "quake marketing": {
         "properties": [
             "quakemarketing"
         ],
@@ -8611,7 +8611,7 @@ let parentCompanyJson = {
             "quakemarketing"
         ]
     },
-    "Qualaroo": {
+    "qualaroo": {
         "properties": [
             "qualaroo"
         ],
@@ -8620,7 +8620,7 @@ let parentCompanyJson = {
             "qualaroo"
         ]
     },
-    "Quantcast": {
+    "quantcast": {
         "properties": [
             "quantcast",
             "quantserve"
@@ -8630,7 +8630,7 @@ let parentCompanyJson = {
             "quantserve"
         ]
     },
-    "QuantumAdvertising": {
+    "quantumadvertising": {
         "properties": [
             "quantum-advertising"
         ],
@@ -8638,7 +8638,7 @@ let parentCompanyJson = {
             "quantum-advertising"
         ]
     },
-    "QuinStreet": {
+    "quinstreet": {
         "properties": [
             "quinstreet",
             "thecounter"
@@ -8650,7 +8650,7 @@ let parentCompanyJson = {
             "thecounter"
         ]
     },
-    "Quintelligence": {
+    "quintelligence": {
         "properties": [
             "quintelligence"
         ],
@@ -8658,7 +8658,7 @@ let parentCompanyJson = {
             "quintelligence"
         ]
     },
-    "QUISMA": {
+    "quisma": {
         "properties": [
             "quisma"
         ],
@@ -8670,7 +8670,7 @@ let parentCompanyJson = {
             "xmladed"
         ]
     },
-    "RadarURL": {
+    "radarurl": {
         "properties": [
             "radarurl"
         ],
@@ -8678,7 +8678,7 @@ let parentCompanyJson = {
             "radarurl"
         ]
     },
-    "Radial": {
+    "radial": {
         "properties": [
             "radial"
         ],
@@ -8692,7 +8692,7 @@ let parentCompanyJson = {
             "pntrs"
         ]
     },
-    "Radiate Media": {
+    "radiate media": {
         "properties": [
             "gtnetwork",
             "solesolution"
@@ -8704,7 +8704,7 @@ let parentCompanyJson = {
             "solesolution"
         ]
     },
-    "RadiumOne": {
+    "radiumone": {
         "properties": [
             "radiumone"
         ],
@@ -8713,7 +8713,7 @@ let parentCompanyJson = {
             "radiumone"
         ]
     },
-    "Radius Marketing": {
+    "radius marketing": {
         "properties": [
             "radiusmarketing"
         ],
@@ -8721,7 +8721,7 @@ let parentCompanyJson = {
             "radiusmarketing"
         ]
     },
-    "Rambler": {
+    "rambler": {
         "properties": [
             "rambler"
         ],
@@ -8729,7 +8729,7 @@ let parentCompanyJson = {
             "rambler"
         ]
     },
-    "Rapleaf": {
+    "rapleaf": {
         "properties": [
             "liveramp",
             "rapleaf",
@@ -8741,7 +8741,7 @@ let parentCompanyJson = {
             "rlcdn"
         ]
     },
-    "ReachLocal": {
+    "reachlocal": {
         "properties": [
             "reachlocal",
             "rlcdn"
@@ -8751,7 +8751,7 @@ let parentCompanyJson = {
             "rlcdn"
         ]
     },
-    "React2Media": {
+    "react2media": {
         "properties": [
             "react2media"
         ],
@@ -8767,7 +8767,7 @@ let parentCompanyJson = {
             "reddit"
         ]
     },
-    "Redux Media": {
+    "redux media": {
         "properties": [
             "reduxmedia"
         ],
@@ -8775,7 +8775,7 @@ let parentCompanyJson = {
             "reduxmedia"
         ]
     },
-    "Rekko": {
+    "rekko": {
         "properties": [
             "convertglobal",
             "rekko"
@@ -8785,7 +8785,7 @@ let parentCompanyJson = {
             "rekko"
         ]
     },
-    "Reklamport": {
+    "reklamport": {
         "properties": [
             "reklamport"
         ],
@@ -8793,7 +8793,7 @@ let parentCompanyJson = {
             "reklamport"
         ]
     },
-    "Reklam Store": {
+    "reklam store": {
         "properties": [
             "reklamstore"
         ],
@@ -8801,7 +8801,7 @@ let parentCompanyJson = {
             "reklamstore"
         ]
     },
-    "Reklamz": {
+    "reklamz": {
         "properties": [
             "reklamz"
         ],
@@ -8809,7 +8809,7 @@ let parentCompanyJson = {
             "reklamz"
         ]
     },
-    "Relevad": {
+    "relevad": {
         "properties": [
             "relestar",
             "relevad"
@@ -8819,7 +8819,7 @@ let parentCompanyJson = {
             "relevad"
         ]
     },
-    "Renegade Internet": {
+    "renegade internet": {
         "properties": [
             "advertserve",
             "renegadeinternet"
@@ -8829,7 +8829,7 @@ let parentCompanyJson = {
             "renegadeinternet"
         ]
     },
-    "Reporo": {
+    "reporo": {
         "properties": [
             "reporo"
         ],
@@ -8837,7 +8837,7 @@ let parentCompanyJson = {
             "buzzcity"
         ]
     },
-    "Research Now": {
+    "research now": {
         "properties": [
             "researchnow",
             "valuedopinions"
@@ -8847,7 +8847,7 @@ let parentCompanyJson = {
             "valuedopinions"
         ]
     },
-    "Resolution Media": {
+    "resolution media": {
         "properties": [
             "resolutionmedia"
         ],
@@ -8855,7 +8855,7 @@ let parentCompanyJson = {
             "resolutionmedia"
         ]
     },
-    "Resonate": {
+    "resonate": {
         "properties": [
             "resonateinsights",
             "resonatenetworks"
@@ -8866,7 +8866,7 @@ let parentCompanyJson = {
             "resonatenetworks"
         ]
     },
-    "Responsys": {
+    "responsys": {
         "properties": [
             "responsys"
         ],
@@ -8874,7 +8874,7 @@ let parentCompanyJson = {
             "responsys"
         ]
     },
-    "Retail Automata": {
+    "retail automata": {
         "properties": [
             "retailautomata"
         ],
@@ -8882,7 +8882,7 @@ let parentCompanyJson = {
             "retailautomata"
         ]
     },
-    "ReTargeter": {
+    "retargeter": {
         "properties": [
             "retargeter"
         ],
@@ -8890,7 +8890,7 @@ let parentCompanyJson = {
             "retargeter"
         ]
     },
-    "Retirement Living": {
+    "retirement living": {
         "properties": [
             "blvdstatus",
             "retirement-living"
@@ -8900,7 +8900,7 @@ let parentCompanyJson = {
             "retirement-living"
         ]
     },
-    "RevContent": {
+    "revcontent": {
         "properties": [
             "revcontent"
         ],
@@ -8908,7 +8908,7 @@ let parentCompanyJson = {
             "revcontent"
         ]
     },
-    "RevenueMax": {
+    "revenuemax": {
         "properties": [
             "revenuemax"
         ],
@@ -8916,7 +8916,7 @@ let parentCompanyJson = {
             "revenuemax"
         ]
     },
-    "Revtracks": {
+    "revtracks": {
         "properties": [
             "revtrax"
         ],
@@ -8924,7 +8924,7 @@ let parentCompanyJson = {
             "revtrax"
         ]
     },
-    "Rhythm": {
+    "rhythm": {
         "properties": [
             "rhythmone"
         ],
@@ -8936,7 +8936,7 @@ let parentCompanyJson = {
             "rnmd"
         ]
     },
-    "RichAudience": {
+    "richaudience": {
         "properties": [
             "richaudience"
         ],
@@ -8944,7 +8944,7 @@ let parentCompanyJson = {
             "richaudience"
         ]
     },
-    "RichRelevance": {
+    "richrelevance": {
         "properties": [
             "richrelevance"
         ],
@@ -8952,7 +8952,7 @@ let parentCompanyJson = {
             "richrelevance"
         ]
     },
-    "RightAction": {
+    "rightaction": {
         "properties": [
             "rightaction"
         ],
@@ -8960,7 +8960,7 @@ let parentCompanyJson = {
             "rightaction"
         ]
     },
-    "RIM": {
+    "rim": {
         "properties": [
             "global",
             "laptopverge"
@@ -8972,7 +8972,7 @@ let parentCompanyJson = {
             "scoreloop"
         ]
     },
-    "Ringier": {
+    "ringier": {
         "properties": [
             "ringier"
         ],
@@ -8980,7 +8980,7 @@ let parentCompanyJson = {
             "ringier"
         ]
     },
-    "RMBN": {
+    "rmbn": {
         "properties": [
             "traforet"
         ],
@@ -8990,7 +8990,7 @@ let parentCompanyJson = {
             "traforet"
         ]
     },
-    "RMM": {
+    "rmm": {
         "properties": [
             "rmmonline"
         ],
@@ -8998,7 +8998,7 @@ let parentCompanyJson = {
             "rmmonline"
         ]
     },
-    "Rocket Fuel": {
+    "rocket fuel": {
         "properties": [
             "rfihub",
             "rfihub",
@@ -9012,7 +9012,7 @@ let parentCompanyJson = {
             "xplusone"
         ]
     },
-    "Rollick": {
+    "rollick": {
         "properties": [
             "gorollick"
         ],
@@ -9020,7 +9020,7 @@ let parentCompanyJson = {
             "rollick"
         ]
     },
-    "Rovion": {
+    "rovion": {
         "properties": [
             "rovion"
         ],
@@ -9028,7 +9028,7 @@ let parentCompanyJson = {
             "rovion"
         ]
     },
-    "Roxr": {
+    "roxr": {
         "properties": [
             "clicky",
             "roxr"
@@ -9048,7 +9048,7 @@ let parentCompanyJson = {
             "rtk"
         ]
     },
-    "RubiconProject": {
+    "rubiconproject": {
         "properties": [
             "rubiconproject"
         ],
@@ -9058,7 +9058,7 @@ let parentCompanyJson = {
             "rubiconproject"
         ]
     },
-    "RunAds": {
+    "runads": {
         "properties": [
             "runads"
         ],
@@ -9067,7 +9067,7 @@ let parentCompanyJson = {
             "rundsp"
         ]
     },
-    "RuTarget": {
+    "rutarget": {
         "properties": [
             "rutarget"
         ],
@@ -9075,7 +9075,7 @@ let parentCompanyJson = {
             "rutarget"
         ]
     },
-    "Sabavision": {
+    "sabavision": {
         "properties": [
             "sabavision"
         ],
@@ -9083,7 +9083,7 @@ let parentCompanyJson = {
             "sabavision"
         ]
     },
-    "Sabre": {
+    "sabre": {
         "properties": [
             "reztrack",
             "sabre",
@@ -9095,7 +9095,7 @@ let parentCompanyJson = {
             "sabrehospitality"
         ]
     },
-    "Safecount": {
+    "safecount": {
         "properties": [
             "safecount"
         ],
@@ -9106,7 +9106,7 @@ let parentCompanyJson = {
             "safecount"
         ]
     },
-    "SageMetrics": {
+    "sagemetrics": {
         "properties": [
             "sagemetrics"
         ],
@@ -9115,7 +9115,7 @@ let parentCompanyJson = {
             "sagemetrics"
         ]
     },
-    "Salesforce": {
+    "salesforce": {
         "properties": [
             "force",
             "salesforce",
@@ -9135,7 +9135,7 @@ let parentCompanyJson = {
             "visualforce"
         ]
     },
-    "Salesintelligence": {
+    "salesintelligence": {
         "properties": [
             "salesintelligence"
         ],
@@ -9143,7 +9143,7 @@ let parentCompanyJson = {
             "plugin"
         ]
     },
-    "Samurai Factory": {
+    "samurai factory": {
         "properties": [
             "samurai-factory",
             "shinobi"
@@ -9153,7 +9153,7 @@ let parentCompanyJson = {
             "shinobi"
         ]
     },
-    "SAP": {
+    "sap": {
         "properties": [
             "sap"
         ],
@@ -9162,7 +9162,7 @@ let parentCompanyJson = {
             "seewhy"
         ]
     },
-    "Sapient": {
+    "sapient": {
         "properties": [
             "bridgetrack",
             "sapient"
@@ -9172,7 +9172,7 @@ let parentCompanyJson = {
             "sapient"
         ]
     },
-    "SAS": {
+    "sas": {
         "properties": [
             "aimatch",
             "sas"
@@ -9182,7 +9182,7 @@ let parentCompanyJson = {
             "sas"
         ]
     },
-    "SAY": {
+    "say": {
         "properties": [
             "saymedia",
             "typepad",
@@ -9194,7 +9194,7 @@ let parentCompanyJson = {
             "videoegg"
         ]
     },
-    "Scandinavian AdNetworks": {
+    "scandinavian adnetworks": {
         "properties": [
             "scandinavianadnetworks"
         ],
@@ -9202,7 +9202,7 @@ let parentCompanyJson = {
             "scandinavianadnetworks"
         ]
     },
-    "ScribeFire": {
+    "scribefire": {
         "properties": [
             "scribefire"
         ],
@@ -9210,7 +9210,7 @@ let parentCompanyJson = {
             "scribefire"
         ]
     },
-    "Scribol": {
+    "scribol": {
         "properties": [
             "scribol"
         ],
@@ -9218,7 +9218,7 @@ let parentCompanyJson = {
             "scribol"
         ]
     },
-    "SearchForce": {
+    "searchforce": {
         "properties": [
             "searchforce",
             "searchforce"
@@ -9228,7 +9228,7 @@ let parentCompanyJson = {
             "searchforce"
         ]
     },
-    "Seevast": {
+    "seevast": {
         "properties": [
             "kanoodle"
         ],
@@ -9239,7 +9239,7 @@ let parentCompanyJson = {
             "syndigonetworks"
         ]
     },
-    "SeeVolution": {
+    "seevolution": {
         "properties": [
             "seevolution",
             "svlu"
@@ -9249,7 +9249,7 @@ let parentCompanyJson = {
             "svlu"
         ]
     },
-    "Segment": {
+    "segment": {
         "properties": [
             "segment"
         ],
@@ -9257,7 +9257,7 @@ let parentCompanyJson = {
             "segment"
         ]
     },
-    "Selectable Media": {
+    "selectable media": {
         "properties": [
             "selectablemedia"
         ],
@@ -9266,7 +9266,7 @@ let parentCompanyJson = {
             "selectablemedia"
         ]
     },
-    "Semantiqo": {
+    "semantiqo": {
         "properties": [
             "semantiqo"
         ],
@@ -9274,7 +9274,7 @@ let parentCompanyJson = {
             "semantiqo"
         ]
     },
-    "Semasio": {
+    "semasio": {
         "properties": [
             "semasio"
         ],
@@ -9283,7 +9283,7 @@ let parentCompanyJson = {
             "semasio"
         ]
     },
-    "SendPulse": {
+    "sendpulse": {
         "properties": [
             "sendpulse"
         ],
@@ -9291,7 +9291,7 @@ let parentCompanyJson = {
             "sendpulse"
         ]
     },
-    "Service4refresh": {
+    "service4refresh": {
         "properties": [
             "service4refresh"
         ],
@@ -9299,7 +9299,7 @@ let parentCompanyJson = {
             "service4refresh"
         ]
     },
-    "SessionCam": {
+    "sessioncam": {
         "properties": [
             "sessioncam"
         ],
@@ -9307,7 +9307,7 @@ let parentCompanyJson = {
             "sessioncam"
         ]
     },
-    "SevenAds": {
+    "sevenads": {
         "properties": [
             "sevenads"
         ],
@@ -9315,7 +9315,7 @@ let parentCompanyJson = {
             "sevenads"
         ]
     },
-    "SexInYourCity": {
+    "sexinyourcity": {
         "properties": [
             "sexinyourcity"
         ],
@@ -9323,7 +9323,7 @@ let parentCompanyJson = {
             "sexinyourcity"
         ]
     },
-    "ShaftTraffic": {
+    "shafttraffic": {
         "properties": [
             "shafttraffic"
         ],
@@ -9332,7 +9332,7 @@ let parentCompanyJson = {
             "shafttraffic"
         ]
     },
-    "Shareaholic": {
+    "shareaholic": {
         "properties": [
             "shareaholic"
         ],
@@ -9340,7 +9340,7 @@ let parentCompanyJson = {
             "shareaholic"
         ]
     },
-    "ShareASale": {
+    "shareasale": {
         "properties": [
             "shareasale"
         ],
@@ -9348,7 +9348,7 @@ let parentCompanyJson = {
             "shareasale"
         ]
     },
-    "ShareThis": {
+    "sharethis": {
         "properties": [
             "sharethis"
         ],
@@ -9356,7 +9356,7 @@ let parentCompanyJson = {
             "sharethis"
         ]
     },
-    "Sharethrough": {
+    "sharethrough": {
         "properties": [
             "sharethrough"
         ],
@@ -9364,7 +9364,7 @@ let parentCompanyJson = {
             "sharethrough"
         ]
     },
-    "ShinyStat": {
+    "shinystat": {
         "properties": [
             "shinystat"
         ],
@@ -9372,7 +9372,7 @@ let parentCompanyJson = {
             "shinystat"
         ]
     },
-    "Shopzilla": {
+    "shopzilla": {
         "properties": [
             "shopzilla"
         ],
@@ -9380,7 +9380,7 @@ let parentCompanyJson = {
             "shopzilla"
         ]
     },
-    "Shortest": {
+    "shortest": {
         "properties": [
             "shorte"
         ],
@@ -9388,7 +9388,7 @@ let parentCompanyJson = {
             "shorte"
         ]
     },
-    "SiftScience": {
+    "siftscience": {
         "properties": [
             "sift"
         ],
@@ -9396,7 +9396,7 @@ let parentCompanyJson = {
             "siftscience"
         ]
     },
-    "Signifyd": {
+    "signifyd": {
         "properties": [
             "signifyd"
         ],
@@ -9404,7 +9404,7 @@ let parentCompanyJson = {
             "signifyd"
         ]
     },
-    "Silverpop": {
+    "silverpop": {
         "properties": [
             "mkt51",
             "silverpop"
@@ -9416,7 +9416,7 @@ let parentCompanyJson = {
             "vtrenz"
         ]
     },
-    "Simpli": {
+    "simpli": {
         "properties": [
             "simpli"
         ],
@@ -9424,7 +9424,7 @@ let parentCompanyJson = {
             "simpli"
         ]
     },
-    "SiteScout": {
+    "sitescout": {
         "properties": [
             "sitescout"
         ],
@@ -9432,7 +9432,7 @@ let parentCompanyJson = {
             "sitescout"
         ]
     },
-    "Six Apart": {
+    "six apart": {
         "properties": [
             "movabletype",
             "sixapart"
@@ -9442,7 +9442,7 @@ let parentCompanyJson = {
             "sixapart"
         ]
     },
-    "Skimlinks": {
+    "skimlinks": {
         "properties": [
             "skimlinks",
             "skimresources"
@@ -9452,7 +9452,7 @@ let parentCompanyJson = {
             "skimresources"
         ]
     },
-    "Skribit": {
+    "skribit": {
         "properties": [
             "paulstamatiou"
         ],
@@ -9461,7 +9461,7 @@ let parentCompanyJson = {
             "skribit"
         ]
     },
-    "Skupe Net": {
+    "skupe net": {
         "properties": [
             "adcentriconline",
             "skupenet"
@@ -9471,7 +9471,7 @@ let parentCompanyJson = {
             "skupenet"
         ]
     },
-    "Smaato": {
+    "smaato": {
         "properties": [
             "smaato"
         ],
@@ -9479,7 +9479,7 @@ let parentCompanyJson = {
             "smaato"
         ]
     },
-    "Smartlook": {
+    "smartlook": {
         "properties": [
             "smartlook"
         ],
@@ -9487,7 +9487,7 @@ let parentCompanyJson = {
             "smartlook"
         ]
     },
-    "SmartyAds": {
+    "smartyads": {
         "properties": [
             "smartyads"
         ],
@@ -9495,7 +9495,7 @@ let parentCompanyJson = {
             "smartyads"
         ]
     },
-    "Smi": {
+    "smi": {
         "properties": [
             "24smi"
         ],
@@ -9503,7 +9503,7 @@ let parentCompanyJson = {
             "24smi"
         ]
     },
-    "Smiley Media": {
+    "smiley media": {
         "properties": [
             "smileymedia"
         ],
@@ -9511,7 +9511,7 @@ let parentCompanyJson = {
             "smileymedia"
         ]
     },
-    "Smowtion": {
+    "smowtion": {
         "properties": [
             "smowtion"
         ],
@@ -9519,7 +9519,7 @@ let parentCompanyJson = {
             "smowtion"
         ]
     },
-    "Snap": {
+    "snap": {
         "properties": [
             "snap"
         ],
@@ -9527,7 +9527,7 @@ let parentCompanyJson = {
             "snap"
         ]
     },
-    "SnapEngage": {
+    "snapengage": {
         "properties": [
             "snapengage"
         ],
@@ -9535,7 +9535,7 @@ let parentCompanyJson = {
             "snapengage"
         ]
     },
-    "Snoobi": {
+    "snoobi": {
         "properties": [
             "snoobi"
         ],
@@ -9544,7 +9544,7 @@ let parentCompanyJson = {
             "snoobi"
         ]
     },
-    "Soasta": {
+    "soasta": {
         "properties": [
             "go-mpulse"
         ],
@@ -9552,7 +9552,7 @@ let parentCompanyJson = {
             "go-mpulse"
         ]
     },
-    "SocialChorus": {
+    "socialchorus": {
         "properties": [
             "socialchorus"
         ],
@@ -9562,7 +9562,7 @@ let parentCompanyJson = {
             "socialchorus"
         ]
     },
-    "SocialInterface": {
+    "socialinterface": {
         "properties": [
             "socialinterface"
         ],
@@ -9571,7 +9571,7 @@ let parentCompanyJson = {
             "socialinterface"
         ]
     },
-    "SocialTwist": {
+    "socialtwist": {
         "properties": [
             "socialtwist"
         ],
@@ -9587,7 +9587,7 @@ let parentCompanyJson = {
             "sociomantic"
         ]
     },
-    "Socital": {
+    "socital": {
         "properties": [
             "socital"
         ],
@@ -9595,7 +9595,7 @@ let parentCompanyJson = {
             "socital"
         ]
     },
-    "Sojern": {
+    "sojern": {
         "properties": [
             "sojern"
         ],
@@ -9603,7 +9603,7 @@ let parentCompanyJson = {
             "sojern"
         ]
     },
-    "SomoAudience": {
+    "somoaudience": {
         "properties": [
             "somoaudience"
         ],
@@ -9611,7 +9611,7 @@ let parentCompanyJson = {
             "somoaudience"
         ]
     },
-    "Sonobi": {
+    "sonobi": {
         "properties": [
             "sonobi"
         ],
@@ -9628,7 +9628,7 @@ let parentCompanyJson = {
             "sophus3"
         ]
     },
-    "Sortable": {
+    "sortable": {
         "properties": [
             "sortable"
         ],
@@ -9636,7 +9636,7 @@ let parentCompanyJson = {
             "deployads"
         ]
     },
-    "Sourcepoint": {
+    "sourcepoint": {
         "properties": [
             "sourcepoint"
         ],
@@ -9644,7 +9644,7 @@ let parentCompanyJson = {
             "summerhamster"
         ]
     },
-    "Sovrn": {
+    "sovrn": {
         "properties": [
             "sovrn"
         ],
@@ -9652,7 +9652,7 @@ let parentCompanyJson = {
             "sovrn"
         ]
     },
-    "Space Chimp Media": {
+    "space chimp media": {
         "properties": [
             "spacechimpmedia"
         ],
@@ -9660,7 +9660,7 @@ let parentCompanyJson = {
             "spacechimpmedia"
         ]
     },
-    "SpareChange": {
+    "sparechange": {
         "properties": [
             "sparechange"
         ],
@@ -9668,7 +9668,7 @@ let parentCompanyJson = {
             "sparechange"
         ]
     },
-    "Sparklit": {
+    "sparklit": {
         "properties": [
             "adbutler",
             "sparklit"
@@ -9678,7 +9678,7 @@ let parentCompanyJson = {
             "sparklit"
         ]
     },
-    "Spark Studios": {
+    "spark studios": {
         "properties": [
             "sparkstudios"
         ],
@@ -9686,7 +9686,7 @@ let parentCompanyJson = {
             "sparkstudios"
         ]
     },
-    "Specific Media": {
+    "specific media": {
         "properties": [
             "sitemeter",
             "specificmedia"
@@ -9699,7 +9699,7 @@ let parentCompanyJson = {
             "specificmedia"
         ]
     },
-    "Spectate": {
+    "spectate": {
         "properties": [
             "spectate"
         ],
@@ -9707,7 +9707,7 @@ let parentCompanyJson = {
             "spectate"
         ]
     },
-    "Sponge": {
+    "sponge": {
         "properties": [
             "spongegroup"
         ],
@@ -9715,7 +9715,7 @@ let parentCompanyJson = {
             "spongegroup"
         ]
     },
-    "Spongecell": {
+    "spongecell": {
         "properties": [
             "spongecell"
         ],
@@ -9723,7 +9723,7 @@ let parentCompanyJson = {
             "spongecell"
         ]
     },
-    "SponsorAds": {
+    "sponsorads": {
         "properties": [
             "sponsorads"
         ],
@@ -9731,7 +9731,7 @@ let parentCompanyJson = {
             "sponsorads"
         ]
     },
-    "Spot200": {
+    "spot200": {
         "properties": [
             "spot200"
         ],
@@ -9739,7 +9739,7 @@ let parentCompanyJson = {
             "spot200"
         ]
     },
-    "SpotX": {
+    "spotx": {
         "properties": [
             "spotx"
         ],
@@ -9747,7 +9747,7 @@ let parentCompanyJson = {
             "spotx"
         ]
     },
-    "SpotXchange": {
+    "spotxchange": {
         "properties": [
             "spotxchange"
         ],
@@ -9756,7 +9756,7 @@ let parentCompanyJson = {
             "spotxchange"
         ]
     },
-    "Spring Metrics": {
+    "spring metrics": {
         "properties": [
             "springmetrics"
         ],
@@ -9764,7 +9764,7 @@ let parentCompanyJson = {
             "springmetrics"
         ]
     },
-    "SpringServe": {
+    "springserve": {
         "properties": [
             "springserve"
         ],
@@ -9772,7 +9772,7 @@ let parentCompanyJson = {
             "springserve"
         ]
     },
-    "Sputnik": {
+    "sputnik": {
         "properties": [
             "sputnik"
         ],
@@ -9780,7 +9780,7 @@ let parentCompanyJson = {
             "sputnik"
         ]
     },
-    "StackAdapt": {
+    "stackadapt": {
         "properties": [
             "stackadapt"
         ],
@@ -9788,7 +9788,7 @@ let parentCompanyJson = {
             "stackadapt"
         ]
     },
-    "StackTrack": {
+    "stacktrack": {
         "properties": [
             "stat-track"
         ],
@@ -9796,7 +9796,7 @@ let parentCompanyJson = {
             "stat-track"
         ]
     },
-    "StarGames": {
+    "stargames": {
         "properties": [
             "stargames",
             "stargamesaffiliate"
@@ -9814,7 +9814,7 @@ let parentCompanyJson = {
             "4u"
         ]
     },
-    "StatCounter": {
+    "statcounter": {
         "properties": [
             "statcounter"
         ],
@@ -9822,7 +9822,7 @@ let parentCompanyJson = {
             "statcounter"
         ]
     },
-    "Statisfy": {
+    "statisfy": {
         "properties": [
             "statisfy"
         ],
@@ -9830,7 +9830,7 @@ let parentCompanyJson = {
             "statisfy"
         ]
     },
-    "STATSIT": {
+    "statsit": {
         "properties": [
             "statsit"
         ],
@@ -9838,7 +9838,7 @@ let parentCompanyJson = {
             "statsit"
         ]
     },
-    "SteelHouse": {
+    "steelhouse": {
         "properties": [
             "steelhouse",
             "steelhousemedia"
@@ -9848,7 +9848,7 @@ let parentCompanyJson = {
             "steelhousemedia"
         ]
     },
-    "Storeland": {
+    "storeland": {
         "properties": [
             "storeland"
         ],
@@ -9856,7 +9856,7 @@ let parentCompanyJson = {
             "storeland"
         ]
     },
-    "Storygize": {
+    "storygize": {
         "properties": [
             "storygize"
         ],
@@ -9865,7 +9865,7 @@ let parentCompanyJson = {
             "storygize"
         ]
     },
-    "Stratigent": {
+    "stratigent": {
         "properties": [
             "stratigent"
         ],
@@ -9873,7 +9873,7 @@ let parentCompanyJson = {
             "stratigent"
         ]
     },
-    "Streamray": {
+    "streamray": {
         "properties": [
             "cams",
             "streamray"
@@ -9883,7 +9883,7 @@ let parentCompanyJson = {
             "streamray"
         ]
     },
-    "StrikeAd": {
+    "strikead": {
         "properties": [
             "strikead"
         ],
@@ -9891,7 +9891,7 @@ let parentCompanyJson = {
             "strikead"
         ]
     },
-    "Stripe": {
+    "stripe": {
         "properties": [
             "stripe"
         ],
@@ -9899,7 +9899,7 @@ let parentCompanyJson = {
             "stripework"
         ]
     },
-    "StrongMail": {
+    "strongmail": {
         "properties": [
             "strongmail"
         ],
@@ -9908,7 +9908,7 @@ let parentCompanyJson = {
             "strongmail"
         ]
     },
-    "Struq": {
+    "struq": {
         "properties": [
             "struq"
         ],
@@ -9916,7 +9916,7 @@ let parentCompanyJson = {
             "struq"
         ]
     },
-    "StumbleUpon": {
+    "stumbleupon": {
         "properties": [
             "stumbleupon"
         ],
@@ -9925,7 +9925,7 @@ let parentCompanyJson = {
             "stumbleupon"
         ]
     },
-    "Sublime Skinz": {
+    "sublime skinz": {
         "properties": [
             "sublime"
         ],
@@ -9934,7 +9934,7 @@ let parentCompanyJson = {
             "sublime"
         ]
     },
-    "Suite 66": {
+    "suite 66": {
         "properties": [
             "suite66"
         ],
@@ -9942,7 +9942,7 @@ let parentCompanyJson = {
             "suite66"
         ]
     },
-    "Summit": {
+    "summit": {
         "properties": [
             "summitmedia",
             "www"
@@ -9952,7 +9952,7 @@ let parentCompanyJson = {
             "www"
         ]
     },
-    "Superfish": {
+    "superfish": {
         "properties": [
             "superfish"
         ],
@@ -9960,7 +9960,7 @@ let parentCompanyJson = {
             "superfish"
         ]
     },
-    "SupersonicAds": {
+    "supersonicads": {
         "properties": [
             "supersonicads"
         ],
@@ -9968,7 +9968,7 @@ let parentCompanyJson = {
             "supersonicads"
         ]
     },
-    "Survata": {
+    "survata": {
         "properties": [
             "survata"
         ],
@@ -9976,7 +9976,7 @@ let parentCompanyJson = {
             "survata"
         ]
     },
-    "SwiftMining": {
+    "swiftmining": {
         "properties": [
             "swiftmining"
         ],
@@ -9984,7 +9984,7 @@ let parentCompanyJson = {
             "swiftmining"
         ]
     },
-    "Switch": {
+    "switch": {
         "properties": [
             "switchadhub",
             "switchconcepts"
@@ -9996,7 +9996,7 @@ let parentCompanyJson = {
             "switchconcepts"
         ]
     },
-    "Swoop": {
+    "swoop": {
         "properties": [
             "swoop"
         ],
@@ -10004,7 +10004,7 @@ let parentCompanyJson = {
             "swoop"
         ]
     },
-    "SymphonyAM": {
+    "symphonyam": {
         "properties": [
             "factortg"
         ],
@@ -10012,7 +10012,7 @@ let parentCompanyJson = {
             "factortg"
         ]
     },
-    "Synacor": {
+    "synacor": {
         "properties": [
             "synacor"
         ],
@@ -10020,7 +10020,7 @@ let parentCompanyJson = {
             "synacor"
         ]
     },
-    "Syncapse": {
+    "syncapse": {
         "properties": [
             "clickable",
             "syncapse"
@@ -10030,7 +10030,7 @@ let parentCompanyJson = {
             "syncapse"
         ]
     },
-    "Syrup Ad": {
+    "syrup ad": {
         "properties": [
             "adotsolution"
         ],
@@ -10038,7 +10038,7 @@ let parentCompanyJson = {
             "adotsolution"
         ]
     },
-    "Taboola": {
+    "taboola": {
         "properties": [
             "taboola"
         ],
@@ -10047,7 +10047,7 @@ let parentCompanyJson = {
             "taboola"
         ]
     },
-    "Tailsweep": {
+    "tailsweep": {
         "properties": [
             "tailsweep"
         ],
@@ -10055,7 +10055,7 @@ let parentCompanyJson = {
             "tailsweep"
         ]
     },
-    "Tapad": {
+    "tapad": {
         "properties": [
             "tapad"
         ],
@@ -10063,7 +10063,7 @@ let parentCompanyJson = {
             "tapad"
         ]
     },
-    "Tapgage": {
+    "tapgage": {
         "properties": [
             "bizmey",
             "tapgage"
@@ -10073,7 +10073,7 @@ let parentCompanyJson = {
             "tapgage"
         ]
     },
-    "TapIt!": {
+    "tapit!": {
         "properties": [
             "tapit"
         ],
@@ -10081,7 +10081,7 @@ let parentCompanyJson = {
             "tapit"
         ]
     },
-    "Tap": {
+    "tap": {
         "properties": [
             "tap"
         ],
@@ -10089,7 +10089,7 @@ let parentCompanyJson = {
             "tap"
         ]
     },
-    "Targetix": {
+    "targetix": {
         "properties": [
             "targetix"
         ],
@@ -10097,7 +10097,7 @@ let parentCompanyJson = {
             "targetix"
         ]
     },
-    "Tatto Media": {
+    "tatto media": {
         "properties": [
             "tattomedia"
         ],
@@ -10106,7 +10106,7 @@ let parentCompanyJson = {
             "tattomedia"
         ]
     },
-    "Teadma": {
+    "teadma": {
         "properties": [
             "teadma"
         ],
@@ -10114,7 +10114,7 @@ let parentCompanyJson = {
             "teadma"
         ]
     },
-    "Teads": {
+    "teads": {
         "properties": [
             "teads"
         ],
@@ -10122,7 +10122,7 @@ let parentCompanyJson = {
             "teads"
         ]
     },
-    "Tealium": {
+    "tealium": {
         "properties": [
             "tealium"
         ],
@@ -10130,7 +10130,7 @@ let parentCompanyJson = {
             "tealiumiq"
         ]
     },
-    "Technorati": {
+    "technorati": {
         "properties": [
             "technorati"
         ],
@@ -10139,7 +10139,7 @@ let parentCompanyJson = {
             "technoratimedia"
         ]
     },
-    "TechSolutions": {
+    "techsolutions": {
         "properties": [
             "techsolutions"
         ],
@@ -10147,7 +10147,7 @@ let parentCompanyJson = {
             "techsolutions"
         ]
     },
-    "TellApart": {
+    "tellapart": {
         "properties": [
             "tellapart",
             "tellapt"
@@ -10157,7 +10157,7 @@ let parentCompanyJson = {
             "tellapt"
         ]
     },
-    "Telstra": {
+    "telstra": {
         "properties": [
             "sensis",
             "sensisdata",
@@ -10170,7 +10170,7 @@ let parentCompanyJson = {
             "telstra"
         ]
     },
-    "TENSQUARE": {
+    "tensquare": {
         "properties": [
             "tensquare"
         ],
@@ -10178,7 +10178,7 @@ let parentCompanyJson = {
             "tensquare"
         ]
     },
-    "Terra": {
+    "terra": {
         "properties": [
             "eztargetmedia",
             "terra",
@@ -10190,7 +10190,7 @@ let parentCompanyJson = {
             "www"
         ]
     },
-    "The Heron Partnership": {
+    "the heron partnership": {
         "properties": [
             "marinsm"
         ],
@@ -10200,7 +10200,7 @@ let parentCompanyJson = {
             "marinsoftware"
         ]
     },
-    "The Numa Group": {
+    "the numa group": {
         "properties": [
             "hittail",
             "thenumagroup"
@@ -10210,7 +10210,7 @@ let parentCompanyJson = {
             "thenumagroup"
         ]
     },
-    "The Search Agency": {
+    "the search agency": {
         "properties": [
             "thesearchagency"
         ],
@@ -10219,7 +10219,7 @@ let parentCompanyJson = {
             "thesearchagency"
         ]
     },
-    "The Trade Desk": {
+    "the trade desk": {
         "properties": [
             "thetradedesk"
         ],
@@ -10228,7 +10228,7 @@ let parentCompanyJson = {
             "thetradedesk"
         ]
     },
-    "ThingLink": {
+    "thinglink": {
         "properties": [
             "thinglink"
         ],
@@ -10236,7 +10236,7 @@ let parentCompanyJson = {
             "thinglink"
         ]
     },
-    "Think Realtime": {
+    "think realtime": {
         "properties": [
             "echosearch",
             "thinkrealtime"
@@ -10247,7 +10247,7 @@ let parentCompanyJson = {
             "thinkrealtime"
         ]
     },
-    "Thismoment": {
+    "thismoment": {
         "properties": [
             "thismoment"
         ],
@@ -10255,7 +10255,7 @@ let parentCompanyJson = {
             "thismoment"
         ]
     },
-    "Thummit": {
+    "thummit": {
         "properties": [
             "thummit"
         ],
@@ -10263,7 +10263,7 @@ let parentCompanyJson = {
             "thummit"
         ]
     },
-    "Tinder": {
+    "tinder": {
         "properties": [
             "carbonads",
             "tinder"
@@ -10273,7 +10273,7 @@ let parentCompanyJson = {
             "tinder"
         ]
     },
-    "TiqIQ": {
+    "tiqiq": {
         "properties": [
             "tiqiq"
         ],
@@ -10281,7 +10281,7 @@ let parentCompanyJson = {
             "tiqiq"
         ]
     },
-    "Tisoomi": {
+    "tisoomi": {
         "properties": [
             "adternal",
             "tisoomi"
@@ -10291,7 +10291,7 @@ let parentCompanyJson = {
             "tisoomi"
         ]
     },
-    "TLVMedia": {
+    "tlvmedia": {
         "properties": [
             "tlvmedia"
         ],
@@ -10299,7 +10299,7 @@ let parentCompanyJson = {
             "tlvmedia"
         ]
     },
-    "TNS": {
+    "tns": {
         "properties": [
             "statistik-gallup",
             "tns-counter",
@@ -10314,7 +10314,7 @@ let parentCompanyJson = {
             "tnsglobal"
         ]
     },
-    "Todacell": {
+    "todacell": {
         "properties": [
             "todacell"
         ],
@@ -10322,7 +10322,7 @@ let parentCompanyJson = {
             "todacell"
         ]
     },
-    "ToneFuse": {
+    "tonefuse": {
         "properties": [
             "tonefuse"
         ],
@@ -10330,7 +10330,7 @@ let parentCompanyJson = {
             "tonefuse"
         ]
     },
-    "ToneMedia": {
+    "tonemedia": {
         "properties": [
             "clickfuse"
         ],
@@ -10348,7 +10348,7 @@ let parentCompanyJson = {
             "tongdun"
         ]
     },
-    "Topsy": {
+    "topsy": {
         "properties": [
             "topsy"
         ],
@@ -10356,7 +10356,7 @@ let parentCompanyJson = {
             "topsy"
         ]
     },
-    "TouchCommerce": {
+    "touchcommerce": {
         "properties": [
             "nuance"
         ],
@@ -10366,7 +10366,7 @@ let parentCompanyJson = {
             "touchcommerce"
         ]
     },
-    "TraceMyIP": {
+    "tracemyip": {
         "properties": [
             "tracemyip"
         ],
@@ -10374,7 +10374,7 @@ let parentCompanyJson = {
             "tracemyip"
         ]
     },
-    "TrackingSoft": {
+    "trackingsoft": {
         "properties": [
             "roia",
             "trackingsoft"
@@ -10384,7 +10384,7 @@ let parentCompanyJson = {
             "trackingsoft"
         ]
     },
-    "Trackset": {
+    "trackset": {
         "properties": [
             "trackset"
         ],
@@ -10392,7 +10392,7 @@ let parentCompanyJson = {
             "trackset"
         ]
     },
-    "Tradedoubler": {
+    "tradedoubler": {
         "properties": [
             "tradedoubler"
         ],
@@ -10400,7 +10400,7 @@ let parentCompanyJson = {
             "tradedoubler"
         ]
     },
-    "TradeTracker": {
+    "tradetracker": {
         "properties": [
             "tradetracker"
         ],
@@ -10409,7 +10409,7 @@ let parentCompanyJson = {
             "tradetracker"
         ]
     },
-    "TrafficHaus": {
+    "traffichaus": {
         "properties": [
             "traffichaus",
             "traffichouse"
@@ -10419,7 +10419,7 @@ let parentCompanyJson = {
             "traffichouse"
         ]
     },
-    "TrafficRevenue": {
+    "trafficrevenue": {
         "properties": [
             "trafficrevenue"
         ],
@@ -10427,7 +10427,7 @@ let parentCompanyJson = {
             "trafficrevenue"
         ]
     },
-    "TrafficScore": {
+    "trafficscore": {
         "properties": [
             "trafficscore"
         ],
@@ -10435,7 +10435,7 @@ let parentCompanyJson = {
             "trafficscore"
         ]
     },
-    "Traffiq": {
+    "traffiq": {
         "properties": [
             "traffiq"
         ],
@@ -10443,7 +10443,7 @@ let parentCompanyJson = {
             "traffiq"
         ]
     },
-    "Trafmag": {
+    "trafmag": {
         "properties": [
             "trafmag"
         ],
@@ -10451,7 +10451,7 @@ let parentCompanyJson = {
             "trafmag"
         ]
     },
-    "Travora Media": {
+    "travora media": {
         "properties": [
             "travoramedia"
         ],
@@ -10461,7 +10461,7 @@ let parentCompanyJson = {
             "travoramedia"
         ]
     },
-    "Tremor Video": {
+    "tremor video": {
         "properties": [
             "tremorvideo"
         ],
@@ -10473,7 +10473,7 @@ let parentCompanyJson = {
             "tremorvideo"
         ]
     },
-    "Triggit": {
+    "triggit": {
         "properties": [
             "triggit"
         ],
@@ -10481,7 +10481,7 @@ let parentCompanyJson = {
             "triggit"
         ]
     },
-    "TripleLift": {
+    "triplelift": {
         "properties": [
             "triplelift"
         ],
@@ -10490,7 +10490,7 @@ let parentCompanyJson = {
             "triplelift"
         ]
     },
-    "Trovus": {
+    "trovus": {
         "properties": [
             "trovus",
             "wwwovus"
@@ -10500,7 +10500,7 @@ let parentCompanyJson = {
             "wwwovus"
         ]
     },
-    "TruEffect": {
+    "trueffect": {
         "properties": [
             "adlegend",
             "trueffect"
@@ -10510,7 +10510,7 @@ let parentCompanyJson = {
             "trueffect"
         ]
     },
-    "Trumba": {
+    "trumba": {
         "properties": [
             "trumba"
         ],
@@ -10518,7 +10518,7 @@ let parentCompanyJson = {
             "trumba"
         ]
     },
-    "TRUSTe": {
+    "truste": {
         "properties": [
             "truste"
         ],
@@ -10526,7 +10526,7 @@ let parentCompanyJson = {
             "truste"
         ]
     },
-    "TrustX": {
+    "trustx": {
         "properties": [
             "trustx"
         ],
@@ -10534,7 +10534,7 @@ let parentCompanyJson = {
             "trustx"
         ]
     },
-    "TubeMogul": {
+    "tubemogul": {
         "properties": [
             "tmogul",
             "tubemogul"
@@ -10544,7 +10544,7 @@ let parentCompanyJson = {
             "tubemogul"
         ]
     },
-    "TurnTo": {
+    "turnto": {
         "properties": [
             "turntonetworks"
         ],
@@ -10553,7 +10553,7 @@ let parentCompanyJson = {
             "turntonetworks"
         ]
     },
-    "Tweetboard": {
+    "tweetboard": {
         "properties": [
             "tweetboard"
         ],
@@ -10561,7 +10561,7 @@ let parentCompanyJson = {
             "tweetboard"
         ]
     },
-    "Twelvefold": {
+    "twelvefold": {
         "properties": [
             "buzzlogic",
             "twelvefold"
@@ -10571,7 +10571,7 @@ let parentCompanyJson = {
             "twelvefold"
         ]
     },
-    "Twitter": {
+    "twitter": {
         "properties": [
             "digits",
             "fabric",
@@ -10587,7 +10587,7 @@ let parentCompanyJson = {
             "twitter",
         ]
     },
-    "Twitter Counter": {
+    "twitter counter": {
         "properties": [
             "twittercounter"
         ],
@@ -10595,7 +10595,7 @@ let parentCompanyJson = {
             "twittercounter"
         ]
     },
-    "Twyn Group": {
+    "twyn group": {
         "properties": [
             "twyn-group",
             "twyn"
@@ -10605,7 +10605,7 @@ let parentCompanyJson = {
             "twyn"
         ]
     },
-    "Tyroo": {
+    "tyroo": {
         "properties": [
             "tyroo"
         ],
@@ -10613,7 +10613,7 @@ let parentCompanyJson = {
             "tyroo"
         ]
     },
-    "UberMedia": {
+    "ubermedia": {
         "properties": [
             "tweetup",
             "ubermedia"
@@ -10623,7 +10623,7 @@ let parentCompanyJson = {
             "ubermedia"
         ]
     },
-    "UberTags": {
+    "ubertags": {
         "properties": [
             "ubertags"
         ],
@@ -10640,7 +10640,7 @@ let parentCompanyJson = {
             "ucfunnel"
         ]
     },
-    "uCoz": {
+    "ucoz": {
         "properties": [
             "ucoz",
             "ucoz",
@@ -10658,7 +10658,7 @@ let parentCompanyJson = {
             "ucoz"
         ]
     },
-    "Umbel": {
+    "umbel": {
         "properties": [
             "umbel"
         ],
@@ -10666,7 +10666,7 @@ let parentCompanyJson = {
             "umbel"
         ]
     },
-    "Unanimis": {
+    "unanimis": {
         "properties": [
             "unanimis",
             "www"
@@ -10676,7 +10676,7 @@ let parentCompanyJson = {
             "www"
         ]
     },
-    "Unbounce": {
+    "unbounce": {
         "properties": [
             "unbounce"
         ],
@@ -10684,7 +10684,7 @@ let parentCompanyJson = {
             "unbounce"
         ]
     },
-    "Underdog Media": {
+    "underdog media": {
         "properties": [
             "udmserve",
             "underdogmedia"
@@ -10694,7 +10694,7 @@ let parentCompanyJson = {
             "underdogmedia"
         ]
     },
-    "Undertone": {
+    "undertone": {
         "properties": [
             "undertone",
             "undertonevideo"
@@ -10705,7 +10705,7 @@ let parentCompanyJson = {
             "undertonevideo"
         ]
     },
-    "UniQlick": {
+    "uniqlick": {
         "properties": [
             "51network",
             "uniqlick",
@@ -10717,7 +10717,7 @@ let parentCompanyJson = {
             "wanmo"
         ]
     },
-    "Unruly": {
+    "unruly": {
         "properties": [
             "unruly"
         ],
@@ -10725,7 +10725,7 @@ let parentCompanyJson = {
             "unrulymedia"
         ]
     },
-    "Upland": {
+    "upland": {
         "properties": [
             "uplandsoftware"
         ],
@@ -10736,7 +10736,7 @@ let parentCompanyJson = {
             "uplandsoftware"
         ]
     },
-    "Uptrends": {
+    "uptrends": {
         "properties": [
             "uptrends"
         ],
@@ -10752,7 +10752,7 @@ let parentCompanyJson = {
             "up-value"
         ]
     },
-    "Usability Sciences": {
+    "usability sciences": {
         "properties": [
             "usabilitysciences"
         ],
@@ -10761,7 +10761,7 @@ let parentCompanyJson = {
             "webiqonline"
         ]
     },
-    "User Local": {
+    "user local": {
         "properties": [
             "nakanohito"
         ],
@@ -10769,7 +10769,7 @@ let parentCompanyJson = {
             "nakanohito"
         ]
     },
-    "UserVoice": {
+    "uservoice": {
         "properties": [
             "uservoice"
         ],
@@ -10777,7 +10777,7 @@ let parentCompanyJson = {
             "uservoice"
         ]
     },
-    "USocial": {
+    "usocial": {
         "properties": [
             "usocial"
         ],
@@ -10785,7 +10785,7 @@ let parentCompanyJson = {
             "usocial"
         ]
     },
-    "V12 Data": {
+    "v12 data": {
         "properties": [
             "v12group"
         ],
@@ -10794,7 +10794,7 @@ let parentCompanyJson = {
             "v12group"
         ]
     },
-    "Value Ad": {
+    "value ad": {
         "properties": [
             "valuead"
         ],
@@ -10802,7 +10802,7 @@ let parentCompanyJson = {
             "valuead"
         ]
     },
-    "Various": {
+    "various": {
         "properties": [
             "amigos",
             "getiton",
@@ -10818,7 +10818,7 @@ let parentCompanyJson = {
             "various"
         ]
     },
-    "Vdopia": {
+    "vdopia": {
         "properties": [
             "ivdopia",
             "vdopia"
@@ -10828,7 +10828,7 @@ let parentCompanyJson = {
             "vdopia"
         ]
     },
-    "Veeseo": {
+    "veeseo": {
         "properties": [
             "veeseo"
         ],
@@ -10836,7 +10836,7 @@ let parentCompanyJson = {
             "veeseo"
         ]
     },
-    "Velocity Media": {
+    "velocity media": {
         "properties": [
             "adsvelocity"
         ],
@@ -10844,7 +10844,7 @@ let parentCompanyJson = {
             "adsvelocity"
         ]
     },
-    "Velti": {
+    "velti": {
         "properties": [
             "mobclix",
             "velti"
@@ -10854,7 +10854,7 @@ let parentCompanyJson = {
             "velti"
         ]
     },
-    "Vemba": {
+    "vemba": {
         "properties": [
             "vemba"
         ],
@@ -10862,7 +10862,7 @@ let parentCompanyJson = {
             "vemba"
         ]
     },
-    "Venatus Media": {
+    "venatus media": {
         "properties": [
             "venatusmedia"
         ],
@@ -10870,7 +10870,7 @@ let parentCompanyJson = {
             "venatusmedia"
         ]
     },
-    "Vendemore": {
+    "vendemore": {
         "properties": [
             "vendemore"
         ],
@@ -10878,7 +10878,7 @@ let parentCompanyJson = {
             "vendemore"
         ]
     },
-    "Vendio": {
+    "vendio": {
         "properties": [
             "singlefeed",
             "vendio"
@@ -10888,7 +10888,7 @@ let parentCompanyJson = {
             "vendio"
         ]
     },
-    "Veoxa": {
+    "veoxa": {
         "properties": [
             "veoxa"
         ],
@@ -10896,7 +10896,7 @@ let parentCompanyJson = {
             "veoxa"
         ]
     },
-    "Veremedia": {
+    "veremedia": {
         "properties": [
             "veremedia"
         ],
@@ -10904,7 +10904,7 @@ let parentCompanyJson = {
             "veremedia"
         ]
     },
-    "Vertical Acuity": {
+    "vertical acuity": {
         "properties": [
             "verticalacuity"
         ],
@@ -10912,7 +10912,7 @@ let parentCompanyJson = {
             "verticalacuity"
         ]
     },
-    "VerticalHealth": {
+    "verticalhealth": {
         "properties": [
             "verticalhealth"
         ],
@@ -10920,7 +10920,7 @@ let parentCompanyJson = {
             "verticalhealth"
         ]
     },
-    "VerticalResponse": {
+    "verticalresponse": {
         "properties": [
             "verticalresponse",
             "vresp"
@@ -10930,7 +10930,7 @@ let parentCompanyJson = {
             "vresp"
         ]
     },
-    "Vertster": {
+    "vertster": {
         "properties": [
             "vertster"
         ],
@@ -10938,7 +10938,7 @@ let parentCompanyJson = {
             "vertster"
         ]
     },
-    "VG WORT": {
+    "vg wort": {
         "properties": [
             "vgwort"
         ],
@@ -10946,7 +10946,7 @@ let parentCompanyJson = {
             "vgwort"
         ]
     },
-    "Vibrant Media": {
+    "vibrant media": {
         "properties": [
             "vibrantmedia"
         ],
@@ -10956,7 +10956,7 @@ let parentCompanyJson = {
             "vibrantmedia"
         ]
     },
-    "VideoIntelligence": {
+    "videointelligence": {
         "properties": [
             "vi"
         ],
@@ -10964,7 +10964,7 @@ let parentCompanyJson = {
             "vi"
         ]
     },
-    "Videology": {
+    "videology": {
         "properties": [
             "tidaltv",
             "videologygroup"
@@ -10974,7 +10974,7 @@ let parentCompanyJson = {
             "videologygroup"
         ]
     },
-    "Viewbix": {
+    "viewbix": {
         "properties": [
             "qoof",
             "viewbix"
@@ -10984,7 +10984,7 @@ let parentCompanyJson = {
             "viewbix"
         ]
     },
-    "VigLink": {
+    "viglink": {
         "properties": [
             "viglink"
         ],
@@ -10992,7 +10992,7 @@ let parentCompanyJson = {
             "viglink"
         ]
     },
-    "Vimeo": {
+    "vimeo": {
         "properties": [
             "vimeo",
             "vimeocdn"
@@ -11002,7 +11002,7 @@ let parentCompanyJson = {
             "vimeocdn"
         ]
     },
-    "VINDICO": {
+    "vindico": {
         "properties": [
             "vindicogroup",
             "vindicosuite"
@@ -11012,7 +11012,7 @@ let parentCompanyJson = {
             "vindicosuite"
         ]
     },
-    "ViralLoops": {
+    "viralloops": {
         "properties": [
             "viral-loops"
         ],
@@ -11020,7 +11020,7 @@ let parentCompanyJson = {
             "viral-loops"
         ]
     },
-    "VisibleBrands": {
+    "visiblebrands": {
         "properties": [
             "visbrands"
         ],
@@ -11028,7 +11028,7 @@ let parentCompanyJson = {
             "visbrands"
         ]
     },
-    "Visible Measures": {
+    "visible measures": {
         "properties": [
             "visiblemeasures"
         ],
@@ -11037,7 +11037,7 @@ let parentCompanyJson = {
             "visiblemeasures"
         ]
     },
-    "VisiStat": {
+    "visistat": {
         "properties": [
             "id",
             "sa-as"
@@ -11048,7 +11048,7 @@ let parentCompanyJson = {
             "visistat"
         ]
     },
-    "Visit Streamer": {
+    "visit streamer": {
         "properties": [
             "visitstreamer"
         ],
@@ -11064,7 +11064,7 @@ let parentCompanyJson = {
             "vistrac"
         ]
     },
-    "VisualDNA": {
+    "visualdna": {
         "properties": [
             "vdna-assets",
             "visualdna-stats",
@@ -11076,7 +11076,7 @@ let parentCompanyJson = {
             "visualdna"
         ]
     },
-    "ViziSense": {
+    "vizisense": {
         "properties": [
             "vizisense",
             "vizisense"
@@ -11086,7 +11086,7 @@ let parentCompanyJson = {
             "vizisense"
         ]
     },
-    "Vizu": {
+    "vizu": {
         "properties": [
             "vizu"
         ],
@@ -11094,7 +11094,7 @@ let parentCompanyJson = {
             "vizu"
         ]
     },
-    "Vizury": {
+    "vizury": {
         "properties": [
             "vizury"
         ],
@@ -11102,7 +11102,7 @@ let parentCompanyJson = {
             "vizury"
         ]
     },
-    "VKontakte": {
+    "vkontakte": {
         "properties": [
             "vk"
         ],
@@ -11112,7 +11112,7 @@ let parentCompanyJson = {
             "vkontakte"
         ]
     },
-    "Voice2Page": {
+    "voice2page": {
         "properties": [
             "voice2page"
         ],
@@ -11120,7 +11120,7 @@ let parentCompanyJson = {
             "voice2page"
         ]
     },
-    "Vserv": {
+    "vserv": {
         "properties": [
             "vserv",
             "vserv"
@@ -11130,7 +11130,7 @@ let parentCompanyJson = {
             "vserv"
         ]
     },
-    "Vuble": {
+    "vuble": {
         "properties": [
             "vuble"
         ],
@@ -11138,7 +11138,7 @@ let parentCompanyJson = {
             "mediabong"
         ]
     },
-    "Wahoha": {
+    "wahoha": {
         "properties": [
             "contentwidgets",
             "wahoha"
@@ -11148,7 +11148,7 @@ let parentCompanyJson = {
             "wahoha"
         ]
     },
-    "WebAds": {
+    "webads": {
         "properties": [
             "webads",
             "www"
@@ -11158,7 +11158,7 @@ let parentCompanyJson = {
             "www"
         ]
     },
-    "Webclicktracker": {
+    "webclicktracker": {
         "properties": [
             "webclicktracker"
         ],
@@ -11166,7 +11166,7 @@ let parentCompanyJson = {
             "webclicktracker"
         ]
     },
-    "Web": {
+    "web": {
         "properties": [
             "feedperfect",
             "web"
@@ -11176,7 +11176,7 @@ let parentCompanyJson = {
             "web"
         ]
     },
-    "WebGozar": {
+    "webgozar": {
         "properties": [
             "webgozar",
             "webgozar"
@@ -11186,7 +11186,7 @@ let parentCompanyJson = {
             "webgozar"
         ]
     },
-    "Webmecanik": {
+    "webmecanik": {
         "properties": [
             "webmecanik"
         ],
@@ -11194,7 +11194,7 @@ let parentCompanyJson = {
             "webmecanik"
         ]
     },
-    "WebMetro": {
+    "webmetro": {
         "properties": [
             "dsmmadvantage",
             "revanadigital"
@@ -11205,7 +11205,7 @@ let parentCompanyJson = {
             "webmetro"
         ]
     },
-    "Webmine": {
+    "webmine": {
         "properties": [
             "webmine"
         ],
@@ -11214,7 +11214,7 @@ let parentCompanyJson = {
             "webmine"
         ]
     },
-    "WebminePool": {
+    "webminepool": {
         "properties": [
             "webminepool"
         ],
@@ -11222,7 +11222,7 @@ let parentCompanyJson = {
             "webminepool"
         ]
     },
-    "Webmining": {
+    "webmining": {
         "properties": [
             "webmining"
         ],
@@ -11230,7 +11230,7 @@ let parentCompanyJson = {
             "webmining"
         ]
     },
-    "Weborama": {
+    "weborama": {
         "properties": [
             "weborama"
         ],
@@ -11239,7 +11239,7 @@ let parentCompanyJson = {
             "weborama"
         ]
     },
-    "WebsiteAlive": {
+    "websitealive": {
         "properties": [
             "websitealive",
             "websitealive0",
@@ -11257,7 +11257,7 @@ let parentCompanyJson = {
             "websitealive"
         ]
     },
-    "Web Stats": {
+    "web stats": {
         "properties": [
             "onlinewebstats"
         ],
@@ -11265,7 +11265,7 @@ let parentCompanyJson = {
             "onlinewebstats"
         ]
     },
-    "Web Tracking Services": {
+    "web tracking services": {
         "properties": [
             "web-stat",
             "webtrackingservices"
@@ -11275,7 +11275,7 @@ let parentCompanyJson = {
             "webtrackingservices"
         ]
     },
-    "Webtraffic": {
+    "webtraffic": {
         "properties": [
             "webtraffic",
             "webtraffic"
@@ -11285,7 +11285,7 @@ let parentCompanyJson = {
             "webtraffic"
         ]
     },
-    "Web Traxs": {
+    "web traxs": {
         "properties": [
             "webtraxs"
         ],
@@ -11293,7 +11293,7 @@ let parentCompanyJson = {
             "webtraxs"
         ]
     },
-    "Webtrekk": {
+    "webtrekk": {
         "properties": [
             "webtrekk",
             "webtrekk"
@@ -11303,7 +11303,7 @@ let parentCompanyJson = {
             "webtrekk"
         ]
     },
-    "Webtrends": {
+    "webtrends": {
         "properties": [
             "webtrends"
         ],
@@ -11313,7 +11313,7 @@ let parentCompanyJson = {
             "webtrendslive"
         ]
     },
-    "White Ops": {
+    "white ops": {
         "properties": [
             "adzmath",
             "whiteops"
@@ -11331,7 +11331,7 @@ let parentCompanyJson = {
             "amung"
         ]
     },
-    "WideOrbit": {
+    "wideorbit": {
         "properties": [
             "wideorbit"
         ],
@@ -11339,7 +11339,7 @@ let parentCompanyJson = {
             "dep-x"
         ]
     },
-    "Wingify": {
+    "wingify": {
         "properties": [
             "vwo",
             "wingify"
@@ -11350,7 +11350,7 @@ let parentCompanyJson = {
             "wingify"
         ]
     },
-    "WiredMinds": {
+    "wiredminds": {
         "properties": [
             "wiredminds"
         ],
@@ -11359,7 +11359,7 @@ let parentCompanyJson = {
             "wiredminds"
         ]
     },
-    "Wirtualna Polska": {
+    "wirtualna polska": {
         "properties": [
             "adtotal",
             "wp"
@@ -11368,7 +11368,7 @@ let parentCompanyJson = {
             "adtotal"
         ]
     },
-    "Wishabi": {
+    "wishabi": {
         "properties": [
             "wishabi",
             "wishabi"
@@ -11379,7 +11379,7 @@ let parentCompanyJson = {
             "wishabi"
         ]
     },
-    "Woopra": {
+    "woopra": {
         "properties": [
             "woopra-ns",
             "woopra"
@@ -11389,7 +11389,7 @@ let parentCompanyJson = {
             "woopra"
         ]
     },
-    "WordStream": {
+    "wordstream": {
         "properties": [
             "wordstream"
         ],
@@ -11397,7 +11397,7 @@ let parentCompanyJson = {
             "wordstream"
         ]
     },
-    "WOW Analytics": {
+    "wow analytics": {
         "properties": [
             "wowanalytics"
         ],
@@ -11405,7 +11405,7 @@ let parentCompanyJson = {
             "wowanalytics"
         ]
     },
-    "WPP": {
+    "wpp": {
         "properties": [
             "compete",
             "decdna",
@@ -11439,7 +11439,7 @@ let parentCompanyJson = {
             "xaxis"
         ]
     },
-    "Wysistat": {
+    "wysistat": {
         "properties": [
             "wysistat"
         ],
@@ -11448,7 +11448,7 @@ let parentCompanyJson = {
             "wysistat"
         ]
     },
-    "xAd": {
+    "xad": {
         "properties": [
             "xad"
         ],
@@ -11456,7 +11456,7 @@ let parentCompanyJson = {
             "xad"
         ]
     },
-    "Xertive Media": {
+    "xertive media": {
         "properties": [
             "xertivemedia"
         ],
@@ -11473,7 +11473,7 @@ let parentCompanyJson = {
             "xplosion"
         ]
     },
-    "Xrost DS": {
+    "xrost ds": {
         "properties": [
             "adplan-ds"
         ],
@@ -11481,7 +11481,7 @@ let parentCompanyJson = {
             "adplan-ds"
         ]
     },
-    "Yabuka": {
+    "yabuka": {
         "properties": [
             "yabuka"
         ],
@@ -11489,7 +11489,7 @@ let parentCompanyJson = {
             "yabuka"
         ]
     },
-    "Yahoo!": {
+    "yahoo!": {
         "properties": [
             "flickr",
             "flurry",
@@ -11532,7 +11532,7 @@ let parentCompanyJson = {
             "zenfs"
         ]
     },
-    "Yandex": {
+    "yandex": {
         "properties": [
             "kinopoisk",
             "moikrug",
@@ -11556,7 +11556,7 @@ let parentCompanyJson = {
             "yandex"
         ]
     },
-    "Ybrant Digital": {
+    "ybrant digital": {
         "properties": [
             "addynamix",
             "brightcom",
@@ -11570,7 +11570,7 @@ let parentCompanyJson = {
             "ybrantdigital"
         ]
     },
-    "YD": {
+    "yd": {
         "properties": [
             "ydworld",
             "yieldivision"
@@ -11580,7 +11580,7 @@ let parentCompanyJson = {
             "yieldivision"
         ]
     },
-    "YellowHammer": {
+    "yellowhammer": {
         "properties": [
             "yhmg"
         ],
@@ -11591,7 +11591,7 @@ let parentCompanyJson = {
             "yhmg"
         ]
     },
-    "YellowTracker": {
+    "yellowtracker": {
         "properties": [
             "yellowtracker"
         ],
@@ -11599,7 +11599,7 @@ let parentCompanyJson = {
             "yellowtracker"
         ]
     },
-    "Yes Ads": {
+    "yes ads": {
         "properties": [
             "yesads"
         ],
@@ -11607,7 +11607,7 @@ let parentCompanyJson = {
             "yesads"
         ]
     },
-    "YieldAds": {
+    "yieldads": {
         "properties": [
             "yieldads"
         ],
@@ -11615,7 +11615,7 @@ let parentCompanyJson = {
             "yieldads"
         ]
     },
-    "YieldBids": {
+    "yieldbids": {
         "properties": [
             "ybx"
         ],
@@ -11623,7 +11623,7 @@ let parentCompanyJson = {
             "ybx"
         ]
     },
-    "YieldBot": {
+    "yieldbot": {
         "properties": [
             "yieldbot"
         ],
@@ -11631,7 +11631,7 @@ let parentCompanyJson = {
             "yldbt"
         ]
     },
-    "YieldBuild": {
+    "yieldbuild": {
         "properties": [
             "yieldbuild"
         ],
@@ -11639,7 +11639,7 @@ let parentCompanyJson = {
             "yieldbuild"
         ]
     },
-    "Yieldify": {
+    "yieldify": {
         "properties": [
             "yieldify"
         ],
@@ -11647,7 +11647,7 @@ let parentCompanyJson = {
             "yieldify"
         ]
     },
-    "Yieldlab": {
+    "yieldlab": {
         "properties": [
             "yieldlab",
             "yieldlab"
@@ -11657,7 +11657,7 @@ let parentCompanyJson = {
             "yieldlab"
         ]
     },
-    "Yieldmo": {
+    "yieldmo": {
         "properties": [
             "yieldmo"
         ],
@@ -11665,7 +11665,7 @@ let parentCompanyJson = {
             "yieldmo"
         ]
     },
-    "YieldNexus": {
+    "yieldnexus": {
         "properties": [
             "ynxs"
         ],
@@ -11673,7 +11673,7 @@ let parentCompanyJson = {
             "ynxs"
         ]
     },
-    "YOC": {
+    "yoc": {
         "properties": [
             "yoc"
         ],
@@ -11681,7 +11681,7 @@ let parentCompanyJson = {
             "yoc"
         ]
     },
-    "Yoggrt": {
+    "yoggrt": {
         "properties": [
             "yoggrt"
         ],
@@ -11697,7 +11697,7 @@ let parentCompanyJson = {
             "youknowbest"
         ]
     },
-    "YSance": {
+    "ysance": {
         "properties": [
             "ysance"
         ],
@@ -11705,7 +11705,7 @@ let parentCompanyJson = {
             "y-track"
         ]
     },
-    "YuMe": {
+    "yume": {
         "properties": [
             "yume",
             "yumenetworks"
@@ -11715,7 +11715,7 @@ let parentCompanyJson = {
             "yumenetworks"
         ]
     },
-    "ZafulAffiliate": {
+    "zafulaffiliate": {
         "properties": [
             "zaful"
         ],
@@ -11723,7 +11723,7 @@ let parentCompanyJson = {
             "zaful"
         ]
     },
-    "Zango": {
+    "zango": {
         "properties": [
             "metricsdirect",
             "zango"
@@ -11755,7 +11755,7 @@ let parentCompanyJson = {
             "zapunited"
         ]
     },
-    "ZEDO": {
+    "zedo": {
         "properties": [
             "zedo",
             "zincx"
@@ -11765,7 +11765,7 @@ let parentCompanyJson = {
             "zincx"
         ]
     },
-    "Zefir": {
+    "zefir": {
         "properties": [
             "ze-fir"
         ],
@@ -11773,7 +11773,7 @@ let parentCompanyJson = {
             "ze-fir"
         ]
     },
-    "Zemanta": {
+    "zemanta": {
         "properties": [
             "zemanta"
         ],
@@ -11781,7 +11781,7 @@ let parentCompanyJson = {
             "zemanta"
         ]
     },
-    "Zendesk": {
+    "zendesk": {
         "properties": [
             "zendesk"
         ],
@@ -11789,7 +11789,7 @@ let parentCompanyJson = {
             "zendesk"
         ]
     },
-    "ZestAd": {
+    "zestad": {
         "properties": [
             "zestad"
         ],
@@ -11797,7 +11797,7 @@ let parentCompanyJson = {
             "zestad"
         ]
     },
-    "Zeta Email Solutions": {
+    "zeta email solutions": {
         "properties": [
             "insightgrit",
             "zetaemailsolutions"
@@ -11807,7 +11807,7 @@ let parentCompanyJson = {
             "zetaemailsolutions"
         ]
     },
-    "Zopim": {
+    "zopim": {
         "properties": [
             "zopim"
         ],
@@ -11815,7 +11815,7 @@ let parentCompanyJson = {
             "zopim"
         ]
     },
-    "Zumobi": {
+    "zumobi": {
         "properties": [
             "zumobi"
         ],
@@ -11823,7 +11823,7 @@ let parentCompanyJson = {
             "zumobi"
         ]
     },
-    "ZypMedia": {
+    "zypmedia": {
         "properties": [
             "zypmedia"
         ],
