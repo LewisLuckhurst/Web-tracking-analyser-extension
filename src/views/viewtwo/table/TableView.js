@@ -3,6 +3,8 @@ import "./TableView.css"
 import SpecificTracker from "./SpecificTracker";
 import SpecificTrackedSite from "./SpeificTrackedSite";
 import AllSites from "./AllSites";
+import {Tooltip} from "@material-ui/core";
+import Button from "@material-ui/core/Button";
 
 class TableView extends Component {
 
@@ -36,6 +38,16 @@ class TableView extends Component {
             () => this.changeTable(2));
     };
 
+    columnButton = (text, tooltip) => {
+        return <Tooltip title={tooltip} placement="top">
+            <Button variant="outlined"
+                    size="small"
+                    color="primary">
+                {text}
+            </Button>
+        </Tooltip>
+    };
+
     render() {
         if (this.state.tableToDisplay === 0) {
             return (
@@ -45,7 +57,9 @@ class TableView extends Component {
                               getTrackedSite={this.getTrackedSite}
                               changeNumberOfRowsToDisplay={this.changeNumberOfRowsToDisplay}
                               numberOfRowsToDisplay={this.state.numberOfRowsToDisplay}
-                              reset={this.reset}/>
+                              reset={this.reset}
+                              title={this.columnButton}
+                    />
                 </>
             );
         }
@@ -58,7 +72,9 @@ class TableView extends Component {
                                      getTrackedSite={this.getTrackedSite}
                                      changeNumberOfRowsToDisplay={this.changeNumberOfRowsToDisplay}
                                      numberOfRowsToDisplay={this.state.numberOfRowsToDisplay}
-                                     reset={this.reset}/>
+                                     reset={this.reset}
+                                     title={this.columnButton}
+                />
             );
         }
 
@@ -70,7 +86,9 @@ class TableView extends Component {
                                  getTrackedSite={this.getTrackedSite}
                                  changeNumberOfRowsToDisplay={this.changeNumberOfRowsToDisplay}
                                  numberOfRowsToDisplay={this.state.numberOfRowsToDisplay}
-                                 reset={this.reset}/>
+                                 reset={this.reset}
+                                 title={this.columnButton}
+                />
             );
         }
     }

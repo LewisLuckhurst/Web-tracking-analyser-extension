@@ -4,6 +4,7 @@ import "./TableView.css"
 import MaterialTable from "material-table";
 import Button from "@material-ui/core/Button";
 import Loading from "../../../loading/LoadingBar";
+import {Tooltip} from "@material-ui/core";
 
 class SpecificTracker extends Component {
 
@@ -66,35 +67,39 @@ class SpecificTracker extends Component {
                         <div className="trackerCount">
                             <h2>{rows.length}</h2>
                         </div>
-                        <br/>
+
+                        <Button variant="contained" color="secondary" onClick={this.props.reset}>
+                            Show all sites
+                        </Button>
+
                         <MaterialTable
                             title={trackerSite}
                             columns={[
                                 {
-                                    title: this.Title("Tracked site", "The site being tracked"), field: 'trackedSite', render: rowData =>
+                                    title: this.props.title("Tracked site", "The site being tracked"), field: 'trackedSite', render: rowData =>
                                         <Button size="small" onClick={() => {
                                             this.props.getTrackedSite(rowData.trackedSite)
                                         }} color="secondary">
                                             {rowData.trackedSite}</Button>
                                 },
                                 {
-                                    title: this.Title("Tracker", "The tracker's domain"), field: "tracker", render: rowData => <Button size="small" onClick={() => {
+                                    title: this.props.title("Tracker", "The tracker's domain"), field: "tracker", render: rowData => <Button size="small" onClick={() => {
                                         this.props.getTrackerSite(rowData.tracker)
                                     }} color="secondary">
                                         {rowData.tracker}
                                     </Button>
                                 },
                                 {
-                                    title: this.Title("First access", "The time this request was first made"), field: 'firstAccess'
+                                    title: this.props.title("First access", "The time this request was first made"), field: 'firstAccess'
                                 },
                                 {
-                                    title: this.Title("Last access", "The most recent time this request was made"), field: 'lastAccess'
+                                    title: this.props.title("Last access", "The most recent time this request was made"), field: 'lastAccess'
                                 },
                                 {
-                                    title: this.Title("Connections", "The total number of times a connection has been made between the two sites"), field: 'numberOfOccurrences'
+                                    title: this.props.title("Connections", "The total number of times a connection has been made between the two sites"), field: 'numberOfOccurrences'
                                 },
                                 {
-                                    title: this.Title("Secure", "Secure – Is this third-party connection secured (e.g., using HTTPS)?"), field: 'secure'
+                                    title: this.props.title("Secure", "Secure – Is this third-party connection secured (e.g., using HTTPS)?"), field: 'secure'
                                 },
                             ]}
                             data={rows}
@@ -105,10 +110,6 @@ class SpecificTracker extends Component {
                                 search: true
                             }}
                         />
-                        <br/>
-                        <Button variant="contained" color="secondary" onClick={this.props.reset}>
-                            Show all sites
-                        </Button>
                     </div>
                 </div>
             </>

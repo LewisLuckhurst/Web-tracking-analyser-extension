@@ -79,16 +79,6 @@ class AllSites extends Component {
         this.setState({onlyTrackedSites: trackedSiteMap});
     };
 
-    Title = (text, tooltip) => {
-        return <Tooltip title={tooltip} placement="top">
-            <Button variant="outlined"
-                    size="small"
-                    color="primary">
-                {text}
-            </Button>
-        </Tooltip>
-    };
-
     AllDataView = () => {
         let rows = [];
         let uniqueTrackers = new Set();
@@ -118,30 +108,30 @@ class AllSites extends Component {
                             title="Showing all sites"
                             columns={[
                                 {
-                                    title: this.Title("Tracked site", "The site being tracked"), field: 'trackedSite', render: rowData =>
+                                    title: this.props.title("Tracked site", "The site being tracked"), field: 'trackedSite', render: rowData =>
                                         <Button size="small" onClick={() => {
                                             this.props.getTrackedSite(rowData.trackedSite)
                                         }} color="secondary">
                                             {rowData.trackedSite}</Button>
                                 },
                                 {
-                                    title: this.Title("Tracker", "The tracker's domain"), field: "tracker", render: rowData => <Button size="small" onClick={() => {
+                                    title: this.props.title("Tracker", "The tracker's domain"), field: "tracker", render: rowData => <Button size="small" onClick={() => {
                                         this.props.getTrackerSite(rowData.tracker)
                                     }} color="secondary">
                                         {rowData.tracker}
                                     </Button>
                                 },
                                 {
-                                    title: this.Title("First access", "The time this request was first made"), field: 'firstAccess'
+                                    title: this.props.title("First access", "The time this request was first made"), field: 'firstAccess'
                                 },
                                 {
-                                    title: this.Title("Last access", "The most recent time this request was made"), field: 'lastAccess'
+                                    title: this.props.title("Last access", "The most recent time this request was made"), field: 'lastAccess'
                                 },
                                 {
-                                    title: this.Title("Connections", "The total number of times a connection has been made between the two sites"), field: 'numberOfOccurrences'
+                                    title: this.props.title("Connections", "The total number of times a connection has been made between the two sites"), field: 'numberOfOccurrences'
                                 },
                                 {
-                                    title: this.Title("Secure", "Secure – Is this third-party connection secured (e.g., using HTTPS)?"), field: 'secure'
+                                    title: this.props.title("Secure", "Secure – Is this third-party connection secured (e.g., using HTTPS)?"), field: 'secure'
                                 },
                             ]}
                             data={rows}
@@ -177,7 +167,7 @@ class AllSites extends Component {
                             title="Showing Only Tracked Sites"
                             columns={[
                                 {
-                                    title: this.Title("Tracked site", "The site being tracked"),
+                                    title: this.props.title("Tracked site", "The site being tracked"),
                                     field: 'trackedSite',
                                     render: rowData => <Button size="small" onClick={() => {
                                         this.props.getTrackedSite(rowData.trackedSite)
@@ -185,7 +175,7 @@ class AllSites extends Component {
                                         {rowData.trackedSite}
                                     </Button>
                                 },
-                                {title: this.Title("Tracker count", "The total number of trackers tracking this site"), field: 'numberOfTrackers'},
+                                {title: this.props.title("Tracker count", "The total number of trackers tracking this site"), field: 'numberOfTrackers'},
                             ]}
                             data={rows}
                             onChangeRowsPerPage={this.props.changeNumberOfRowsToDisplay}
@@ -220,7 +210,7 @@ class AllSites extends Component {
                             title="Showing Only Trackers"
                             columns={[
                                 {
-                                    title: this.Title("Tracker", "The tracker's domain"),
+                                    title: this.props.title("Tracker", "The tracker's domain"),
                                     field: 'tracker',
                                     render: rowData => <Button size="small" onClick={() => {
                                         this.props.getTrackerSite(rowData.tracker)
