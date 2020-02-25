@@ -20,7 +20,7 @@ class WordCloud extends Component {
     componentDidMount() {
         this.getValues();
         this.setState({callBacks:
-                {getWordTooltip: word => `"${word.text}" is tracking ${word.value} number of sites.`}
+                {getWordTooltip: word => `Number of sites "${word.text}" is tracking is: ${word.value}`}
         })
     }
 

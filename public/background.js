@@ -801,10 +801,13 @@ let parentCompanyJson = {
         "properties": [
             "adobe",
             "livefyre",
-            "typekit"
+            "typekit",
+            "adobetm"
         ],
         "resources": [
             "2o7",
+            "adobetm",
+            "adobedtm",
             "adobe",
             "auditude",
             "demdex",
@@ -1569,24 +1572,6 @@ let parentCompanyJson = {
             "acx",
             "alexa",
             "amazon-adsystem",
-            "amazon",
-            "amazon",
-            "amazon",
-            "amazon",
-            "amazon",
-            "amazon",
-            "amazon",
-            "amazon",
-            "amazon",
-            "amazon",
-            "amazon",
-            "amazon",
-            "amazon",
-            "amazon",
-            "amazon",
-            "amazon",
-            "amazon",
-            "amazon",
             "amazonaws",
             "amazoninspire",
             "assoc-amazon",
@@ -1622,24 +1607,20 @@ let parentCompanyJson = {
             "woot",
             "yoyo",
             "zappos",
-            "zvab"
+            "zvab",
+            "amazon",
+            "media-amazon"
         ],
         "resources": [
             "alexa",
             "alexametrics",
             "amazon-adsystem",
             "amazon",
-            "amazon",
-            "amazon",
-            "amazon",
-            "amazon",
-            "amazon",
-            "amazon",
-            "amazon",
             "amazonaws",
             "assoc-amazon",
             "cloudfront",
-            "ssl-images-amazon"
+            "ssl-images-amazon",
+            "media-amazon"
         ]
     },
     "ambient digital": {
@@ -1813,8 +1794,9 @@ let parentCompanyJson = {
             "applovin"
         ]
     },
-    "appnexus": {
+    "att": {
         "properties": [
+            "xandr",
             "adlantic",
             "adnxs",
             "adrdgt",
@@ -2819,7 +2801,8 @@ let parentCompanyJson = {
     "casale media": {
         "properties": [
             "casalemedia",
-            "medianet"
+            "medianet",
+            "indexww"
         ],
         "resources": [
             "casalemedia",
@@ -5150,6 +5133,31 @@ let parentCompanyJson = {
     "google": {
         "properties": [
             "googletagmanager",
+            "chrome",
+            "google-analytics",
+            "googleanalytics",
+            "googlecode",
+            "googlesource",
+            "googleearth",
+            "googlearth",
+            "googlemaps",
+            "gmail",
+            "yt",
+            "like",
+            "youtubeeducation",
+            "waze",
+            "urchin",
+            "picasa",
+            "panormio",
+            "madewithcode",
+            "googlemail",
+            "googlebot",
+            "gv",
+            "googlecapital",
+            "googleusercontent",
+            "ggpht",
+            "android",
+            "adwords",
             "abc",
             "admeld",
             "blogger",
@@ -5160,7 +5168,8 @@ let parentCompanyJson = {
             "nest",
             "panoramio",
             "youtube",
-            "ytimg"
+            "ytimg",
+            "googlesyndication"
         ],
         "resources": [
             "googletagmanager",
@@ -7052,7 +7061,19 @@ let parentCompanyJson = {
             "skype",
             "windowsphone",
             "worldwidetelescope",
-            "xbox"
+            "xbox",
+            "office",
+            "msn",
+            "azure",
+            "yammer",
+            "mixer",
+            "powerbi",
+            "lync",
+            "appcenter",
+            "b2clogin",
+            "onenote",
+            "iis",
+            "codeplex",
         ],
         "resources": [
             "adbureau",
@@ -8625,7 +8646,8 @@ let parentCompanyJson = {
     "quantcast": {
         "properties": [
             "quantcast",
-            "quantserve"
+            "quantserve",
+            "quantcount"
         ],
         "resources": [
             "quantcast",
@@ -8650,6 +8672,14 @@ let parentCompanyJson = {
             "qsstats",
             "quinstreet",
             "thecounter"
+        ]
+    },
+    "theguardian": {
+        "properties": [
+            "guim",
+            "guardianapps"
+        ],
+        "resources": [
         ]
     },
     "quintelligence": {
@@ -8763,10 +8793,15 @@ let parentCompanyJson = {
     },
     "reddit": {
         "properties": [
-            "reddit"
+            "reddit",
+            "redd",
+            "redditmedia",
+            "redditstatic"
         ],
         "resources": [
-            "reddit"
+            "reddit",
+            "redditmedia",
+            "redditstatic"
         ]
     },
     "redux media": {
@@ -11491,7 +11526,7 @@ let parentCompanyJson = {
             "yabuka"
         ]
     },
-    "yahoo!": {
+    "verizon": {
         "properties": [
             "flickr",
             "flurry",
@@ -11862,16 +11897,6 @@ function logTracker(requestDetails) {
             tracker = split[split.length - 2];
         }
 
-        let parentTracker = tracker;
-        for (let key in parentCompanyJson) {
-            let layerOne = parentCompanyJson[key];
-            for (let keyTwo in layerOne) {
-                if (layerOne[keyTwo].includes(parentTracker)) {
-                    parentTracker = key;
-                }
-            }
-        }
-
         let splitTwo = trackedSite.split(".");
         if (splitTwo.length === 2 || splitTwo.length === 1) {
             trackedSite = splitTwo[0];
@@ -11881,10 +11906,25 @@ function logTracker(requestDetails) {
             trackedSite = splitTwo[(splitTwo.length - 2)];
         }
 
+        let parentTracker = tracker;
+        let parentTrackedSite = trackedSite;
+        for (let key in parentCompanyJson) {
+            let layerOne = parentCompanyJson[key];
+            for (let keyTwo in layerOne) {
+                if (layerOne[keyTwo].includes(parentTracker)) {
+                    parentTracker = key;
+                }
+
+                if (layerOne[keyTwo].includes(parentTrackedSite)) {
+                    parentTrackedSite = key;
+                }
+            }
+        }
+
         if ((trackedSite.split("-").length - 1) < 4) {
-            allDomains.add(trackedSite);
-            allDomainsForParentCompanyView.add(trackedSite);
             if (trackedSite !== tracker) {
+                allDomains.add(trackedSite);
+                allDomains.add(tracker);
                 let found = false;
                 for (let key in tableTrackers) {
                     let row = tableTrackers[key];
@@ -11894,7 +11934,7 @@ function logTracker(requestDetails) {
                         let i = row["numberOfOccurrences"];
                         row["numberOfOccurrences"] = i + 1;
 
-                        if(!wasSecure){
+                        if (!wasSecure) {
                             row["secureConnection"] = "No";
                         }
                     }
@@ -11918,10 +11958,6 @@ function logTracker(requestDetails) {
                     );
                 }
 
-
-                allDomains.add(tracker);
-                allDomainsForParentCompanyView.add(parentTracker);
-
                 if (allTrackers.has(tracker)) {
                     allTrackers.get(tracker).add(trackedSite);
                 } else {
@@ -11929,11 +11965,15 @@ function logTracker(requestDetails) {
                     allTrackers.get(tracker).add(trackedSite);
                 }
 
-                if (onlyParentCompanyTrackers.has(parentTracker)) {
-                    onlyParentCompanyTrackers.get(parentTracker).add(trackedSite);
-                } else {
-                    onlyParentCompanyTrackers.set(parentTracker, new Set());
-                    onlyParentCompanyTrackers.get(parentTracker).add(trackedSite);
+                if (parentTrackedSite !== parentTracker) {
+                    allDomainsForParentCompanyView.add(trackedSite);
+                    allDomainsForParentCompanyView.add(parentTracker);
+                    if (onlyParentCompanyTrackers.has(parentTracker)) {
+                        onlyParentCompanyTrackers.get(parentTracker).add(trackedSite);
+                    } else {
+                        onlyParentCompanyTrackers.set(parentTracker, new Set());
+                        onlyParentCompanyTrackers.get(parentTracker).add(trackedSite);
+                    }
                 }
             }
         }
