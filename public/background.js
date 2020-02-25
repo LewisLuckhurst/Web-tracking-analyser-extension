@@ -11966,13 +11966,13 @@ function logTracker(requestDetails) {
                 }
 
                 if (parentTrackedSite !== parentTracker) {
-                    allDomainsForParentCompanyView.add(trackedSite);
+                    allDomainsForParentCompanyView.add(parentTrackedSite);
                     allDomainsForParentCompanyView.add(parentTracker);
                     if (onlyParentCompanyTrackers.has(parentTracker)) {
-                        onlyParentCompanyTrackers.get(parentTracker).add(trackedSite);
+                        onlyParentCompanyTrackers.get(parentTracker).add(parentTrackedSite);
                     } else {
                         onlyParentCompanyTrackers.set(parentTracker, new Set());
-                        onlyParentCompanyTrackers.get(parentTracker).add(trackedSite);
+                        onlyParentCompanyTrackers.get(parentTracker).add(parentTrackedSite);
                     }
                 }
             }
