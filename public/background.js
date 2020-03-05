@@ -11981,13 +11981,21 @@ function logTracker(requestDetails) {
 }
 
 function handleMessage(request, sender, sendResponse) {
-    sendResponse({
-        allDomains: allDomains,
-        allTrackers: allTrackers,
-        tableTrackers: tableTrackers,
-        allDomainsForParentCompanyView: allDomainsForParentCompanyView,
-        onlyParentCompanyTrackers: onlyParentCompanyTrackers
-    });
+    if(request.reset === true){
+        allDomains = new Set();
+        allTrackers = new Map();
+        tableTrackers = [];
+        allDomainsForParentCompanyView = new Set();
+        onlyParentCompanyTrackers = new Map();
+    } else {
+        sendResponse({
+            allDomains: allDomains,
+            allTrackers: allTrackers,
+            tableTrackers: tableTrackers,
+            allDomainsForParentCompanyView: allDomainsForParentCompanyView,
+            onlyParentCompanyTrackers: onlyParentCompanyTrackers
+        });
+    }
 }
 
 browser.runtime.onMessage.addListener(handleMessage);

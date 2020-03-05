@@ -31,3 +31,10 @@
     height: 40%;
     width: 100%;
 }
+
+.button{
+    position: absolute;
+    float: left;
+    padding-left: 10px;
+    padding-top: 10px;
+}

@@ -31,6 +31,11 @@ class D3ForceGraph extends Component {
         message: null
     };
 
+    reset = (e) => {
+        const sending = browser.runtime.sendMessage({reset:true});
+        sending.then(this.getValues())
+    };
+
     componentDidMount() {
         this.getValues();
         document.addEventListener("keydown", this._handleKeyDown);
@@ -270,6 +275,12 @@ class D3ForceGraph extends Component {
         } else {
             return (
                 <>
+                    <div className="button">
+                        <Button variant="contained" size="small" color="secondary" onClick={() => {
+                            this.reset();
+                        }}>
+                            Reset </Button>
+                    </div>
                     <h1> Website trackers visualisation: </h1>
                     <Button size="small" color="secondary" onClick={this.getValues}>
                         Refresh graph
