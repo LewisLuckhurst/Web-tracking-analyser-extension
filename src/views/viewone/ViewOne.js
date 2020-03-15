@@ -20,19 +20,13 @@ class ViewOne extends Component {
         fetch("https://api.ipgeolocation.io/getip")
             .then(response => response.json())
             .then(data => {
-                    let
-                        jsonBody = JSON.stringify({
-                            ip: data["ip"]
-                        });
-
-                    fetch("https://server.webtrackinganalyser.com/tracking", {
+                    fetch("https://ipapi.co/" + data["ip"] + "/json/", {
                         method: 'POST',
                         dataType: 'json',
                         headers: {
                             'Accept': 'application/json',
                             'Content-Type': 'application/json',
                         },
-                        body: jsonBody
                     }).then(response => response.json())
                         .then(data => this.setState({result: data}));
                 }

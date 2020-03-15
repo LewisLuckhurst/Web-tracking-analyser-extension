@@ -14,10 +14,12 @@
     "react-dom": "^16.11.0",
     "react-force-graph-2d": "^1.12.0",
     "react-google-maps": "^9.4.5",
+    "react-leaflet": "^2.6.3",
     "react-map-gl": "^5.2.3",
     "react-scripts": "3.2.0",
     "react-swipeable-views": "^0.13.3",
-    "react-wordcloud": "^1.1.1"
+    "react-wordcloud": "^1.1.1",
+    "ua-parser-js": "^0.7.21"
   },
   "scripts": {
     "start": "react-scripts start",
