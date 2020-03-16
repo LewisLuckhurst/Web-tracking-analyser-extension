@@ -32,7 +32,7 @@ class D3ForceGraph extends Component {
     };
 
     reset = (e) => {
-        const sending = browser.runtime.sendMessage({reset:true});
+        const sending = browser.runtime.sendMessage({reset: true});
         sending.then(this.getValues())
     };
 
@@ -217,20 +217,51 @@ class D3ForceGraph extends Component {
     };
 
     lookUpDomain = (node) => {
-        let jsonBody = JSON.stringify({
-            domainName: node.id
-        });
-
-        fetch("https://server.webtrackinganalyser.com/getDomainInformation", {
-            method: 'POST',
-            dataType: 'json',
-            headers: {
-                'Accept': 'application/json',
-                'Content-Type': 'application/json',
+        let domains = {
+            "2mdn": {
+                "parentcompany": "Google",
+                "information": "A web crawler that is owned by google"
             },
-            body: jsonBody
-        }).then(response => response.json())
-            .then(data => this.setState({lookUpDomainResult: data}));
+            "t": {
+                "parentcompany": "Twitter",
+                "information": "Twitter uses the t.co domain as part of a service to protect users from harmful activity, to provide value for the developer ecosystem, and as a quality signal for surfacing relevant, interesting Tweets."
+            },
+            "adnxs": {
+                "parentcompany": "AppNexus",
+                "information": "What does this company do?\n\nAd Server \nTechnology that delivers advertisements to websites and monitors progress and performance of ad campaigns.\n\nData Management Platform \nProvider of technology to manage collection, storage, protection, segmentation and use of online data. DMPs are also used to manage users' privacy preferences.\n\nDemand Side Platform \nTechnology provider that enables advertisers to buy ad inventory from multiple ad exchanges utilizing multiple data suppliers and auction-based bidding.\n\nMobile \nProvider of advertising services to wireless devices (phones, tablets, etc.), typically through mobile web browsers or mobile applications.\n\nSupply Side Platform \nTechnology provider that helps publishers sell ad space through multiple networks and/or exchanges and optimize ad revenue.\n\nWhat data does this company collect?\n\nData Collected \nAnonymous: Ad Views, Analytics, Browser Information, Cookie Data , Date/Time, Demographic Data, Hardware/Software Type, Interaction Data , Page Views , Serving Domains \n\nPseudonymous: IP Address, Location Based Data, Clickstream Data, Device ID \n\nPII: PII Collected via 3rd Parties, EU- IP Address, EU- Unique Device ID \n\n*Data is collected on behalf of, and owned by, client."
+            },
+            "googletagmanager": {
+                "parentcompany": "Google",
+                "information": "Google Tag Manager is a free tool that allows you manage and deploy marketing tags (snippets of code or tracking pixels) on your website (or mobile app) without having to modify the code."
+            },
+            "quantserve": {
+                "parentcompany": "Quantcast",
+                "information": "Quantserve.com creates web beacons and cookies operated by audience research and behavioural advertising company Quantcast.",
+                "linkToMoreInfo": "https://www.theguardian.com/technology/2012/apr/23/quantcast-tracking-trackers-cookies-web-monitoring"
+            },
+            "doubleclick": {
+                "parentcompany": "Google",
+                "information": "Double click is a company that is owned by Google and provides online publishers with adverts. Double click can be used to show users adverts that are based on their activity",
+                "linkToMoreInfo": "https://www.theguardian.com/technology/2012/apr/23/doubleclick-tracking-trackers-cookies-web-monitoring"
+            }
+        };
+        let found = false;
+        for (let key in domains) {
+            if (key === node.id) {
+                this.setState({lookUpDomainResult: {
+                    "domain": node.id,
+                    "domainPresent": true,
+                    "parentcompany": domains[key]["parentcompany"],
+                    "information": domains[key]["information"]
+                }});
+                found = true;
+                break;
+            }
+        }
+
+        if (!found) {
+            this.setState({lookUpDomainResult: {"domainPresent": false, "domain": node.id}})
+        }
     };
 
     _handleKeyDown = (event) => {
