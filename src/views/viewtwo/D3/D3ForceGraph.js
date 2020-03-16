@@ -212,7 +212,6 @@ class D3ForceGraph extends Component {
                 }
             }
         }
-        console.log(myJson);
         this.setState({result: myJson});
     };
 

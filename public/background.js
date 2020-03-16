@@ -11884,10 +11884,6 @@ function logTracker(requestDetails) {
         let trackedSite = new URL(requestDetails.originUrl).hostname;
         let wasSecure = new URL(requestDetails.url).protocol === "https:";
 
-        if (!wasSecure) {
-            console.log(requestDetails.url);
-        }
-
         let split = tracker.split(".");
         if (split.length === 2 || split.length === 1) {
             tracker = split[0];

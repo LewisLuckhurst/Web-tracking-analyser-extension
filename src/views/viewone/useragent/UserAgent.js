@@ -7,12 +7,10 @@ class UserAgent extends Component {
 
     render() {
         let uastring = navigator.userAgent;
-        console.log(uastring);
         let parser = new UAParser();
         parser.setUA(uastring);
         let result = parser.getResult();
         return (
-        // var c = ((a < b) ? 'minor' : 'major');
             <>
                 <h3>Info Gathered from user agent:</h3>
                 <div className="table">
