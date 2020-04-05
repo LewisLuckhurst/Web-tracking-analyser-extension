@@ -218,7 +218,7 @@ class AllSites extends Component {
                                         {rowData.tracker}
                                     </Button>
                                 },
-                                {title: 'Tracked count', field: 'The total number of sites this tracker is tracking'}
+                                {title: this.props.title("Tracked site count", "The total number of sites this tracker is tracking"), field: 'numberOfTrackedSites'},
                             ]}
                             data={rows}
                             onChangeRowsPerPage={this.props.changeNumberOfRowsToDisplay}
