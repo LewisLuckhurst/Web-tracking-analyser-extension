@@ -1,7 +1,7 @@
 # Web tracking analyser #
 This extension shows what could be tracked about you online as well as who may possibly be tracking you. This extension currently only works
 with Firefox. As for Mar 15, 2020 this extension is independent and does not require a Java server to function. Any version before this will require
-a Java server in order to work. Which can be found here https://github.com/LuckySoftware/Web-Tracking-Analyser-Backend.
+a Java server in order to work. Which can be found here https://github.com/LuckySoftware/Web-Tracking-Analyser-Backend. This is a private repo, if you wish to access the extension using the Java backend please get in touch with me.
 
 ## How to use: ##
 To use this extension you will need to clone this repo and then follow these steps:
