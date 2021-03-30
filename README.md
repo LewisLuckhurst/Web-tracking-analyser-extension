@@ -16,3 +16,4 @@ To use this extension you will need to clone this repo and then follow these ste
 9. You will then want to navigate to the root of this project and go into the "build" folder
 10. Click on any file in the build directory
          
+![firstview](https://user-images.githubusercontent.com/31455053/113048412-6aef7080-919a-11eb-95d9-164160fad4b5.png)
