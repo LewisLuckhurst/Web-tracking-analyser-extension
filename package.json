@@ -19,7 +19,7 @@
     "react-scripts": "3.2.0",
     "react-swipeable-views": "^0.13.3",
     "react-wordcloud": "^1.1.1",
-    "ua-parser-js": "^0.7.21"
+    "ua-parser-js": "^0.7.24"
   },
   "scripts": {
     "start": "react-scripts start",
